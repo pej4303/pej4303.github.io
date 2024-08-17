@@ -97,8 +97,7 @@ cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
 #avatar: "/commons/avatar.jpg"
-avatar: "/assets/img/재롱이.jpg"
-
+avatar: "https://i.namu.wiki/i/IJ_Te3EeE3mgoBhB5EhrsMapIIB9nUfNBg_rQOJzE2Yt3FoKcPXDb4sNg5jWowJgW0-PQkJN5VIH7MFD8_spOkJyVDwa-ts46FpDky_ri9ZIYzLMsQfEAftCbONIF2tQmaUdFv8rBLvub8g9yJSuJQ.webp"
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
 social_preview_image: # string, local or CORS resources
