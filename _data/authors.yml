@@ -6,10 +6,14 @@
 #   url: {homepage_of_author}
 # -------------------------------------
 
-cotes:
-  name: Cotes Chung
-  twitter: cotes2020
-  url: https://github.com/cotes2020/
+pej4303:
+  name: pej4303
+  url: https://github.com/pej4303
+
+#cotes:
+#  name: Cotes Chung
+#  twitter: cotes2020
+#  url: https://github.com/cotes2020/
 
 sille_bille:
   name: Dinesh Prasanth Moluguwan Krishnamoorthy
