@@ -1,35 +1,14 @@
-# <div align="center">Gatsby Starter Haon (Tech Blog Theme - Open Source) 🚀</div>
-
-> - 💡 All the code in this repository and the blog theme are **open source.** Therefore, feel free to clone and use it as you wish! 🙂
-> - 💡 현 블로그 테마는 오픈소스입니다. 자유롭게 clone 받아 커스터마이징하여 블로그를 꾸며보세요 🙂
-
-
-- Blog Theme Live Demo: https://gatsby-starter-haon.netlify.app/
-- 국문(한국어 원서) 은 [Gatsby 블로그 초기 설정 ⚙️ 가이드라인](https://gatsby-starter-haon.netlify.app/how-to-use/initial-settings-kr/) 에서 부터 확인 가능합니다.
-
-## <div align="center">Gatsby Starter Haon</div>
-
-![image](https://github.com/msung99/Gatsby-Starter-Haon/assets/88240193/d97f702e-fe5c-4d46-8f12-6b148504caa8)
-
-I hope this theme will be helpful for those who want to customize and operate your blogs. Feel free to customize and use the Gatsby Haon Theme! 👋 I drew great inspiration for creating this theme from [Hudi's blog](https://github.com/devHudi/gatsby-starter-hoodie).
-
 ---
-
-## Features 🚀
-
-- Markdown
-- SEO
-- Responsive Web
-- Dark/Light Mode
-- Tag
-- Series
-- Search
-- Private Mode
-- Utterance (Comment widget)
-- GA (Google Analytics)
-
+title: Gatsby Initial Settings ⚙️
+description: How do initialize the current template to use it?
+date: "2024-03-06"
+tags:
+  - Introduce
+  - About
+  - settings
+series: how to use this template?
+previewImage: "setting.png"
 ---
-
 
 ## 0. Create a GitHub Repository & Install Node.js, Gatsby-cli
 
@@ -58,14 +37,6 @@ cd your-blog-name
 npm install  // install node.js
 gatsby develop // or "npm start"
 ```
-
-If the above command does not work properly due to dependency conflicts, please execute the following command and try again.
-
-```
-npm i --legacy-peer-deps
-```
-
-
 
 If the command runs without issues, you can check the initial blog state at http://localhost:8000!
 
