@@ -109,7 +109,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#663399`,
         display: `minimal-ui`,
-        icon: `static/profile.png`,
+        icon: `static/profile.png`,   // 로고 이미지 경로
       },
     },
     `gatsby-plugin-styled-components`,
