@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Dev Note]]></description><link>https://pej4303.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 23 Aug 2024 13:14:52 GMT</lastBuildDate><item><title><![CDATA[Features of Gatsby Starter Haon 🚀]]></title><description><![CDATA[Features of Gatsby Starter Haon Gatsby Starter Haon offers the following features: Main Menu 📌  : Provides a reactive web MenuBar in both…]]></description><link>https://pej4303.github.io/how-to-use/feature-introduction-en/</link><guid isPermaLink="false">https://pej4303.github.io/how-to-use/feature-introduction-en/</guid><pubDate>Fri, 08 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;features-of-gatsby-starter-haon&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#features-of-gatsby-starter-haon&quot; aria-label=&quot;features of gatsby starter haon permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Features of Gatsby Starter Haon&lt;/h2&gt;
+&lt;p&gt;Gatsby Starter Haon offers the following features:&lt;/p&gt;
+&lt;h3 id=&quot;main-menu-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#main-menu-&quot; aria-label=&quot;main menu  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Main Menu 📌&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;MenuBar&lt;/code&gt; : Provides a reactive web MenuBar in both Header and Aside&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Dark/Light Theme&lt;/code&gt; : Offers both dark mode and light mode&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Search&lt;/code&gt; : Search functionality&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Tags&lt;/code&gt; : View all tags assigned to posts&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Series&lt;/code&gt; : Series feature allows posts to be categorized for easy viewing&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;About&lt;/code&gt;: Author introduction page. You can create an introduction page by entering &lt;strong&gt;&quot;/default/about&quot;&lt;/strong&gt; and writing in index.md&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Social&lt;/code&gt; : Social page for quick communication with the author&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;side-features-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#side-features-&quot; aria-label=&quot;side features  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Side Features 🤔&lt;/h3&gt;
+&lt;p&gt;In addition to the main features, the detailed features and characteristics are as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Markdown&lt;/code&gt; : Uses Markdown format.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;SEO&lt;/code&gt; : Provides Search Engine Optimization (SEO). Optimizes content to appear higher in search engine results.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Reactive Web&lt;/code&gt; : Implemented as a responsive web. Usable on both mobile and PC.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Utterances&lt;/code&gt; : Uses Utterances for the comment widget. Note that if the repository is not properly set up in the default settings, Utterances may be restricted.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Private Feature&lt;/code&gt; : If you do not want to expose a post publicly, you can set it to private. Refer to the previous post on how to set it to private.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Tag/Series&lt;/code&gt; : You can view detailed characteristics by clicking on each tag or series unit.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Paging&lt;/code&gt; : Provides a paging feature for PostList. The paging unit for the list is separated by a maximum of 5 posts.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Share&lt;/code&gt; : Provides functionality to copy post links and share on Facebook / Twitter.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Toc&lt;/code&gt; : Provides a table of contents for each post.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;conclusion&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#conclusion&quot; aria-label=&quot;conclusion permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;If you encounter any issues while using Gatsby Starter Haon, please register an issue. Quick feedback greatly contributes to improving the software quality 😆&lt;/p&gt;
+&lt;p&gt;If you have any topics you want to communicate while using Gatsby-Starter-Haon,
+feel free to leave a comment on the &lt;a href=&quot;https://gatsby-starter-haon.netlify.app/community/&quot;&gt;Social page&lt;/a&gt; or &lt;a href=&quot;https://github.com/msung99/Gatsby-Starter-Haon/issues/1&quot;&gt;Register an Issue&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to Write Markdown Posts? ✍️]]></title><description><![CDATA[1. Markdown Based This template is based on Markdown. To write a post, create a directory under  and write the post in Markdown format. For…]]></description><link>https://pej4303.github.io/how-to-use/writing-posts/</link><guid isPermaLink="false">https://pej4303.github.io/how-to-use/writing-posts/</guid><pubDate>Thu, 07 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;1-markdown-based&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-markdown-based&quot; aria-label=&quot;1 markdown based permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Markdown Based&lt;/h2&gt;
+&lt;p&gt;This template is based on Markdown. To write a post, create a directory under &lt;code class=&quot;language-text&quot;&gt;/contents/posts&lt;/code&gt; and write the post in Markdown format.&lt;/p&gt;
+&lt;p&gt;For example, create a directory called &lt;code class=&quot;language-text&quot;&gt;how-to-use&lt;/code&gt; under &lt;code class=&quot;language-text&quot;&gt;/contents/posts&lt;/code&gt; and write the post in an &lt;code class=&quot;language-text&quot;&gt;index.md&lt;/code&gt; file. In this case, the URL of the post will be &lt;code class=&quot;language-text&quot;&gt;http(s)://your-domain/how-to-use&lt;/code&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;2-meta-information&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-meta-information&quot; aria-label=&quot;2 meta information permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Meta Information&lt;/h2&gt;
+&lt;p&gt;Once you create the Markdown file, you must enter the meta information for the post. The required information is as follows.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;---
+title: How to Write Markdown Posts and Detailed Features
+description: Let&apos;s learn how to use this template.
+date: &quot;2024-03-02&quot;
+tags:
+  - Introduce
+  - About
+series: how to use this template?
+// isPrivate: true
+---&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The explanations for each meta information are as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;title&lt;/code&gt; : Title of the post&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;description&lt;/code&gt; : Summary of the post. Optional.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;date&lt;/code&gt; : Posting date&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;tags&lt;/code&gt; : List of tags&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;series&lt;/code&gt; : Series (similar to the category concept)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;isPrivate&lt;/code&gt; : Privacy setting. If you want to make the post private, set &quot;isPrivate: true&quot;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;3-adding-images-to-the-post&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-adding-images-to-the-post&quot; aria-label=&quot;3 adding images to the post permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Adding Images to the Post&lt;/h2&gt;
+&lt;p&gt;To add an image to a post, use the following format. Note that the image should be located in the same folder as the Markdown file.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![](./image-name)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Here is an example of adding an image named &lt;code class=&quot;language-text&quot;&gt;image1.png&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5d68b84d9197edb7e0d352fa305e6039/eb3fa/image1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 84.04907975460122%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAAEFElEQVR42m2T+0+bZRTH+5cYE38wZmhijOOmDoZ3E5hbYqbLflLj4n3AgKER5oZcBsIGltvCUMgCEcZNLAgdk9ILvdBCubZcCqVQLm0plEKB9uPTTsyivsnnfZ7z5pxvvud5zis59Pv4N6GjA/xeD/NWCwadDo1KjVYzjHl0lE3nKsF9P/9XF0byeBDwbYMQa2/v4uz7H3LqjXPEJZ0h9nRKZH1FxElvv4deq4XgQST/P4JHe36OCez6CD9pmTk88UwsJxNSiE5MIUYInkxI5kTM6ySfvRBxTCjIgch/vD6MxL/t4Zhdr5t9n5c1xzIV0hreOXOehDfP8dJr7/JW8nkKMq/yi/QnVuyLETfhYwnX7W1v/YNkZ07F9jGzKsLx/pKW4KoRp0nGkuF3ZjUdWBRtbGgULCn62JgY4MCuIyDyjpb17Nk0olYZqZWwLOwvq8ChgRUNR7ZBAvOD7AuCdvHdrgSnFt/8EGvd93H3tAoBBVuTfayP9rCgbmNrRg6rWkIiX+IXid7ZIbZnBpjRythyTONdX2DSqGR+fIh9tw233cz6hBxHYy3LTVIh/icXL1wkOv5VXohJIvXLzwitiIuyq5HsupfFGHjwOKYwKTrFqJgJ7rmZGtWgV8rZ23LisBhRt5WjbshHVpCKy9jODzkZPPl0NM9HJ/LUiRjqKwpgwyBaDngI4/eusuNaIrS3KXCx63EwqWzEoq6m79c8DP1FzOkrsWjKsWrLMD28Tn5umiCbwu+zaay+ydGiEknQvwkH4Rty4nM7ED0S8q/D4Q62qTbmR27Q0XQFszIPiy6PcdUthmT1KHqkDHSWiItRRZyFzznScmjfJdpy4N1cxL/jFFPoIxjY4tDnwjKuZsFYjLzjW/TyG3htlcibi2kqyKQpP4u+xit4rK0El4YJCXcRwT+6mrhXd5v66lJxbloWZwyMqLpQ9dcLoUJsph8Z7r9GT0s2eOrpq/qKvoJLDJZ+jqbia4wtuXgt8siUhIRbiVrWiGeyH6uyHXWvlAllMfoHuUKoiPXpMtambjFnuElrQzoBZzWme98wVpOFue4q+qoMlKVfMN5SQtAx/Mgh4Y1QP1jU4Fu4y9p0EQumQpbGCrHq8rGPleAwl3G/IQtV73W0d4VYbRYjNRkMS9MjwrqKy8zL68Us6oSgeOHUi8lXYx2uZUYlxab7mRVTMxvmdtbGunBP9OCffUjApmamswJjZZoQzERx+zLK8lTUFaloq7PYsTxA4hzp4phVw2+CbtaNMjbEX+A29wp6cI2J2NSNa7yXKVkNE3cymajLxiBaHruThbXhO6brxCqrQpIY9yzHnI5/jsT4R/uEuChOxUaR8Dfhby/HRJGc9CLNOR/RkfcJLdc+FuulyF5W8Ck16R/wF5EGRyty1h0LAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/5d68b84d9197edb7e0d352fa305e6039/a6d36/image1.png&quot;
+        srcset=&quot;/static/5d68b84d9197edb7e0d352fa305e6039/222b7/image1.png 163w,
+/static/5d68b84d9197edb7e0d352fa305e6039/ff46a/image1.png 325w,
+/static/5d68b84d9197edb7e0d352fa305e6039/a6d36/image1.png 650w,
+/static/5d68b84d9197edb7e0d352fa305e6039/e548f/image1.png 975w,
+/static/5d68b84d9197edb7e0d352fa305e6039/eb3fa/image1.png 1026w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;4-supports-code-highlight&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-supports-code-highlight&quot; aria-label=&quot;4 supports code highlight permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. Supports Code Highlight&lt;/h2&gt;
+&lt;p&gt;You can create code blocks in posts. Below is a code block written in the Java programming language.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;getLines&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token class-name&quot;&gt;StringBuilder&lt;/span&gt; stringBuilder &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;StringBuilder&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;repeatPrint&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;repeatRows&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;StringBuilder&lt;/span&gt; stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;repeatRow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;two&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;repeatRow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;StringBuilder&lt;/span&gt; stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;one&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;5-post-preview-image-thumbnail&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-post-preview-image-thumbnail&quot; aria-label=&quot;5 post preview image thumbnail permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. Post Preview Image (Thumbnail)&lt;/h2&gt;
+&lt;p&gt;The post preview feature is also available, similar to thumbnails.&lt;/p&gt;
+&lt;h3 id=&quot;5-1-adding-a-preview-image&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-1-adding-a-preview-image&quot; aria-label=&quot;5 1 adding a preview image permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5-1. Adding a Preview Image&lt;/h3&gt;
+&lt;p&gt;The path for adding a preview image is slightly different from the path for adding an image within the post. While the image for the post should be in the same folder as the Markdown file, the preview thumbnail image should be added in the &lt;code class=&quot;language-text&quot;&gt;static&lt;/code&gt; folder.&lt;/p&gt;
+&lt;p&gt;If you have placed a preview image named &lt;code class=&quot;language-text&quot;&gt;writing.png&lt;/code&gt; in the static folder, the post will be displayed as follows.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1c3f09768c4f564a0d3cafbfd6bf3c43/016a8/result.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.37423312883436%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABCElEQVR42q1Sy2qEQBDc/7/mtnmcArlmT9n8gG9cSCRgQKJBo5nouD7iID4q44CLm8WFBAuKoZumqOqeFTj6vkfXdQfO1dN3DissDCHoOA5kWYauadB0A0/PLzBNE6qqYrt9hGVZkCQJiqJA4zNxHGNMNvJI0DAMbDb3uLy6wd3tNV53DwiCD0RRBNu24XkerwP4vi96VVWdd1gUBdI0het68N9dtGx/Ntbo6JPusTN1UBIe+kJwWHTTNJMjnApMow0zA0z7DRfrNWhMjgVz7jAMI3zx3WRZJpjnuXBd1/Ws07ZtUX6z08hlWXLBEJRSJEkiOIgRQsAY+/uVF/820x395r8El3T4A8zTVsrXpxcKAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;result&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1c3f09768c4f564a0d3cafbfd6bf3c43/a6d36/result.png&quot;
+        srcset=&quot;/static/1c3f09768c4f564a0d3cafbfd6bf3c43/222b7/result.png 163w,
+/static/1c3f09768c4f564a0d3cafbfd6bf3c43/ff46a/result.png 325w,
+/static/1c3f09768c4f564a0d3cafbfd6bf3c43/a6d36/result.png 650w,
+/static/1c3f09768c4f564a0d3cafbfd6bf3c43/e548f/result.png 975w,
+/static/1c3f09768c4f564a0d3cafbfd6bf3c43/3c492/result.png 1300w,
+/static/1c3f09768c4f564a0d3cafbfd6bf3c43/016a8/result.png 1576w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Feel free to customize your preview!&lt;/p&gt;
+&lt;h3 id=&quot;5-2-default-preview-image-defaultpng&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-2-default-preview-image-defaultpng&quot; aria-label=&quot;5 2 default preview image defaultpng permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5-2. Default Preview Image (default.png)&lt;/h3&gt;
+&lt;p&gt;If no preview image is added, the default image &lt;code class=&quot;language-text&quot;&gt;default.png&lt;/code&gt; will be displayed as the preview. &lt;code class=&quot;language-text&quot;&gt;default.png&lt;/code&gt; is located in the static folder. If you want to customize it, feel free to modify the &lt;code class=&quot;language-text&quot;&gt;default.png&lt;/code&gt; image.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;6-toc-table-of-contents&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#6-toc-table-of-contents&quot; aria-label=&quot;6 toc table of contents permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;6. Toc (Table of Contents)&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 632px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9e8dbabca8b36d1d9f5b0206354c0234/084e2/toc.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 95.70552147239263%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA90lEQVR42u2UWQuDMBCE/f8/0BcfPPG+D1Q8psyCELG0wfatFZZEE7+dnawa+PJl/DBwXVcsyyLzbduw7/spuM5RG0jYPM+o6xqu6yIIAti2Dd/3kSSJzLuuk72vwCfgNE0YhgFpmqIoCsRxLBAq5rqqXBvY9z2iKBJVYRjK/S0Pj5IJoDpGVVVSMi1gEsdxkOe52EFrtBWWZSnBlzg2TSPBedu2YgOt4UHRhpdAQqiG/mVZJmqo7HjmeZ6MlmXBNE2pQPX0AmTZhwKWxwRUoR7I0WJqqz3tw3EcpSQeCNUxO9Xo9N8F+K4dbn96KvhOEuP/+/oY+ACXZNmgVK4eUwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;toc&quot;
+        title=&quot;&quot;
+        src=&quot;/static/9e8dbabca8b36d1d9f5b0206354c0234/084e2/toc.png&quot;
+        srcset=&quot;/static/9e8dbabca8b36d1d9f5b0206354c0234/222b7/toc.png 163w,
+/static/9e8dbabca8b36d1d9f5b0206354c0234/ff46a/toc.png 325w,
+/static/9e8dbabca8b36d1d9f5b0206354c0234/084e2/toc.png 632w&quot;
+        sizes=&quot;(max-width: 632px) 100vw, 632px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;You can see the table of contents feature in the upper right corner of the post. The text generated in the table of contents is based on the titles in h1, h2, and h3 tags.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;7-feature-summary&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#7-feature-summary&quot; aria-label=&quot;7 feature summary permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;7. Feature Summary&lt;/h2&gt;
+&lt;p&gt;To summarize the post features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Markdown&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Tags&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Series&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Share&lt;/code&gt; (Sharing feature: copy post link / share on Facebook / share on Twitter)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Private mode&lt;/code&gt; (post public / private)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Toc&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Gatsby Initial Settings ⚙️]]></title><description><![CDATA[0. Create a GitHub Repository & Install Node.js, Gatsby-cli 💡 node.js and gatsby-cli must be installed on your computer. Before installing…]]></description><link>https://pej4303.github.io/how-to-use/initial-settings-en/</link><guid isPermaLink="false">https://pej4303.github.io/how-to-use/initial-settings-en/</guid><pubDate>Wed, 06 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;0-create-a-github-repository--install-nodejs-gatsby-cli&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#0-create-a-github-repository--install-nodejs-gatsby-cli&quot; aria-label=&quot;0 create a github repository  install nodejs gatsby cli permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;0. Create a GitHub Repository &amp;#x26; Install Node.js, Gatsby-cli&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 node.js and gatsby-cli must be installed on your computer.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Before installing the theme, you need a GitHub Repository for the Gatsby Theme. Please create a repository.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;1-install-the-theme-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-install-the-theme-&quot; aria-label=&quot;1 install the theme  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Install the Theme 👋&lt;/h2&gt;
+&lt;p&gt;Follow the steps below to create your blog with the theme!&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npx gatsby new your-blog-name https://github.com/msung99/Gatsby-Starter-Haon.git&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;2-run-gatsby-local-server&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-run-gatsby-local-server&quot; aria-label=&quot;2 run gatsby local server permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Run Gatsby Local Server&lt;/h2&gt;
+&lt;p&gt;After downloading the theme to your local machine, follow the steps below to run the Gatsby local server.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;cd your-blog-name
+npm install  // install node.js
+gatsby develop // or &quot;npm start&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;If the command runs without issues, you can check the initial blog state at &lt;a href=&quot;http://localhost:8000&quot;&gt;http://localhost:8000&lt;/a&gt;!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;3-enter-blog-information&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-enter-blog-information&quot; aria-label=&quot;3 enter blog information permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Enter Blog Information&lt;/h2&gt;
+&lt;p&gt;You can customize your blog by entering your meta information. Move to &lt;code class=&quot;language-text&quot;&gt;meta-config.js&lt;/code&gt; to see the initial state as follows.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;haon.theme&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Hello! This is a tech blog theme using Gatsby 🤩&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Haon&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;siteUrl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;https://gatsby-starter-haon.netlify.app&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;keywords&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;server&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;backend&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;gatsby&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;repo&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;msung99/Gatsby-Starter-Haon&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;gtag&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;G-CD9E7GB2ED&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// with Google Analytics&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;socialLinks&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://github.com/msung99&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;instagram&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://www.instagram.com/iminseong920/&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;facebook&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://www.facebook.com/&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;linkedin&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://www.linkedin.com/&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;velog&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://velog.io/@msung99&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;msung6924@naver.com&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Follow the steps below to modify &lt;code class=&quot;language-text&quot;&gt;siteMetadata&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;3-1-basic-profile-settings&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-1-basic-profile-settings&quot; aria-label=&quot;3 1 basic profile settings permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3-1. Basic Profile Settings&lt;/h3&gt;
+&lt;p&gt;Enter your basic profile information.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;title: ``, // haon.blog
+description: ``, // Hello! This is a tech blog theme using Gatsby 🤩
+author: ``, // Haon
+siteUrl: ``, // https://gatsby-starter-haon.netlify.app/
+keywords: [ ], // [`server`, `backend`, `gatsby`]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;3-2-set-up-utterances-comments&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-2-set-up-utterances-comments&quot; aria-label=&quot;3 2 set up utterances comments permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3-2. Set Up utterances (Comments)&lt;/h3&gt;
+&lt;p&gt;This template uses issue-based comments. Enter your GitHub repository information for the comment function to work smoothly.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;repo: &quot;your-github-name/repository-name&quot;  //  &quot;msung99/Gatsby-Starter-Haon&quot;,&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;3-3-optional-integrate-google-analytics&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-3-optional-integrate-google-analytics&quot; aria-label=&quot;3 3 optional integrate google analytics permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3-3. (Optional) Integrate Google Analytics&lt;/h3&gt;
+&lt;p&gt;You can use the &lt;code class=&quot;language-text&quot;&gt;Google Analytics&lt;/code&gt; feature to track visitors to your blog. &lt;code class=&quot;language-text&quot;&gt;gatsby-starter-haon&lt;/code&gt; makes it easy to integrate Google Analytics with your blog site to track visitors.&lt;/p&gt;
+&lt;p&gt;Refer to the &lt;a href=&quot;https://developers.google.com/analytics/learn?hl=en&quot;&gt;Google Analytics official documentation&lt;/a&gt; to learn about the Analytics feature and get a tracking id. Then enter the tracking id as follows.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gtag: &quot;G-CD9E7GB2ED&quot; // your google analytics tracking id&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;3-4-link-social-accounts&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-4-link-social-accounts&quot; aria-label=&quot;3 4 link social accounts permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3-4. Link Social Accounts&lt;/h3&gt;
+&lt;p&gt;Finally, you can link your social accounts. This is necessary for the social icons to redirect to the corresponding URLs. Customize the desired fields from the social accounts below.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;socialLinks: {
+  github: &quot;&quot;  // &quot;https://github.com/msung99&quot;,
+  instagram: &quot;&quot;  // &quot;https://www.instagram.com/iminseong920&quot;,
+  facebook: &quot;&quot;  // &quot;https://www.facebook.com/&quot;,
+  linkedin: &quot;&quot;  // &quot;https://www.linkedin.com/&quot;,
+  velog: &quot;&quot;  // &quot;https://velog.io/@msung99&quot;,
+  email: &quot;&quot;  // `https://msung6924@naver.com`,
+},&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;4-deploy-the-blog&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-deploy-the-blog&quot; aria-label=&quot;4 deploy the blog permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. Deploy the Blog&lt;/h2&gt;
+&lt;p&gt;You can quickly create a blog with either &lt;code class=&quot;language-text&quot;&gt;Github Pages&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;Netlify&lt;/code&gt;, depending on your preferred deployment environment.&lt;/p&gt;
+&lt;p&gt;You can link the GitHub repository using the &lt;code class=&quot;language-text&quot;&gt;Gatsby-Haon-Blog&lt;/code&gt; theme with Netlify for deployment. This process is not very difficult and is thus omitted.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;5-other-precautions&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-other-precautions&quot; aria-label=&quot;5 other precautions permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. Other Precautions&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby-starter-haon&lt;/code&gt; requires a minimum of default posts. Do not delete the two posts existing in the &lt;code class=&quot;language-text&quot;&gt;default&lt;/code&gt; package to ensure smooth operation.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;issue-pr-registration&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#issue-pr-registration&quot; aria-label=&quot;issue pr registration permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Issue, PR Registration&lt;/h2&gt;
+&lt;p&gt;If you have any topics you want to communicate while using Gatsby-Starter-Haon,
+feel free to leave a comment on the &lt;a href=&quot;https://gatsby-starter-haon.netlify.app/community/&quot;&gt;Social page&lt;/a&gt; or &lt;a href=&quot;https://github.com/msung99/Gatsby-Starter-Haon/issues/1&quot;&gt;Register an Issue&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Suggestions&lt;/li&gt;
+&lt;li&gt;Q&amp;#x26;A&lt;/li&gt;
+&lt;li&gt;Bug discovery and code improvement&lt;/li&gt;
+&lt;li&gt;New Features / Functions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can leave comments or register issues freely using the Issue Template form.&lt;/p&gt;
+&lt;p&gt;Anything is welcome. We look forward to the opinions of many people for the enhancement of high-quality software and theme development 👍&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Node.js and Gatsby-Cli Installation Guide 🌈]]></title><description><![CDATA[1. Install Node.js Visit the Node.js download page and install Node.js. Click the button on the site to start the installation.  After the…]]></description><link>https://pej4303.github.io/how-to-use/install-gudieline-en/</link><guid isPermaLink="false">https://pej4303.github.io/how-to-use/install-gudieline-en/</guid><pubDate>Wed, 06 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;1-install-nodejs&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-install-nodejs&quot; aria-label=&quot;1 install nodejs permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Install Node.js&lt;/h2&gt;
+&lt;p&gt;Visit the &lt;a href=&quot;https://nodejs.org/en&quot;&gt;Node.js download page&lt;/a&gt; and install Node.js. Click the button on the site to start the installation.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c7f85919a3f422aa8de15c31f5eb6c3d/b67f3/image.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 19.631901840490798%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA20lEQVR42l2PyW7CMBRFs24z4Ni4Tex4CGEQBaSqEmJRGoFEGapuypb//43Li6lE1cXRkZ7s++6LklzjP4+98ga7+SErEDOFhGvEuUIqNDJZISWywoApg9wYCG8RdY9YSQN1RzVj2PEUejiBX8zwsn6Df52haEaoRlP6WIMbB24J79Cvyc5BOApMKZBXFsLYYOk8Vpst2sMR690eH18HnC4/2J2/sWxbvH/uackcclBDUJBoPOSwDoFdy6g7sav/l0QoxLz8NUHOnnQglRq95yrASkvnElQkNDYWV+LKa5MODVihAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c7f85919a3f422aa8de15c31f5eb6c3d/a6d36/image.png&quot;
+        srcset=&quot;/static/c7f85919a3f422aa8de15c31f5eb6c3d/222b7/image.png 163w,
+/static/c7f85919a3f422aa8de15c31f5eb6c3d/ff46a/image.png 325w,
+/static/c7f85919a3f422aa8de15c31f5eb6c3d/a6d36/image.png 650w,
+/static/c7f85919a3f422aa8de15c31f5eb6c3d/e548f/image.png 975w,
+/static/c7f85919a3f422aa8de15c31f5eb6c3d/3c492/image.png 1300w,
+/static/c7f85919a3f422aa8de15c31f5eb6c3d/b67f3/image.png 1338w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;After the installation is complete, open your terminal and type the command &lt;code class=&quot;language-text&quot;&gt;npm -v&lt;/code&gt;.
+If the Node.js version appears in the terminal, it means the installation was successful. (Note: Your Node.js version does not need to match mine exactly!)&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8fdd444b38b46c51a0cedeaf6d9b61ec/21482/image-1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 18.404907975460123%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAtklEQVR42k1PSQ6DMBDjFy1hvQBiF4gIJLYCQuX/H3LxCNoeLMeO45kYr2XBcmHfd0zThHEchYm6rjHPE9Z1PXnGtq2oqgpxHKNpGskWRYEoimDbNoz3cUiZ1hplWSLLMiRJgjRNBQzS46M8z4WDIIDv+1LMjOM48DwPruvC0G2Lruuu6Rv6vscwDN9NuSE176nJLArDUHwOsCzrV/h4mqehYJqmQCkluM8M/2syPW5FzW+y6MYHUYh5+KN1wvAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;&quot;
+        src=&quot;/static/8fdd444b38b46c51a0cedeaf6d9b61ec/a6d36/image-1.png&quot;
+        srcset=&quot;/static/8fdd444b38b46c51a0cedeaf6d9b61ec/222b7/image-1.png 163w,
+/static/8fdd444b38b46c51a0cedeaf6d9b61ec/ff46a/image-1.png 325w,
+/static/8fdd444b38b46c51a0cedeaf6d9b61ec/a6d36/image-1.png 650w,
+/static/8fdd444b38b46c51a0cedeaf6d9b61ec/e548f/image-1.png 975w,
+/static/8fdd444b38b46c51a0cedeaf6d9b61ec/3c492/image-1.png 1300w,
+/static/8fdd444b38b46c51a0cedeaf6d9b61ec/21482/image-1.png 1350w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;2-install-gatsby-cli&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-install-gatsby-cli&quot; aria-label=&quot;2 install gatsby cli permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Install Gatsby CLI&lt;/h2&gt;
+&lt;p&gt;Type the following command in the terminal to automatically install Gatsby CLI. Once you have completed the installation of Gatsby CLI, you are done with all the installations.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;npm install &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;g gatsby&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;cli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Similarly, after the installation, type the command &lt;code class=&quot;language-text&quot;&gt;gatsby -v&lt;/code&gt; to verify that the Gatsby CLI version is displayed correctly.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/23bea77001af6f8abff35f24c346a411/21b4d/image-2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 24.539877300613497%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA8ElEQVR42lWQWY6EMAxEOcT8JOxiX5s9IJYRIDVzgrn/TWqwJVqaj5Idx3l2RZuHDvt5YlkWDMMANSpUVYW6rtE0DcqyRN/3UEphmibOgyDgnrZt+RzHMXzfh2ma0PZlxPv6wXlDz/PAum449h3XdWH73jCqEcdxMIwekhzHQRiGKIoC5esFz/Pgui4sy4L2XnskWcGbZFnGTY/SNGVAnuefPIoiBiZJwrmUkjcjMfB37lC2HdRtl2zP8/zPIlmnnO6WeeE+skzfQ7YNw4Bt2wxj4BZa+BIS+j1J3lEIwVMf6brOUUiqi89GVCfYA3qAfysOlwOgT8BUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;&quot;
+        src=&quot;/static/23bea77001af6f8abff35f24c346a411/a6d36/image-2.png&quot;
+        srcset=&quot;/static/23bea77001af6f8abff35f24c346a411/222b7/image-2.png 163w,
+/static/23bea77001af6f8abff35f24c346a411/ff46a/image-2.png 325w,
+/static/23bea77001af6f8abff35f24c346a411/a6d36/image-2.png 650w,
+/static/23bea77001af6f8abff35f24c346a411/e548f/image-2.png 975w,
+/static/23bea77001af6f8abff35f24c346a411/21b4d/image-2.png 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;next-steps&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#next-steps&quot; aria-label=&quot;next steps permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Next Steps&lt;/h2&gt;
+&lt;p&gt;For the next steps, refer to the post &lt;a href=&quot;https://gatsby-starter-haon.netlify.app/how-to-use/initial-settings-kr/&quot;&gt;Gatsby Blog Initial Settings ⚙️&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsby Starter Haon 세부 기능 알아보기 🚀]]></title><description><![CDATA[Gatsby Starter Haon 의 특징 Gatsby Starter Haon 은 크게 아래와 같은 기능들을 제공하고 있습니다. Main Menu 📌  : Reactive Web 으로 구현함에 따라 Header, Aside 에서 MenuBar…]]></description><link>https://pej4303.github.io/how-to-use/feature-introduction-kr/</link><guid isPermaLink="false">https://pej4303.github.io/how-to-use/feature-introduction-kr/</guid><pubDate>Tue, 05 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;gatsby-starter-haon-의-특징&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gatsby-starter-haon-%EC%9D%98-%ED%8A%B9%EC%A7%95&quot; aria-label=&quot;gatsby starter haon 의 특징 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Gatsby Starter Haon 의 특징&lt;/h2&gt;
+&lt;p&gt;Gatsby Starter Haon 은 크게 아래와 같은 기능들을 제공하고 있습니다.&lt;/p&gt;
+&lt;h3 id=&quot;main-menu-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#main-menu-&quot; aria-label=&quot;main menu  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Main Menu 📌&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;MenuBar&lt;/code&gt; : Reactive Web 으로 구현함에 따라 Header, Aside 에서 MenuBar 각각 제공&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Dark/Light Theme&lt;/code&gt; : 다크모드, 라이트모드 제공&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Search&lt;/code&gt; : 검색기능&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Tags&lt;/code&gt; : 포스트에 태그된 모든 태그 리스트 조회&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Series&lt;/code&gt; : 시리즈 기능. 포스트를 카테고리화 하여 조회 가능&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;About&lt;/code&gt;: 작가 소개 페이지. &lt;strong&gt;&quot;/default/about&quot;&lt;/strong&gt; 로 들어가 index.md 에 소개 페이지 작성 가능&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Social&lt;/code&gt; : 작가와 빠르게 소통할 수 있는 소셜 페이지&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;side-features-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#side-features-&quot; aria-label=&quot;side features  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Side Features 🤔&lt;/h3&gt;
+&lt;p&gt;메인 기능에 이어 세부 기능 및 특징은 다음과 같습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Markdown&lt;/code&gt; : 마크다운 방식을 채택했습니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;SEO&lt;/code&gt; : 검색엔진 최적화(SEO) 을 제공합니다. 웹사이트의 검색 결과에서 상위에 노출될 수 있도록 컨텐츠를 최적화합니&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Reactive Web&lt;/code&gt; : 반응형 웹으로 구현했습니다. 모바일, PC 모두 사용 가능합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Utterances&lt;/code&gt; : 댓글 위젯으로 Utterances 를 사용합니다. 만약 기본 셋팅에서 레포지토리 설정을 제대로 진행하지 않았다면 Utterances 이용에 제한이 있다는점 유의해주세요.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;비공개 기능&lt;/code&gt; : 포스트를 공개로 유출하고 싶지 않다면 비공개를 설정할 수 있습니다. 비공개 설정 방법은 직전 포스트 작성법을 참고해주세요.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Tag/Series&lt;/code&gt; : 각 태그, 시리즈 유닛을 클릭했을 떄 세부 특징을 조회 가능합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Paging&lt;/code&gt; : PostList 에 대해 페이징 기능을 제공합니다. 리스트에서 페이징 한 단위는 최대 5개를 기준으로 분리합니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Share (공유하기)&lt;/code&gt; : 포스트 링크 Copy, FaceBook / Twitter 공유하기 기능을 제공하고 있습니다.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Toc&lt;/code&gt; : 각 포스트에서 목차 기능을 제공합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;마치며&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A7%88%EC%B9%98%EB%A9%B0&quot; aria-label=&quot;마치며 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;마치며&lt;/h2&gt;
+&lt;p&gt;만약 Gatsby Starter Haon 을 사용하다 문제가 발생한다면 Issue 를 등록해주세요. 빠른 피드백은 더 나은 소프트웨어 품질 향상에 큰 도움이 됩니다 😆&lt;/p&gt;
+&lt;p&gt;Gatsby-Starter-Haon 을 사용하다가 소통하고 싶은 내용이 생긴다면
+&lt;a href=&quot;https://gatsby-starter-haon.netlify.app/community/&quot;&gt;Social 페이지&lt;/a&gt; 또는 &lt;a href=&quot;https://github.com/msung99/Gatsby-Starter-Haon/issues/1&quot;&gt;Issue 등록하기&lt;/a&gt; 에다 자유롭게 코멘트를 남겨주길 바랍니다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[마크다운 포스트 작성법, 작성시 세부 기능들 ✍️]]></title><description><![CDATA[1. MarkDown 기반 이 템플릿은 Markdown…]]></description><link>https://pej4303.github.io/how-to-use/포스트 작성하기/</link><guid isPermaLink="false">https://pej4303.github.io/how-to-use/포스트 작성하기/</guid><pubDate>Mon, 04 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;1-markdown-기반&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-markdown-%EA%B8%B0%EB%B0%98&quot; aria-label=&quot;1 markdown 기반 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. MarkDown 기반&lt;/h2&gt;
+&lt;p&gt;이 템플릿은 Markdown 작성법을 기반으로 합니다. 글 작성을 위해 &lt;code class=&quot;language-text&quot;&gt;/contents/posts&lt;/code&gt; 아래 디렉토리에 포스트를 생성하고 마크다운 형식으로 작성해야 합니다.&lt;/p&gt;
+&lt;p&gt;예를들어 &lt;code class=&quot;language-text&quot;&gt;/contents/posts&lt;/code&gt; 아래 디렉토리에 &lt;code class=&quot;language-text&quot;&gt;how-to-use&lt;/code&gt; 라는 디렉토리(폴더)를 생성하고 &lt;code class=&quot;language-text&quot;&gt;index.md&lt;/code&gt; 파일에 포스트를 작성하면 됩니다. 이 예시의 경우 포스트의 URL 이 &lt;code class=&quot;language-text&quot;&gt;http(s)://your-domain/how-to-use&lt;/code&gt; 로 지정됩니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;2-메타-정보&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EB%A9%94%ED%83%80-%EC%A0%95%EB%B3%B4&quot; aria-label=&quot;2 메타 정보 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 메타 정보&lt;/h2&gt;
+&lt;p&gt;마크다운 파일을 생성했다면, 해당 포스트에 대한 메타정보를 필수로 기입해야 합니다. 기입 정보는 아래와 같습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;---
+title: 포스트 작성법, 작성시 세부 기능들
+description: 현 템플릿을 어떻게 사용하는지 알아봅시다.
+date: &quot;2024-03-02&quot;
+tags:
+  - Introduce
+  - About
+series: how to use this template?
+// isPrivate: true
+---&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;각 메타 정보에 대한 설명은 다음과 같습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;title&lt;/code&gt; : 포스트의 제목&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;description&lt;/code&gt; : 포스트에 대한 설명 요약. 생략시&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;date&lt;/code&gt; : 포스팅 날짜&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;tags&lt;/code&gt; : 태그 리스트&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;series&lt;/code&gt; : 시리즈 (카테고리 개념과 유사)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;isPrivate&lt;/code&gt; : 비공개 여부. (현 포스트에 대해 비공개를 원할시 &quot;isPrivate: true&quot; 를 지정해주세요.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;3-포스트-내부에-이미지-추가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EB%82%B4%EB%B6%80%EC%97%90-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B6%94%EA%B0%80&quot; aria-label=&quot;3 포스트 내부에 이미지 추가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 포스트 내부에 이미지 추가&lt;/h2&gt;
+&lt;p&gt;포스트에 이미지를 추가시, 아래와 같은 형식으로 이미지를 첨부할 수 있습니다. 이미지는 동일한 폴더 내에 (즉, 현재 markdown 파일과 동일한 폴더 안에) 위치해야 한다는 점을 유의해주세요.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![](./이미지 이름)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;아래는 &lt;code class=&quot;language-text&quot;&gt;image1.png&lt;/code&gt; 라는 이름의 이미지를 첨부한 예시입니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5d68b84d9197edb7e0d352fa305e6039/eb3fa/image1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 84.04907975460122%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAAEFElEQVR42m2T+0+bZRTH+5cYE38wZmhijOOmDoZ3E5hbYqbLflLj4n3AgKER5oZcBsIGltvCUMgCEcZNLAgdk9ILvdBCubZcCqVQLm0plEKB9uPTTsyivsnnfZ7z5pxvvud5zis59Pv4N6GjA/xeD/NWCwadDo1KjVYzjHl0lE3nKsF9P/9XF0byeBDwbYMQa2/v4uz7H3LqjXPEJZ0h9nRKZH1FxElvv4deq4XgQST/P4JHe36OCez6CD9pmTk88UwsJxNSiE5MIUYInkxI5kTM6ySfvRBxTCjIgch/vD6MxL/t4Zhdr5t9n5c1xzIV0hreOXOehDfP8dJr7/JW8nkKMq/yi/QnVuyLETfhYwnX7W1v/YNkZ07F9jGzKsLx/pKW4KoRp0nGkuF3ZjUdWBRtbGgULCn62JgY4MCuIyDyjpb17Nk0olYZqZWwLOwvq8ChgRUNR7ZBAvOD7AuCdvHdrgSnFt/8EGvd93H3tAoBBVuTfayP9rCgbmNrRg6rWkIiX+IXid7ZIbZnBpjRythyTONdX2DSqGR+fIh9tw233cz6hBxHYy3LTVIh/icXL1wkOv5VXohJIvXLzwitiIuyq5HsupfFGHjwOKYwKTrFqJgJ7rmZGtWgV8rZ23LisBhRt5WjbshHVpCKy9jODzkZPPl0NM9HJ/LUiRjqKwpgwyBaDngI4/eusuNaIrS3KXCx63EwqWzEoq6m79c8DP1FzOkrsWjKsWrLMD28Tn5umiCbwu+zaay+ydGiEknQvwkH4Rty4nM7ED0S8q/D4Q62qTbmR27Q0XQFszIPiy6PcdUthmT1KHqkDHSWiItRRZyFzznScmjfJdpy4N1cxL/jFFPoIxjY4tDnwjKuZsFYjLzjW/TyG3htlcibi2kqyKQpP4u+xit4rK0El4YJCXcRwT+6mrhXd5v66lJxbloWZwyMqLpQ9dcLoUJsph8Z7r9GT0s2eOrpq/qKvoJLDJZ+jqbia4wtuXgt8siUhIRbiVrWiGeyH6uyHXWvlAllMfoHuUKoiPXpMtambjFnuElrQzoBZzWme98wVpOFue4q+qoMlKVfMN5SQtAx/Mgh4Y1QP1jU4Fu4y9p0EQumQpbGCrHq8rGPleAwl3G/IQtV73W0d4VYbRYjNRkMS9MjwrqKy8zL68Us6oSgeOHUi8lXYx2uZUYlxab7mRVTMxvmdtbGunBP9OCffUjApmamswJjZZoQzERx+zLK8lTUFaloq7PYsTxA4hzp4phVw2+CbtaNMjbEX+A29wp6cI2J2NSNa7yXKVkNE3cymajLxiBaHruThbXhO6brxCqrQpIY9yzHnI5/jsT4R/uEuChOxUaR8Dfhby/HRJGc9CLNOR/RkfcJLdc+FuulyF5W8Ck16R/wF5EGRyty1h0LAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image1&quot;
+        title=&quot;&quot;
+        src=&quot;/static/5d68b84d9197edb7e0d352fa305e6039/a6d36/image1.png&quot;
+        srcset=&quot;/static/5d68b84d9197edb7e0d352fa305e6039/222b7/image1.png 163w,
+/static/5d68b84d9197edb7e0d352fa305e6039/ff46a/image1.png 325w,
+/static/5d68b84d9197edb7e0d352fa305e6039/a6d36/image1.png 650w,
+/static/5d68b84d9197edb7e0d352fa305e6039/e548f/image1.png 975w,
+/static/5d68b84d9197edb7e0d352fa305e6039/eb3fa/image1.png 1026w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;4-코드-하이라이트-지원&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-%EC%BD%94%EB%93%9C-%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8-%EC%A7%80%EC%9B%90&quot; aria-label=&quot;4 코드 하이라이트 지원 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. 코드 하이라이트 지원&lt;/h2&gt;
+&lt;p&gt;포스트에 코드 블럭을 생성 가능합니다. 아래는 JAVA 언어를 기반으로 작성된 코드 블럭입니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;getLines&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token class-name&quot;&gt;StringBuilder&lt;/span&gt; stringBuilder &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;StringBuilder&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;repeatPrint&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;repeatRows&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;StringBuilder&lt;/span&gt; stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;repeatRow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;two&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;repeatRow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;StringBuilder&lt;/span&gt; stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;one&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;5-포스트-미리보기-이미지-썸네일&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B0-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%8D%B8%EB%84%A4%EC%9D%BC&quot; aria-label=&quot;5 포스트 미리보기 이미지 썸네일 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. 포스트 미리보기 이미지 (썸네일)&lt;/h2&gt;
+&lt;p&gt;포스트 미리보기 기능도 존재합니다. 썸네일이라고 봐도 좋겠습니다.&lt;/p&gt;
+&lt;h3 id=&quot;5-1-미리보기-추가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-1-%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B0-%EC%B6%94%EA%B0%80&quot; aria-label=&quot;5 1 미리보기 추가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5-1. 미리보기 추가&lt;/h3&gt;
+&lt;p&gt;미리보기 이미지를 첨부하는 경로는 앞서 살펴본 이미지 추가 경로와 조금 다릅니다. 포스트 내부에 이미지를 추가할 땐 마크다운 파일과 동일한 폴더 내에 위치시키면 되지만, 미리보기 썸네일 이미지는 &lt;code class=&quot;language-text&quot;&gt;static&lt;/code&gt; 이라는 폴더내에 이미지를 추가해줘야 합니다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;writing.png&lt;/code&gt; 이라는 미리보기 이미지를 static 폴더내 위치했다면, 포스트는 다음과 같이 조회됩니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1c3f09768c4f564a0d3cafbfd6bf3c43/016a8/result.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 53.37423312883436%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABCElEQVR42q1Sy2qEQBDc/7/mtnmcArlmT9n8gG9cSCRgQKJBo5nouD7iID4q44CLm8WFBAuKoZumqOqeFTj6vkfXdQfO1dN3DissDCHoOA5kWYauadB0A0/PLzBNE6qqYrt9hGVZkCQJiqJA4zNxHGNMNvJI0DAMbDb3uLy6wd3tNV53DwiCD0RRBNu24XkerwP4vi96VVWdd1gUBdI0het68N9dtGx/Ntbo6JPusTN1UBIe+kJwWHTTNJMjnApMow0zA0z7DRfrNWhMjgVz7jAMI3zx3WRZJpjnuXBd1/Ws07ZtUX6z08hlWXLBEJRSJEkiOIgRQsAY+/uVF/820x395r8El3T4A8zTVsrXpxcKAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;result&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1c3f09768c4f564a0d3cafbfd6bf3c43/a6d36/result.png&quot;
+        srcset=&quot;/static/1c3f09768c4f564a0d3cafbfd6bf3c43/222b7/result.png 163w,
+/static/1c3f09768c4f564a0d3cafbfd6bf3c43/ff46a/result.png 325w,
+/static/1c3f09768c4f564a0d3cafbfd6bf3c43/a6d36/result.png 650w,
+/static/1c3f09768c4f564a0d3cafbfd6bf3c43/e548f/result.png 975w,
+/static/1c3f09768c4f564a0d3cafbfd6bf3c43/3c492/result.png 1300w,
+/static/1c3f09768c4f564a0d3cafbfd6bf3c43/016a8/result.png 1576w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;멋진 미리보기를 마음껏 꾸며보세요!&lt;/p&gt;
+&lt;h3 id=&quot;5-2-디폴트-미리보기-이미지-defaultpng&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-2-%EB%94%94%ED%8F%B4%ED%8A%B8-%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B0-%EC%9D%B4%EB%AF%B8%EC%A7%80-defaultpng&quot; aria-label=&quot;5 2 디폴트 미리보기 이미지 defaultpng permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5-2. 디폴트 미리보기 이미지 (default.png)&lt;/h3&gt;
+&lt;p&gt;미리보기 이미지를 추가하지 않았다면, 기본적으로 &lt;code class=&quot;language-text&quot;&gt;default.png&lt;/code&gt; 이미지를 미리보기로 표기하고 있습니다. &lt;code class=&quot;language-text&quot;&gt;default.png&lt;/code&gt;
+는 static 파일 내에 존재합니다. 만약 커스터마이징을 원한다면 자유롭게 &lt;code class=&quot;language-text&quot;&gt;default.png&lt;/code&gt; 이미지를 수정하세요.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;6-toc-목차&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#6-toc-%EB%AA%A9%EC%B0%A8&quot; aria-label=&quot;6 toc 목차 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;6. Toc (목차)&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 632px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9e8dbabca8b36d1d9f5b0206354c0234/084e2/toc.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 95.70552147239263%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA90lEQVR42u2UWQuDMBCE/f8/0BcfPPG+D1Q8psyCELG0wfatFZZEE7+dnawa+PJl/DBwXVcsyyLzbduw7/spuM5RG0jYPM+o6xqu6yIIAti2Dd/3kSSJzLuuk72vwCfgNE0YhgFpmqIoCsRxLBAq5rqqXBvY9z2iKBJVYRjK/S0Pj5IJoDpGVVVSMi1gEsdxkOe52EFrtBWWZSnBlzg2TSPBedu2YgOt4UHRhpdAQqiG/mVZJmqo7HjmeZ6MlmXBNE2pQPX0AmTZhwKWxwRUoR7I0WJqqz3tw3EcpSQeCNUxO9Xo9N8F+K4dbn96KvhOEuP/+/oY+ACXZNmgVK4eUwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;toc&quot;
+        title=&quot;&quot;
+        src=&quot;/static/9e8dbabca8b36d1d9f5b0206354c0234/084e2/toc.png&quot;
+        srcset=&quot;/static/9e8dbabca8b36d1d9f5b0206354c0234/222b7/toc.png 163w,
+/static/9e8dbabca8b36d1d9f5b0206354c0234/ff46a/toc.png 325w,
+/static/9e8dbabca8b36d1d9f5b0206354c0234/084e2/toc.png 632w&quot;
+        sizes=&quot;(max-width: 632px) 100vw, 632px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;포스트 우측 상단을 보면 목차 기능이 존재하는 것을 볼 수 있습니다. 목차에 생성되는 텍스트는 h1, h2, h3 에 타이틀에 기반해 있습니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;7-기능-요약&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#7-%EA%B8%B0%EB%8A%A5-%EC%9A%94%EC%95%BD&quot; aria-label=&quot;7 기능 요약 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;7. 기능 요약&lt;/h2&gt;
+&lt;p&gt;포스트 기능을 정리해보자면 다음과 같습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Markdown&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Tags&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Series&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Share&lt;/code&gt; (공유하기 기능 : 포스트 링크 복사 / Facebook 공유 / Twitter 공유)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;private mode&lt;/code&gt; (포스트 공개 / 비공개)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Toc&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Gatsby 블로그 초기 설정 ⚙️]]></title><description><![CDATA[0. 깃허브 레포지토리 생성 & Node.js, Gatsby-cli 설치 💡 컴퓨터에 node.js 와 gatsby-cli 가 설치되어 있어야합니다. 테마를 설치하기에 앞서 Gatsby Theme 를 본인의 Github Repository…]]></description><link>https://pej4303.github.io/how-to-use/initial-settings-kr/</link><guid isPermaLink="false">https://pej4303.github.io/how-to-use/initial-settings-kr/</guid><pubDate>Sun, 03 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;0-깃허브-레포지토리-생성--nodejs-gatsby-cli-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#0-%EA%B9%83%ED%97%88%EB%B8%8C-%EB%A0%88%ED%8F%AC%EC%A7%80%ED%86%A0%EB%A6%AC-%EC%83%9D%EC%84%B1--nodejs-gatsby-cli-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;0 깃허브 레포지토리 생성  nodejs gatsby cli 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;0. 깃허브 레포지토리 생성 &amp;#x26; Node.js, Gatsby-cli 설치&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;💡 컴퓨터에 node.js 와 gatsby-cli 가 설치되어 있어야합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;테마를 설치하기에 앞서 Gatsby Theme 를 본인의 Github Repository 가 필요합니다. 레포지토리를 하나 생성해주세요.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;1-테마-설치하기-&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%ED%85%8C%EB%A7%88-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0-&quot; aria-label=&quot;1 테마 설치하기  permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 테마 설치하기 👋&lt;/h2&gt;
+&lt;p&gt;아래 과정을 따라서 블로그 테마를 직접 만들어보세요!&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npx gatsby new your-blog-name https://github.com/msung99/Gatsby-Starter-Haon.git&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;2-gatsby-로컬-서버-구동하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-gatsby-%EB%A1%9C%EC%BB%AC-%EC%84%9C%EB%B2%84-%EA%B5%AC%EB%8F%99%ED%95%98%EA%B8%B0&quot; aria-label=&quot;2 gatsby 로컬 서버 구동하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Gatsby 로컬 서버 구동하기&lt;/h2&gt;
+&lt;p&gt;본인의 로컬에 테마를 내려받았다면, 아래의 과정에 따라 게츠비 로컬 서버를 구동해주세요.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;cd your-blog-name
+npm install  // install node.js
+gatsby develop // or &quot;npm start&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위 명령어가 문제 없이 실행됐다면 &lt;a href=&quot;http://localhost:8000&quot;&gt;http://localhost:8000&lt;/a&gt; 에서 초기 블로그 상태를 확인할 수 있습니다!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;3-블로그-정보-입력하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%A0%95%EB%B3%B4-%EC%9E%85%EB%A0%A5%ED%95%98%EA%B8%B0&quot; aria-label=&quot;3 블로그 정보 입력하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 블로그 정보 입력하기&lt;/h2&gt;
+&lt;p&gt;본인의 메타 정보를 직접 기입하여 커스터마이징 할 수 있습니다. &lt;code class=&quot;language-text&quot;&gt;meta-config.js&lt;/code&gt; 로 이동하면 아래와 같은 초기 상태를 확인할 수 있습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;haon.theme&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Hello! This is a tech blog theme using Gatsby 🤩&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Haon&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;siteUrl&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;https://gatsby-starter-haon.netlify.app&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;keywords&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;server&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;backend&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;gatsby&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;repo&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;msung99/Gatsby-Starter-Haon&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;gtag&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;G-CD9E7GB2ED&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// with. Google Analytics&lt;/span&gt;
+  &lt;span class=&quot;token literal-property property&quot;&gt;socialLinks&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://github.com/msung99&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;instagram&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://www.instagram.com/iminseong920/&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;facebook&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://www.facebook.com/&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;linkedin&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://www.linkedin.com/&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;velog&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;https://velog.io/@msung99&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token literal-property property&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;msung6924@naver.com&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;아래의 과정에 따라 &lt;code class=&quot;language-text&quot;&gt;siteMetadata&lt;/code&gt; 를 수정하세요.&lt;/p&gt;
+&lt;h3 id=&quot;3-1-기본-프로필-설정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-1-%EA%B8%B0%EB%B3%B8-%ED%94%84%EB%A1%9C%ED%95%84-%EC%84%A4%EC%A0%95&quot; aria-label=&quot;3 1 기본 프로필 설정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3-1. 기본 프로필 설정&lt;/h3&gt;
+&lt;p&gt;본인의 기본 프로필을 입력하세요.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;title: ``, // haon.blog
+description: ``, // Hello! This is a tech blog theme using Gatsby 🤩
+author: ``, // Haon
+siteUrl: ``, // https://gatsby-starter-haon.netlify.app/
+keywords: [ ], // [`server`, `backend`, `gatsby`]&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;3-2-utterances-댓글-설정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-2-utterances-%EB%8C%93%EA%B8%80-%EC%84%A4%EC%A0%95&quot; aria-label=&quot;3 2 utterances 댓글 설정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3-2. utterances (댓글) 설정&lt;/h3&gt;
+&lt;p&gt;현 템플릿은 Issue 생성 기반 댓글 방식에 기반하고 있습니다. 원활한 댓글 기능 활성화를 위해 본인의 깃허브 레포지토리 정보를 기입하세요.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;repo: &quot;your-github-name/repository-name&quot;  //  &quot;msung99/Gatsby-Starter-Haon&quot;,&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;3-3-선택-google-애널리틱스-연동&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-3-%EC%84%A0%ED%83%9D-google-%EC%95%A0%EB%84%90%EB%A6%AC%ED%8B%B1%EC%8A%A4-%EC%97%B0%EB%8F%99&quot; aria-label=&quot;3 3 선택 google 애널리틱스 연동 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3-3. (선택) Google 애널리틱스 연동&lt;/h3&gt;
+&lt;p&gt;개설한 블로그 접속자를 파악하는 방법으로 &lt;code class=&quot;language-text&quot;&gt;Google 애널리틱스&lt;/code&gt; 기능을 사용할 수 있습니다. &lt;code class=&quot;language-text&quot;&gt;gatsby-starter-haon&lt;/code&gt; 은 손쉽게 구글 애널리틱스와 본인의 블로그 사이트를 연동하여 접속자 수를 파악할 수 있도록 합니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://developers.google.com/analytics/learn?hl=ko&quot;&gt;Goole Analytics 공식 문서&lt;/a&gt; 를 참고하여 애널릭틱스 기능에 대해 살펴보고, &lt;code class=&quot;language-text&quot;&gt;tracking id&lt;/code&gt; 를 발급받으세요. 그리고 발급받은 tracking id 를 아래와 같이 기입하세요.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;gtag: &quot;G-CD9E7GB2ED&quot; // your google analytics tracking id&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;3-4-소설-계졍-연동&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-4-%EC%86%8C%EC%84%A4-%EA%B3%84%EC%A1%8D-%EC%97%B0%EB%8F%99&quot; aria-label=&quot;3 4 소설 계졍 연동 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3-4. 소설 계졍 연동&lt;/h3&gt;
+&lt;p&gt;마지막으로 소설 계정을 연동할 수 있습니다. 소셜 이모티콘을 클릭하면 해당 URL 로 넘어가는 기능을 위해 필요합니다.
+아래 소설 계정중 원하는 필드를 선택적으로 커스터마이징하여 사용하세요.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;socialLinks: {
+  github: &quot;&quot;  // &quot;https://github.com/msung99&quot;,
+  instagram: &quot;&quot;  // &quot;https://www.instagram.com/iminseong920&quot;,
+  facebook: &quot;&quot;  // &quot;https://www.facebook.com/&quot;,
+  linkedin: &quot;&quot;  // &quot;https://www.linkedin.com/&quot;,
+  velog: &quot;&quot;  // &quot;https://velog.io/@msung99&quot;,&apos;
+  email: &quot;&quot;  // `https://msung6924@naver.com`,
+},&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;4-블로그-배포하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0&quot; aria-label=&quot;4 블로그 배포하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. 블로그 배포하기&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Github Page&lt;/code&gt; 또는 &lt;code class=&quot;language-text&quot;&gt;Netlify&lt;/code&gt; 중 원하시는 배포 환경에 따라 빠르게 블로그를 만드실 수 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Gatsby-Haon-Blog&lt;/code&gt; 테마를 사용하고 있는 본인 깃허브 레포지토리를 Netlify 를 연동하여 배포를 진행할 수 있습니다. 이 과정은 크게 어렵지 않으니 생략합니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;5-기타-유의사항&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-%EA%B8%B0%ED%83%80-%EC%9C%A0%EC%9D%98%EC%82%AC%ED%95%AD&quot; aria-label=&quot;5 기타 유의사항 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. 기타 유의사항&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;gatsby-starter-haon&lt;/code&gt; 은 최소한의 디폴트 포스트가 필요합니다. &lt;code class=&quot;language-text&quot;&gt;default&lt;/code&gt; 패키지 내에 존재하는 2개의 포스트는 삭제하지 않아야 원활히 동작합니다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;isuee-pr-등록&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#isuee-pr-%EB%93%B1%EB%A1%9D&quot; aria-label=&quot;isuee pr 등록 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Isuee, PR 등록&lt;/h2&gt;
+&lt;p&gt;Gatsby-Starter-Haon 을 사용하다가 소통하고 싶은 내용이 생긴다면
+&lt;a href=&quot;https://gatsby-starter-haon.netlify.app/community/&quot;&gt;Social 페이지&lt;/a&gt; 또는 &lt;a href=&quot;https://github.com/msung99/Gatsby-Starter-Haon/issues/1&quot;&gt;Issue 등록하기&lt;/a&gt; 에다 자유롭게 코멘트를 남겨주세요.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;제안사항 (Suggestions)&lt;/li&gt;
+&lt;li&gt;Q&amp;#x26;A&lt;/li&gt;
+&lt;li&gt;버그 발견 및 코드 개선 (Bug / Code Refactoring)&lt;/li&gt;
+&lt;li&gt;신규기능 (New Features / Functions)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;코멘트를 남겨주셔도 좋고, 별도로 Issue Template 양식에 맞추어 이슈를 마음껏 등록하셔도 좋습니다.&lt;/p&gt;
+&lt;p&gt;무엇이든 좋습니다. 양질의 소프트웨어 향상, 테마 발전을 위해서 많은 분들의 의견을 기다리고 있습니다 👍&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Node.js, Gatsby-Cli 설치 가이드라인 🌈]]></title><description><![CDATA[1. Node.js 설치 Node.js 설치 링크 에 접속하여 Node.js 를 설치해주세요. 위 사이트에서 아래 버튼 누르면 설치가 시작됩니다.  설치 완료 후, 터미널에서  명령어를 입력해주세요.
+아래와 같이 node.js…]]></description><link>https://pej4303.github.io/how-to-use/install-gudieline-kr/</link><guid isPermaLink="false">https://pej4303.github.io/how-to-use/install-gudieline-kr/</guid><pubDate>Sat, 02 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;1-nodejs-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-nodejs-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;1 nodejs 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Node.js 설치&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://nodejs.org/en&quot;&gt;Node.js 설치 링크&lt;/a&gt; 에 접속하여 Node.js 를 설치해주세요. 위 사이트에서 아래 버튼 누르면 설치가 시작됩니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c7f85919a3f422aa8de15c31f5eb6c3d/b67f3/image.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 19.631901840490798%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA20lEQVR42l2PyW7CMBRFs24z4Ni4Tex4CGEQBaSqEmJRGoFEGapuypb//43Li6lE1cXRkZ7s++6LklzjP4+98ga7+SErEDOFhGvEuUIqNDJZISWywoApg9wYCG8RdY9YSQN1RzVj2PEUejiBX8zwsn6Df52haEaoRlP6WIMbB24J79Cvyc5BOApMKZBXFsLYYOk8Vpst2sMR690eH18HnC4/2J2/sWxbvH/uackcclBDUJBoPOSwDoFdy6g7sav/l0QoxLz8NUHOnnQglRq95yrASkvnElQkNDYWV+LKa5MODVihAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c7f85919a3f422aa8de15c31f5eb6c3d/a6d36/image.png&quot;
+        srcset=&quot;/static/c7f85919a3f422aa8de15c31f5eb6c3d/222b7/image.png 163w,
+/static/c7f85919a3f422aa8de15c31f5eb6c3d/ff46a/image.png 325w,
+/static/c7f85919a3f422aa8de15c31f5eb6c3d/a6d36/image.png 650w,
+/static/c7f85919a3f422aa8de15c31f5eb6c3d/e548f/image.png 975w,
+/static/c7f85919a3f422aa8de15c31f5eb6c3d/3c492/image.png 1300w,
+/static/c7f85919a3f422aa8de15c31f5eb6c3d/b67f3/image.png 1338w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;설치 완료 후, 터미널에서 &lt;code class=&quot;language-text&quot;&gt;npm -v&lt;/code&gt; 명령어를 입력해주세요.
+아래와 같이 node.js 버전이 터미널에 표시되면 정상적으로 설치된겁니다. (참고로 node.js 버전이 저랑 완전히 똑같을 필요 없습니다!)&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8fdd444b38b46c51a0cedeaf6d9b61ec/21482/image-1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 18.404907975460123%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAtklEQVR42k1PSQ6DMBDjFy1hvQBiF4gIJLYCQuX/H3LxCNoeLMeO45kYr2XBcmHfd0zThHEchYm6rjHPE9Z1PXnGtq2oqgpxHKNpGskWRYEoimDbNoz3cUiZ1hplWSLLMiRJgjRNBQzS46M8z4WDIIDv+1LMjOM48DwPruvC0G2Lruuu6Rv6vscwDN9NuSE176nJLArDUHwOsCzrV/h4mqehYJqmQCkluM8M/2syPW5FzW+y6MYHUYh5+KN1wvAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;&quot;
+        src=&quot;/static/8fdd444b38b46c51a0cedeaf6d9b61ec/a6d36/image-1.png&quot;
+        srcset=&quot;/static/8fdd444b38b46c51a0cedeaf6d9b61ec/222b7/image-1.png 163w,
+/static/8fdd444b38b46c51a0cedeaf6d9b61ec/ff46a/image-1.png 325w,
+/static/8fdd444b38b46c51a0cedeaf6d9b61ec/a6d36/image-1.png 650w,
+/static/8fdd444b38b46c51a0cedeaf6d9b61ec/e548f/image-1.png 975w,
+/static/8fdd444b38b46c51a0cedeaf6d9b61ec/3c492/image-1.png 1300w,
+/static/8fdd444b38b46c51a0cedeaf6d9b61ec/21482/image-1.png 1350w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;2-gatsby-cli-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-gatsby-cli-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;2 gatsby cli 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Gatsby Cli 설치&lt;/h2&gt;
+&lt;p&gt;아래 명령어를 터미널에서 입력해주세요. 그러면 자동으로 Gatsby Cli 가 설치됩니다. Gatsby Cli 까지 설치를 완료했다면 모든 설치는 끝입니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;jsx&quot;&gt;&lt;pre class=&quot;language-jsx&quot;&gt;&lt;code class=&quot;language-jsx&quot;&gt;npm install &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;g gatsby&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;cli&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;마찬가지로, 설치 후 &lt;code class=&quot;language-text&quot;&gt;gatsby -v&lt;/code&gt; 명령어를 입력해서 Gatsby Cli 도 버전이 잘 표시되는지 확인해주세요.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/23bea77001af6f8abff35f24c346a411/21b4d/image-2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 24.539877300613497%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA8ElEQVR42lWQWY6EMAxEOcT8JOxiX5s9IJYRIDVzgrn/TWqwJVqaj5Idx3l2RZuHDvt5YlkWDMMANSpUVYW6rtE0DcqyRN/3UEphmibOgyDgnrZt+RzHMXzfh2ma0PZlxPv6wXlDz/PAum449h3XdWH73jCqEcdxMIwekhzHQRiGKIoC5esFz/Pgui4sy4L2XnskWcGbZFnGTY/SNGVAnuefPIoiBiZJwrmUkjcjMfB37lC2HdRtl2zP8/zPIlmnnO6WeeE+skzfQ7YNw4Bt2wxj4BZa+BIS+j1J3lEIwVMf6brOUUiqi89GVCfYA3qAfysOlwOgT8BUAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;&quot;
+        src=&quot;/static/23bea77001af6f8abff35f24c346a411/a6d36/image-2.png&quot;
+        srcset=&quot;/static/23bea77001af6f8abff35f24c346a411/222b7/image-2.png 163w,
+/static/23bea77001af6f8abff35f24c346a411/ff46a/image-2.png 325w,
+/static/23bea77001af6f8abff35f24c346a411/a6d36/image-2.png 650w,
+/static/23bea77001af6f8abff35f24c346a411/e548f/image-2.png 975w,
+/static/23bea77001af6f8abff35f24c346a411/21b4d/image-2.png 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;이어서&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EC%96%B4%EC%84%9C&quot; aria-label=&quot;이어서 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이어서&lt;/h2&gt;
+&lt;p&gt;이어지는 내용은 &lt;a href=&quot;https://gatsby-starter-haon.netlify.app/how-to-use/initial-settings-kr/&quot;&gt;Gatsby 블로그 초기 설정 ⚙️&lt;/a&gt; 포스트를 참고해주세요.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Default Private]]></title><description><![CDATA[Default Private Posts This is a default private post. It's recommended not to delete this posts 😵 (현재 이 포스트는 삭제하지 말아주세요.)]]></description><link>https://pej4303.github.io/default/private-default/</link><guid isPermaLink="false">https://pej4303.github.io/default/private-default/</guid><pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;default-private-posts&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#default-private-posts&quot; aria-label=&quot;default private posts permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Default Private Posts&lt;/h2&gt;
+&lt;p&gt;This is a default private post. It&apos;s recommended not to delete this posts 😵&lt;/p&gt;
+&lt;p&gt;(현재 이 포스트는 삭제하지 말아주세요.)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsby Starter Haon 저자에 대해 소개합니다.]]></title><description><![CDATA[💡 현 포스트는 about 페이지에서도 조회 가능합니다. 포스트를 삭제하지 말고, 이 곳에다 본인만의 멋진 소개 글을 작성해주세요.  2015년 학창시절, 프로그래밍을 처음 접하다 내가 프로그래밍을 처음 접하게된 시절은 17살, 고등학교…]]></description><link>https://pej4303.github.io/default/about/</link><guid isPermaLink="false">https://pej4303.github.io/default/about/</guid><pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;💡 현 포스트는 about 페이지에서도 조회 가능합니다. 포스트를 삭제하지 말고, 이 곳에다 본인만의 멋진 소개 글을 작성해주세요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/846375a312575c68f1953c265c1d79ab/6b26f/image-10.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.920245398773%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAACp0lEQVR42jWSyW9TVxSH3zKVsoAdJKHEiBmJUEDNon8AKzawJxViUhBCopRAhES7gDqtBAgJiBTBAlVdAMGJ7dgvvNl+tl+eh9gZPEQtCSiCZrDDqhmI8nH9oEc6uvce3fvd3xmkwMsAoUCQSDCCOqyQjNmEBkNEozKp1AgDgQF6Hz/CtGJYliViDrL8mkhExkk6GKqBKqtEw1HCg2GkQP8gQ6E6TMUWsGwmi2GYLH38SN2qtSpTUxVvv7Gx4a21Wg3dNMlmR0nZKSwjhiIrHlQKB4e+whJk3CzFyRLxeILFatUDrK+v89/yMsvC/7fq4iLjk0UWFmuMjU0w4rjELRvttY6kKTqJeNL7bWKiyMzMO5Ii1bm5Oe/xysoKS0JRpVLhxo1u/L/5uXP7Nhc6L9IlziPpDKViGdfNeBwpYQtYJsekUPb3P2/48O886WyehYUFD7i29slTmsuN0tjY6HlLSwvfNDSwafNmVN3i3dtZCoUx746UHkkzVhinXK4wPT3D/HyV8YkSq0LZF+Aqn9ZWyOdHaW1txefzsWf3Htrbv+fwkaNoeozZ2fdCUJFxkb7kplzyuTxT5TJvp9+I+tR4NRjlatct/D336fn9AX/cfcSVn7tpbm6iaVszvh0+2toO0nboELoRp1qtUSqVKIwWkOrFzIs6PAvqXO8LUShOMazEOX6ig1OnL3Pm/FXOdl7j+MkOtmz9lgPbd7FT+L4Dh9m7/ztCQ8O87A+hiIbUhUm6YmDHbfz3nnLT/5SEkybp5rCdLKbtoppJNMuh79lzOk5fouvidX661M2P567R/sMxHvY+4Zdfe/jzrxdiSjJIclgW7daIGxZZxyGVcMTQqgSCChHZJKbZuLqNMmyhRTTMsIoakDFELDgQQddMT1l9hnVF5zPbGWjASaJclwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;&quot;
+        src=&quot;/static/846375a312575c68f1953c265c1d79ab/a6d36/image-10.png&quot;
+        srcset=&quot;/static/846375a312575c68f1953c265c1d79ab/222b7/image-10.png 163w,
+/static/846375a312575c68f1953c265c1d79ab/ff46a/image-10.png 325w,
+/static/846375a312575c68f1953c265c1d79ab/a6d36/image-10.png 650w,
+/static/846375a312575c68f1953c265c1d79ab/e548f/image-10.png 975w,
+/static/846375a312575c68f1953c265c1d79ab/3c492/image-10.png 1300w,
+/static/846375a312575c68f1953c265c1d79ab/6b26f/image-10.png 1658w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2015년-학창시절-프로그래밍을-처음-접하다&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2015%EB%85%84-%ED%95%99%EC%B0%BD%EC%8B%9C%EC%A0%88-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%84-%EC%B2%98%EC%9D%8C-%EC%A0%91%ED%95%98%EB%8B%A4&quot; aria-label=&quot;2015년 학창시절 프로그래밍을 처음 접하다 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2015년 학창시절, 프로그래밍을 처음 접하다&lt;/h2&gt;
+&lt;p&gt;내가 프로그래밍을 처음 접하게된 시절은 17살, 고등학교 1학년 시절이다. 지금도 한창 유행중인 압도적 1위 게임, &lt;code class=&quot;language-text&quot;&gt;리그오브레전드&lt;/code&gt; 를 즐겨왔다. 철없던 시절, 친구들과 PC방에 들러 랭크 게임전을 돌리고, 티어를 올리는데 열정을 다했다. 하라는 공부는 안하고. 😂&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c6a1e71a962163bc61b37927aed58aba/58213/image.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 79.75460122699387%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD9UlEQVR42l2Ua2xTZRjHzwBRM0Y0EqOgSGSsXdfLej3n9Kxdu7Zr18vaso3edmGbY7CNXdoNNy8QJaJOBHQsYUT9oH7wi4EgijqEJQghaiIx4iUGjFE/+MHPfvz5tkCifPjlOe855/m//+d9nzySwWDCYjTSaDJhMJgxCgz1Jux2GVl1YzSZqW8Q3wR6oxlLo5XGxkZ0Oh16vV7EOsxWO4r412azIZVOXua5k5/x/NInjB37lPGjZxk/8hGjh08x8vopJo6dZvKNMxQXznBg6TTpTB/NniYURRUoyLILzesj0Z6kpaUF6b1r//DW1b85cfkvli79yeLFGyws32Th/E3eXP6FxQu/cfzCDU6s/M77V/8gMzAmRGRU9Y6gjKZpBIMBmkSU3l6+yIdXf+Tdleuc/PgLPrj0DWe+/plTV75k+bsbnP3qc1Z++J5z365w5ddr9O8ZxObwCEFZCMq3HXoIRGJ4fAEk7/CLpCaO0jX2DJkxG4PTTSRn5omWDlE4+A5dM6OU5oucP7eFn643kOvWsKkxFOFGcYvSVQ1V86L5w1hlD5K+8ApbdsyTeCrG7Ox6ClNGthXm2Jx7lcezL/Bk92GeyB0iW0oxV6whEPMjh/IoLXEUfxzZn0DzxQgGQqLkJqSN7ft4JD7L5vZJoj1edIk+Ho5Ms7FdkJxlU+ppHut4lkdTB7Dlh1B8zShOV+X8VFGyyyXj9zeRTrfi9fqR7m+d4t7QOGuCk1Q1T1HtzPOQPc0DWh/Vob2sixRZL3iwrUh1bD8NWgS37PzPLatCyEki3oy/OYhUq7VR646wVQ1TK9iqRqhVQmyVW8W6jTp3FF1TDL2nTALV40dz3+q5Mna7HYfDJZy6KxtIQ7kUZXYJhnPbGcqmGS50MdKbY0/vDkZ2ZhntzzEiGBXPiWiUgDivcnKl7Nvto6oKTqcDqVgsUiwVmZ4uMTk1xdzsPsZ3DzDYk2F4oMBQf55dO7sFBYb7C8QT7fgCrbicZVf/p+xW0ndOoevYS0PXGPWdE+gzsxw8ssDuvix9+e0MdHfSX7hNvpNIpA1/MFRpaIfDUeFW2Q6sVivSWmucGiUjLmMHa61JVpliWDMlFhcXyKXa6Mkk6ckmK7E3m8KrqSLRVkm+G4vFgrTKlKqIrXN2UmVKssmXRtoWoWPiIEdfe4lk2Ee+I062I0a+M44qO8TAMFWS72A2myvRJN5LG+Qga00h7jGG2CCHuM8cZrUxKkTDzLx8nP1zJWIBD13tYbqSYVwOm5hKDRjFhLobg8EgHOqDrLMEWN/oZ1VdkNW6AGv0AarqAtSYY8wfX2L3YC9RIZqOBrFbLejr6yvJd6gX6zLlcfYvq9dpdTFg3oEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c6a1e71a962163bc61b37927aed58aba/a6d36/image.png&quot;
+        srcset=&quot;/static/c6a1e71a962163bc61b37927aed58aba/222b7/image.png 163w,
+/static/c6a1e71a962163bc61b37927aed58aba/ff46a/image.png 325w,
+/static/c6a1e71a962163bc61b37927aed58aba/a6d36/image.png 650w,
+/static/c6a1e71a962163bc61b37927aed58aba/58213/image.png 902w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;그떄부터 &lt;strong&gt;나도 이런 게임을 한번 직접 만들어보고 싶다!&lt;/strong&gt; 라는 막연한 생각이 들었다. 게임을 직접 개발하기 위해선 프로그래밍을 학습해야 함을 알게 되었다. 그 당시부터 &lt;code class=&quot;language-text&quot;&gt;Unity 3D&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;C#&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;C++&lt;/code&gt; 으로 프로그래밍을 독학하기 시작했다. 유튜브에 공개된 Unity 3D 튜토리얼을 통해 기본 사용법, 프레임워크 툴 기본 사용법을 익히고, 부족한 부분이 생길때마다 그떄그때 이론 서적을 통해 보충하는 방식으로 게임을 만들어냈다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/afdf52a9ac218bd8e82daaa9cba0fd46/35252/image-2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 73.00613496932516%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAACPElEQVR42oVUa2/aQBDk//8JVPVLW/GhEtCKFKRWDVFAAoVXCQZsnnbN04DBgG2mN0sdEdHQk1b23t7N7e7MXazb7aLX68GyLPn2+32Mx2PYto3fpomBYcBS3+FwCMdx8L8RW61W2Gw22G63cF1X/heLBSqVCurlMtzJBDs1t9vt4CmbKD8IApxOp38DXjpcxAxzuRzi8Tgyd3e43Lbf75HP51FWB72V7RVgOp1GIpHAYDBAGIavYhyspFgsvg14PB7h+76UtFwupXfz+fyldP6zLYxPp1PMZjPxOU9QZk2LDoyRiMg6nQ50XZeyR6ORZGkoUjgfxZvNpsyRzHa7DU3TZO0LYDRZrVZRVUQ8P7fEr9frsokApVIJrVZLiGo0GmJPT0+o1WoSpypYpQAyGxqBWwpA73ZgmpYC0yVbgtKY1Whkomd0cZAyD2fmPU/6GvU7RuRQpesulpjeP8Db2vDWqoQwkEWUiO9TJoC7nuD+exLmUPtL1A2Ww72Dld7AYWfD92w8Pj6gUCgIOWorplYHiU/v8C3zBc3KD6zmfYTB8QZgsFf7HNSqZaTSX5FKpZHJZOCp8raug2LhJxq/FCFaCcnkZ3z88B7WSHslKQGkExkHGctms9LTqC8MHVXZhqELIYbRUzdmiuBCp1cZHg4HrNdr0RT1SA1yjoON57Wk9qgA6vDcX/8akCDsExeTflM9BBQ3M6UxTp+PAx8QMsqDyDAPvwLkZafxFtCYHcFpBIrivCFngm6/Nn8A15VrZvZUMiAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;&quot;
+        src=&quot;/static/afdf52a9ac218bd8e82daaa9cba0fd46/a6d36/image-2.png&quot;
+        srcset=&quot;/static/afdf52a9ac218bd8e82daaa9cba0fd46/222b7/image-2.png 163w,
+/static/afdf52a9ac218bd8e82daaa9cba0fd46/ff46a/image-2.png 325w,
+/static/afdf52a9ac218bd8e82daaa9cba0fd46/a6d36/image-2.png 650w,
+/static/afdf52a9ac218bd8e82daaa9cba0fd46/e548f/image-2.png 975w,
+/static/afdf52a9ac218bd8e82daaa9cba0fd46/35252/image-2.png 1204w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;내가 부족한 부분을 매꾸면서 얻어내는 성취감과 뿌듯함이 넘쳐났고, 새롭게 알아낸 사실들이 생겨날때마다 더 빨리 공부하고 싶었다. 특히 학창시절에 가장 기억에 남는 활동 중 하나가 &lt;code class=&quot;language-text&quot;&gt;OBB(Oriented Bounding Box) 분리 초평면 이론&lt;/code&gt; 에 관해 며칠간 밤을 세우며 공부하고, 레포트를 작성했을 때다. 내가 만들고 싶은 서비스, 게임을 직접 개발하면서 그때그때 부족한 부분이 무엇인지 깨닫고, 보완이 필요한 부분을 보충하고, 더 공부하고 싶은 내용을 매꾸면서 성장해왔다. &lt;strong&gt;학창시절떄 프로그래밍을 학습했을 때를 떠올리면, 만들고 싶은 서비스를 떠올리고, 일단 부딪힌 후 부족한 부분을 필요할 때 마다 이론을 보충하는 방식으로 학습해왔다.&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;하지만-대학교-진학-후&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%98%EC%A7%80%EB%A7%8C-%EB%8C%80%ED%95%99%EA%B5%90-%EC%A7%84%ED%95%99-%ED%9B%84&quot; aria-label=&quot;하지만 대학교 진학 후 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;하지만, 대학교 진학 후&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2c30fe5f4d5dbbc9ef99c0025693c6b2/14747/image-5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 61.34969325153374%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAADK0lEQVR42kWR608cVRiH54sf9EMX3KAfNiTG2loSY9FQ0FotsWDBCkSxUrAtu4iwsCzsTfZeFxAqtdTaUgrW3ZnZndkLi2wVEqNNY6KJl+5drPrfPB7AxA9P5px53/P83jkj+eJ5PEoRa6yIJVrCHC0zKFcwy1UsSpUh5Q8sYj0k7z53MMeqe3uz2F8UnI/t0B/9H2lKzjMpmJCL2JQSVrnMiFJhVK1gjQvEelz/m/HEn9jjVVzpfxiL72BVq6KvyvBu4H+YBZJTfoBHzTOdKOBOFLGrJWxqmQkhswkmkw8ZuXaXidAioU+/YO6Wwrz2417AuKiPCfGowCrkoyJccmgV3FoZl/h0t5A6tCKORAmneDeVKBNer7ImK6zcvsF6WmbQ7mJ2LYc3+9defVKcn0jsh9vEMJLzegrn8l08mrhLIXPpRTzJItOpEh/pJS5nfkVJKNyMxdjc0Bj2BIms5pjJPRT13f4Sbr0shinjiBeRzg2cYXbpc/z67/j0B/iT+wRSeXzJAguZX1A1lVVVJrOu4QqHuZXcIiKE4XSBmfUiH6fzhET/tF5AsnzYx/WYhj9VJJDeJ5gRTdkK/kyZxexvJDMaXwmpnlTwR0LEv97Gq/5EUEgCIjyysSPOlZhL/Yz0yskmFpauEl5JcyXxHUv6D3ymf89c7FuupO5zTdsmldaQdZWkELqDfvSNLRbubLK8VWBlWwzxpcp84hvu3b+H1NHdhDdspWvgGJPeQXwzbm6IH3BpLkxwNkgo7GZ1bZloPEY2q+O/5ONONICeXUSJB4ilPqHj4lMMOY6La7mK9FKniVFPLz0fNNA1YqLd0sDxvud4z9bNei6LrKyRTkbJbcZZvXkZb+AdvJFn8M4f4X23kV5nDT1TRqyeemZmm5Gefr6G1jMN9Ay20PquiRc762gdfJzevnrGAi30eV9n2N5DW/uztHXV8Va/kXHvQQbs9Zw4a+C1c0ZO9j9B/9RhrK4jSC2nDRw6eoDWs3V0XDDS3FXL0Q4DL7xxgMY3H8XU9AgHGx/j1dMmTvXVcuLtWg41G2gbeJKXO2s4fMxAY3sNpywmui0N/AvwI2WQovguxQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;&quot;
+        src=&quot;/static/2c30fe5f4d5dbbc9ef99c0025693c6b2/a6d36/image-5.png&quot;
+        srcset=&quot;/static/2c30fe5f4d5dbbc9ef99c0025693c6b2/222b7/image-5.png 163w,
+/static/2c30fe5f4d5dbbc9ef99c0025693c6b2/ff46a/image-5.png 325w,
+/static/2c30fe5f4d5dbbc9ef99c0025693c6b2/a6d36/image-5.png 650w,
+/static/2c30fe5f4d5dbbc9ef99c0025693c6b2/e548f/image-5.png 975w,
+/static/2c30fe5f4d5dbbc9ef99c0025693c6b2/3c492/image-5.png 1300w,
+/static/2c30fe5f4d5dbbc9ef99c0025693c6b2/14747/image-5.png 1914w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;프로그래밍의 매력에 빠져 대학교 전공도 컴퓨터공학과를 선택했다. 고민할 필요도 전혀 없었다. 대학도 남들 못지않게 괜찮은 대학교로 입학하게 되었다. 그런데 대학교의 모든 수업 내용들은 연구와 이론 중심으로 구성되었다. 교육을 이수하던 나는 자연스레 &lt;code class=&quot;language-text&quot;&gt;이론 중심의 학습방향&lt;/code&gt;을 갖게 되었고, 이전과 달리 내가 배우는 이론들이 어디에 어떻게 쓰이는지 알 수 없었다. 주입식 교육방식은 내게 깊게 고민하고, 생각할 시간조차 잊게 만들었다. 어느센가 고등학교 시절에 내가 어떻게 프로그래밍을 학습해 왔는지도 완전히 잊고 생활했다. 무엇보다 &lt;strong&gt;맹목적인 수동적 주입식 학습법은 내게 프로그래밍에 대한 흥미를 잃게 만들었다.&lt;/strong&gt; 특히나 1학년때는 정말 방황을 많이했다. 주변에 조언과 큰 도움을 받을 사람도 딱히 없었으니.&lt;/p&gt;
+&lt;p&gt;군전역 후 멋쟁이사자처럼 동아리에서 많은 사람들을 만났다. 특히 나와같이 글쓰기를 좋아하시는 뛰어난 선배가 한 분 계셨다. 당시 우아한테크코스에서 학습하신 내용을 기반으로, 내게 어떻게 글쓰기로 프로그래밍을 학습할 수 있는지 많은 도움과 조언을 주셨다. 이후 지금까지 내가 만들어낸 학습법들에 대해 관련해 후술해 보고자 한다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;전교-1등은-어떻게-공부할까&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A0%84%EA%B5%90-1%EB%93%B1%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EA%B3%B5%EB%B6%80%ED%95%A0%EA%B9%8C&quot; aria-label=&quot;전교 1등은 어떻게 공부할까 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;전교 1등은 어떻게 공부할까?&lt;/h2&gt;
+&lt;p&gt;학창시절을 떠올려보면, 전교에서 상위권을 유지하는 친구들은 항상 상위권을 유지한다. 반면 하위권을 유지하는 친구들은 올바른 학습법을 찾고 시도하지 못하여 계속 하위권을 유지하는 경우가 많다. 전교에서 좀 논다는 친구들은 어떠한 학습 전략을 세울까?&lt;/p&gt;
+&lt;h3 id=&quot;떠들고-설명하고-가르치기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%96%A0%EB%93%A4%EA%B3%A0-%EC%84%A4%EB%AA%85%ED%95%98%EA%B3%A0-%EA%B0%80%EB%A5%B4%EC%B9%98%EA%B8%B0&quot; aria-label=&quot;떠들고 설명하고 가르치기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;떠들고, 설명하고, 가르치기&lt;/h3&gt;
+&lt;p&gt;상위권 친구들 대부분에겐 공통적인 학습법이 있다. 상위권 친구들은 가만히 읽고, 인강을 듣는것으로 학습을 절대 끝내지 않는다. 같이 스터디를 진행하는 친구들이 있다면 최대한 토론하는 것을 지향하고, 혼자서 공부할 때도 조용히 공부하고 문제집을 푸는것을 원하지 않는다. 혼자서 공부할 땐 앞에 인형을 세워두고 누군가에게 가르치듯이 학습중이 내용을 말로 떠드는 방식으로 공부한다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;누군가에게 가르치듯이 설명하고, 시끄럽게 떠드는 학습 방식은 이미 뇌과학적으로 높은 학습효과를 보인다는 것이 이미 증명되었다.&lt;/strong&gt; 반면 조용하게 인강과 책을 읽고, 문제를 대충 풀어보는 수동적인 방식은 매우 낮은 학습효과를 보인다는 것 또한 이미 증명된 사실이다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;ntl-learning-pyramid&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#ntl-learning-pyramid&quot; aria-label=&quot;ntl learning pyramid permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;NTL Learning Pyramid&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3c1f24bf4e3c899d258ab1e93712bb44/c211c/image-7.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.25766871165644%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAACMElEQVR42o2STU8TURSGJxpiAqL4tXBhAomAqAsX6kZ/gya6NMG1iTH+Ev+Be0UFgSBgZEGABSbSgGK1fLS0EOm0nd5pp9POdGYez0wLIRaVkzw5k3vufec99x6NPyIIgogwdF0nkUiwvZ1hbT0prLOxsRHhOM7+/oOh8Y+o1WoYRoFkKkMyMY9RyFIoGEIBz/MOPdMiaFlW5Cyfz2OqInbVpe4YsHVPiuPNXf5fTWiHuQpbSqfT5HM6JasOv54TxPsJErcInE2iJgP/aIK2baOUkvZ0xByo17B8AtbuwLdzkHywd9tHE/R9n5yepVKVO3LFzWp3w118gODnDYKVTgL9RVPO+79g3XUpW7Z8VcXNXXElW36ch/gZyeLw+0lYbZNWZg5tXQsdVSoVqtVqkwqZdJbPa0PML95k7stDZpceC4PMxgaZiz1iYfE28yvPMF1aRkcLRXZ2dkilUmymtnDKipndGu3DeY6N1Lg4YXN5yorombTonqzQMeaiDSmexsqNazpwnVroLmRbRI18jlzN58anMm0jirNjip4PJXqnSvRNN3K/cGFccWrUpG1Y8SrTGHCvKaqFA6pMk91slsB1eBKror0xIrHTo4reSZNr0yYD02EucVVyWOuSWvtIUVybbFr+vtPoUZy6h23keJkocfxd+PcGHe8VlyZMrn80uTIliFif5LDWKXSJsPa2yP0Fq/WVfa9OXDnEih4rymP5AF/N1rU9wvUlOWM3J+g3Y4Cg95oiEkAAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;&quot;
+        src=&quot;/static/3c1f24bf4e3c899d258ab1e93712bb44/a6d36/image-7.png&quot;
+        srcset=&quot;/static/3c1f24bf4e3c899d258ab1e93712bb44/222b7/image-7.png 163w,
+/static/3c1f24bf4e3c899d258ab1e93712bb44/ff46a/image-7.png 325w,
+/static/3c1f24bf4e3c899d258ab1e93712bb44/a6d36/image-7.png 650w,
+/static/3c1f24bf4e3c899d258ab1e93712bb44/e548f/image-7.png 975w,
+/static/3c1f24bf4e3c899d258ab1e93712bb44/3c492/image-7.png 1300w,
+/static/3c1f24bf4e3c899d258ab1e93712bb44/c211c/image-7.png 1502w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;학습 피라미드(Learning Pyramid)&lt;/code&gt; 란 이 학습법을 뒷받침해주는 증명된 사실이다. 이는 미국 MIT 대학 사회심리학자 레윈(Lewin) 이 미국행동과학연구소 NTL(National Training Laboratories) 에서 발표한 내용이다. 우리가 외부에서 습득한 지식들이 두뇌에 기억되는 비율을 학습 방식(활동별) 에 따라 정리한 사실이다. 이 학습 파리미드는 다양한 학습법으로 학습을 진행한 후, 24시간 뒤 우리 두뇌에 지식이 체화되어 휘발되지 않고 남아있는 비율 수치를 표현한 것이다.&lt;/p&gt;
+&lt;h4 id=&quot;수동적-학습법passive-teaching-method&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%88%98%EB%8F%99%EC%A0%81-%ED%95%99%EC%8A%B5%EB%B2%95passive-teaching-method&quot; aria-label=&quot;수동적 학습법passive teaching method permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;수동적 학습법(Passive Teaching Method)&lt;/h4&gt;
+&lt;p&gt;학습법은 크게 2가지로 구분된다. &lt;code class=&quot;language-text&quot;&gt;수동적 학습법(Passive Teaching Method)&lt;/code&gt; 에는 수업 듣기(Lecture), 읽기(Reading), 듣고 보기(Audio Visual), 시연하기(Demonstration) 가 해당한다. 특히 수업 듣기(Lecture) 방식의 학습 기억률은 5% 라는 수치에 그친다. 가장 높은 기억률을 보인 시연하기(Demonstration) 도 30% 에 그치지 못한다.&lt;/p&gt;
+&lt;h4 id=&quot;능동적인-학습법active-learning-method&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8A%A5%EB%8F%99%EC%A0%81%EC%9D%B8-%ED%95%99%EC%8A%B5%EB%B2%95active-learning-method&quot; aria-label=&quot;능동적인 학습법active learning method permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;능동적인 학습법(Active Learning Method)&lt;/h4&gt;
+&lt;p&gt;반면 &lt;code class=&quot;language-text&quot;&gt;능동적인 학습법(Active Learning Method)&lt;/code&gt; 을 살펴보자. 집단토의(Group Discussion) 은 50%, 연습하기(Practing) 은 75%, 가르치기(Teaching Others) 는 90% 라는 높은 기억률을 보여준다.&lt;/p&gt;
+&lt;h3 id=&quot;차이는-무엇인가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B0%A8%EC%9D%B4%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80&quot; aria-label=&quot;차이는 무엇인가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;차이는 무엇인가&lt;/h3&gt;
+&lt;p&gt;이러한 두 학습방식의 집단은 어떤 방식에서 가장 큰 차이가 있을까? 가령 수업 듣기(Lecture) 방식과 가르치기(Teaching) 방식을 비교해보자. 단순히 수업을 듣는것은 누구나 편한 마음으로 참여 가능하며, 자신이 무엇이 부족한지 보충할 시간이 마땅히 주어지지 않는다. 자신이 가지고 있는 생각, 의문이 드는점 모든것을 머리 밖으로 &lt;code class=&quot;language-text&quot;&gt;출력(Output)&lt;/code&gt; 할 환경이 마땅치않다. 그저 가만히 수업을 듣고, 간혹 멍을 때리고 그게 끝이다.&lt;/p&gt;
+&lt;p&gt;가르치기(Teaching Others) 방식을 생각해보자. 흔히 다른 사람들을 가르치기 위해선 그 지식을 잘 이해하고 있는것이 선수로 가정되어야 한다. 또한 타인에게 내가 알고있는 지식을 설명하며 머리 밖으로 지식을 &lt;code class=&quot;language-text&quot;&gt;출력(Output)&lt;/code&gt; 하는 과정이 동반되며, 내가 무엇을 잘 인지하고 모르고 있는지 알 수 있게 된다. 즉, &lt;code class=&quot;language-text&quot;&gt;메타인지&lt;/code&gt; 가 활성화되어, 내가 부족한 부분을 매꿀 수 있는 기회가 주어진다. 부족한 부분을 보완하며, 흩어진 모호한 생각들을 정교화시킬 수 있고, 단순 수업 듣기에 이어서 여러번 해당 지식을 반복하여 학습하기 때문에 기억의 장기화에도 큰 도움이 된다.&lt;/p&gt;
+&lt;h3 id=&quot;지식을-온전히-체화시키는-것은-고통스럽다&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A7%80%EC%8B%9D%EC%9D%84-%EC%98%A8%EC%A0%84%ED%9E%88-%EC%B2%B4%ED%99%94%EC%8B%9C%ED%82%A4%EB%8A%94-%EA%B2%83%EC%9D%80-%EA%B3%A0%ED%86%B5%EC%8A%A4%EB%9F%BD%EB%8B%A4&quot; aria-label=&quot;지식을 온전히 체화시키는 것은 고통스럽다 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;지식을 온전히 체화시키는 것은 고통스럽다.&lt;/h3&gt;
+&lt;p&gt;하나의 지식에 대해 높은 이해도를 갖기 위해, 완벽히 내것으로 체화시키기 위한 학습 과정은 고통스러워야 한다. 학습자는 스스로 고민할 기회를 가질수록 높은 학습 효과율을 보인다. 누군가 내게 지식을 수동적으로 주입시키는 학습 방식은 그다지 고통스럽지 않다. &lt;strong&gt;능동적인 학습방식과 환경이야말로 학습자 본인의 많은 고민, 반복과 복습, 정확한 이해도가 요구되기 떄문에 다소 시간이 오래걸리고 고통스럽다.&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;지식을-머리-밖으로-내보내기output-위한-학습수단&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A7%80%EC%8B%9D%EC%9D%84-%EB%A8%B8%EB%A6%AC-%EB%B0%96%EC%9C%BC%EB%A1%9C-%EB%82%B4%EB%B3%B4%EB%82%B4%EA%B8%B0output-%EC%9C%84%ED%95%9C-%ED%95%99%EC%8A%B5%EC%88%98%EB%8B%A8&quot; aria-label=&quot;지식을 머리 밖으로 내보내기output 위한 학습수단 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;지식을 머리 밖으로 내보내기(Output) 위한 학습수단&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e421a6bf748d5749fbfd56d68f5bdd28/0a867/image-8.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 65.03067484662577%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAACYUlEQVR42n1TXW/TMBTd/38A8YSEeOUNCXgCTUJiGptgUI22U1m7tE3aNJ9243w0iePYh5u0ZVQCruTYzk3OvT7n+AwUgvkIVzPEmwW47yB25whoL2Kf1gtEawvZNupzPFwjZQH+FWdHQPt+gNX0Fr4zhbecwP45wMPwCqvZDzi0jlwL9uQbvMUd3MUYbVOjlRVao6EaiaZbt6oDNCcVjNnvt6MrfH73DF8/vMBue4vl99f48v45LOcCs+lHfHr7FJeXr2DFFm7OX+LyzRO40+s9YAditEZdFVC6RVtVKByLKHgAc2/Q7DwE/gSWfQ0m1nD4EnPvHoytUJQC3HsA30xRZfFph2s6Vp4LyCDohzECymwQqhjzZg1Ox7PpWJzGfznsOmyIhzB2ES2WUEWBOnUgGYE1LvLagStLOLVH3CkkUkGqjjfAduaw5iPsdvkjoG5b+J26zKU5gUh1n1QxgyYAA0FFMxSmAtNbVLqAbGtANpjPhliSkC1hPAISb55vY0O2KcsUKQGKlKigLjTnB7ESeiag3pDpHE2XowJBtKAmVpBSngK65L2QPFYcWk/TFonQ0HlGm+TAUPfTvltFgCQfRB7Rt3FvmRPAohAIAqcX5RhVZbAVBlmYoYk5TFkRpoQhNzRyh7s7hsEgxHAYYzzuQM1R5b3SeZ4QuVlfTamGCikSq0FWkLJhgdBmCJcxIocToMR4FOP8fImLixUmE/Yn4D7KMu+5TARDFLngPEBEylfkNZEy8lwOkfHOub0z6rqlnKL/FBU3xyObk1vSddfNmox+HL3xjf79/m9xuGD4BYA031Mf9YeLAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;&quot;
+        src=&quot;/static/e421a6bf748d5749fbfd56d68f5bdd28/a6d36/image-8.png&quot;
+        srcset=&quot;/static/e421a6bf748d5749fbfd56d68f5bdd28/222b7/image-8.png 163w,
+/static/e421a6bf748d5749fbfd56d68f5bdd28/ff46a/image-8.png 325w,
+/static/e421a6bf748d5749fbfd56d68f5bdd28/a6d36/image-8.png 650w,
+/static/e421a6bf748d5749fbfd56d68f5bdd28/e548f/image-8.png 975w,
+/static/e421a6bf748d5749fbfd56d68f5bdd28/0a867/image-8.png 986w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;지식을 체화시키기 위해선, 그에 알맞은 학습수단이 필요하다. 나는 내 후배들에게 학습방식을 조언할 때 항상 블로깅을 가장 먼저 추천한다. 앞선 NTL Learning Pyramid 에서 선술했듯, 누군가에게 가르치고, 설명하는 과정속에선 &lt;code class=&quot;language-text&quot;&gt;메타인지&lt;/code&gt;가 활성화되며 큰 학습효과를 보인다고 했다.&lt;/p&gt;
+&lt;h3 id=&quot;블로깅&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B8%94%EB%A1%9C%EA%B9%85&quot; aria-label=&quot;블로깅 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;블로깅&lt;/h3&gt;
+&lt;p&gt;블로깅은 시간, 장소에 구애받지 않고 지식을 머리밖으로 &lt;code class=&quot;language-text&quot;&gt;인출(Output)&lt;/code&gt; 하기 위한 최고의 학습수단이다. 누군가와 집단 토론을 하고, 서로에게 가르치는 학습을 원할떄 항상 아쉬울점은, 사람들과 시간과 장소를 협의하고 만나야한다는 점이다. 이렇게 매번 만남을 가지는 것을 사실상 쉽지 않다. 반면 블로깅은 자신의 상황에 알맞게 언제든지 글쓰기를 시작할 수 있다.&lt;/p&gt;
+&lt;p&gt;글을 작성하면서 본인 스스로 남을 위해 설명하듯 글을 작성하다보면, 생각이 &lt;code class=&quot;language-text&quot;&gt;정교화(elaboration)&lt;/code&gt; 되고, 이곳저곳 흩어진 생각을 한 곳으로 모으며 지식을 글로 &lt;code class=&quot;language-text&quot;&gt;설명(explain)&lt;/code&gt; 할 수 있다. 타인에게 설명을 하듯 글쓰기를 시작하면, 자연스레 지식과 생각들이 정리된다. 또한 글을 적다가 내가 잘 모르는 부분이 있다면 반드시 설명을 하는데에 막힐 수 밖에 없다. 이 과정에서 메타인지가 활성화된다. 내가 부족한 부분을 글을 작성하며 정확히 알 수 있게된다. &lt;strong&gt;그를 보충하기 위한 추가 학습 키워드가 생기며, 필요에 의해 능동적으로 학습하고, 배우고, 고민하고, 보충할 수 있는 기회가 주어진다.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;또한 블로깅은 기억의 장기화에 매우 큰 효과를 보인다. 인간은 망각의 동물이다. 모든것을 기억할 수 없으며, 설령 높은 이해도를 갖고 있던 지식들도 오랜 시간이 지났을 때 잊기 마련이다. 이때 블로깅은 장점을 보인다. 그 당시 내가 갖고 있던 정교화된 생각들을 빠르게 상기할 수 있다. 휘발된 기억을 빠르게 되찾을 수 있다. 이렇게 정교화된 생각들을 내가 필요할 때 마다 계속 꺼내볼 수 있다는 점도 매우 큰 장점이다.&lt;/p&gt;
+&lt;p&gt;잘 문서화된 블로그일수록, 방문자수는 점차 많아지기 마련이다. 방문자는 문서화된 포스트를 읽고, 댓글을 남겨주며 작성자와 소통할 수 있다. 작성자는 글을 읽으며 유익한 정보를 얻어가고, 질문하고, 오류를 제보하며 작성자와 소통할 수 있다. 이로써 방문자와 작성자 사이에 자그마한 토론이 활성화된다. 내가 기록한 내용에 이어 더 유익한 지식을 제공받을 수 있고, 잘못 이해한 지식을 제보받고, 도움을 받았다는 의견을 받았을 때 큰 보람을 느낄 수 있다. 이 보람은 또 다음 학습의 큰 원동력이 된다. &lt;strong&gt;결국 열심히 작성한 글쓰기가 선순환이 된다.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;무엇보다 &lt;strong&gt;블로그를 운영하면 학습수단은 몰론, 본인의 브랜딩 효과가 생기며, 포토폴리오를 쌓고, 문서화 능력을 기를 수 있다.&lt;/strong&gt; 현업에선 가장 중요한 것 중 하나가 문서화 능력이다. 평소 블로깅을 통한 문서화 능력을 갖추면 자신만의 차별점이 생기게된다.&lt;/p&gt;
+&lt;h3 id=&quot;세컨드-브레인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%84%B8%EC%BB%A8%EB%93%9C-%EB%B8%8C%EB%A0%88%EC%9D%B8&quot; aria-label=&quot;세컨드 브레인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;세컨드 브레인&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/cb526d9aab7db85917419a11df28c599/7a18f/image-9.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.23312883435584%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB90lEQVR42o2U6W7TUBCF8zYk8Ron3vfUceLYdR1TaChBbKUsKgIJXoAH4JkPM9cEpWri8mNk+/rq8zln5nowHFvoq7HsQFJcKkfcP7Z/cGxxJNkCoOo+VSBAvMalaAGejExR/w3kkkmVrHiQVA/qJMTMWmEyzTCmdWOWCtXDI9DBQ4suqYhIWQTTWcJycgKcETAncCwUrqpXmNmLf25OAvmlqocC4EUXsL01QQvYfkVVQp+mmDmklBQqmg+Z1LPSQ/v3gPxSm0RwgnME6SWSxRZh0iLOrpAVO7pu6QMrKGpA+zq1XCcVcviKFpKSOdzwAulyhyR/ibL9jPryK9bNR4TzZ/DjDSyvEDCN8j20fQ/IFnQjwdRkyzWy9Rvk5Vvsbn7h9ttvFPUHUn2N6OwKETkQAv5OQY9Cn6ApgmSDvHqPqr1D++Inmu13en4nYH7ciny5gTxWJxVKBJxME2ik0gtrsvcc50/vsNn+wHrzBUXzCfP8Gm5QESgWAnhWe7vMjeFsZM6HwHn5GovyBqv6Vtj3ogYGRTIcd3tltafLh0dNM2KatRzRvIVPecZk1Yta0RDTXdLQ+yKeofTIYI8kS3xVJ6BhZjQmOTUpE3A3bMQEdFbDB0Pde/T4LO8Hl8NnxTrl2/0o3KOwXuA+0311YFsUP5/6OfwBE+zm4DQ4xHEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alt text&quot;
+        title=&quot;&quot;
+        src=&quot;/static/cb526d9aab7db85917419a11df28c599/a6d36/image-9.png&quot;
+        srcset=&quot;/static/cb526d9aab7db85917419a11df28c599/222b7/image-9.png 163w,
+/static/cb526d9aab7db85917419a11df28c599/ff46a/image-9.png 325w,
+/static/cb526d9aab7db85917419a11df28c599/a6d36/image-9.png 650w,
+/static/cb526d9aab7db85917419a11df28c599/e548f/image-9.png 975w,
+/static/cb526d9aab7db85917419a11df28c599/7a18f/image-9.png 1284w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;댜음의 학습수단으로 세컨드 브레인을 꼭 추천하고 싶다. 나는 블로깅이 메인 학습수단이라면, 세컨드 브레인을 서브로 활용하고 있다. 나도 아직 더 깊게 연구해봐야 할 수단이지만, 현재까진 구멍난 이론들을 정제하기 위한 최적의 공간으로 활용하고 있다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;세컨드 브레인이란 선정된 학습 키워드를 차근차근 정제하여 쌓아가고, 쌓은 지식간의 연결점을 찾아서 새로운 연결고리를 만드는 일종의 지식 저장소의 개념이다.&lt;/strong&gt; 프로그래밍을 학습하다보면, 하나의 학습 키워드를 선정하다보면 수많은 추가 학습 키워드들이 쏟아져 나왔던 경험을 한번쯤 경험해봤을 것이다. 제한된, 소중한 시간이 하나의 지식을 온전히 내 것으로 체화시키는데만 해도 큰 시간이 소요되며, 하나의 메인 키워드에 몰입하여 이해하는데에 지치기 마련이다.&lt;/p&gt;
+&lt;p&gt;세컨드 브레인은 하나의 학습 키워드에 실려오는 추가적인 외부 학습 키워드를 선별적으로 체화하기에 매우 효과적인 학습수단이다. 우선 각 학습 키워드간에 우선순위를 정하여, 높은 우선순위를 갖는 학습 키워드는 블로깅을 통해 인출(Output) 하는 방식으로 학습하는 것이다. 반면 우선순위가 낮은 학습 키워드는 이 지식 저장소내에 생각을 정제하는 방식이다.&lt;/p&gt;
+&lt;p&gt;세컨드 브레인을 원활히 활용한다면 쏟아져 나오는 학습 키워드를 나만의 지식 저장소에 영구적으로 정제할 수 있다. 또한 블로깅을 통해 학습하지 못한 주제들을 아쉽게 버리는 것이 아닌, 간략히 글을 발행하여 짧은 시간내로 지식을 습득할 수 있다. 이 과정에서 각 학습 키워드간의 연결 고리를 찾아낼 수도 있다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;의미있는-경험을-기록하기-위해&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%98%EB%AF%B8%EC%9E%88%EB%8A%94-%EA%B2%BD%ED%97%98%EC%9D%84-%EA%B8%B0%EB%A1%9D%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%B4&quot; aria-label=&quot;의미있는 경험을 기록하기 위해 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;의미있는 경험을 기록하기 위해&lt;/h2&gt;
+&lt;p&gt;그럼에도 내가 지금까지 항상 부족했다고 느낀 부분은, 바로 다양한 경험을 쌓는 것이다. 다양한 경험이 쌓여야만 내가 부족한 부분을 매꾸며 성장할 기회가 열리고, 블로깅시 더 의미있는 기록물이 쌓일 것이다. 경험이라하면, 이론이 아닌 실무 경험, 사이트 프로젝트다.&lt;/p&gt;
+&lt;h3 id=&quot;부족한-것을-매꿀-수-있는-환경에-속하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B6%80%EC%A1%B1%ED%95%9C-%EA%B2%83%EC%9D%84-%EB%A7%A4%EA%BF%80-%EC%88%98-%EC%9E%88%EB%8A%94-%ED%99%98%EA%B2%BD%EC%97%90-%EC%86%8D%ED%95%98%EA%B8%B0&quot; aria-label=&quot;부족한 것을 매꿀 수 있는 환경에 속하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;부족한 것을 매꿀 수 있는 환경에 속하기&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;능동적인 학습을 위해선 학습자에게 고민할 기회가 주어져야하며, 필요에 의해 학습할 수 있어야 한다. 그래야 학습에 능동적으로, 더 재밌게 참여할 수 있다. 또한 부족한 부분을 매꿀 환경속에 있어야한다.&lt;/strong&gt; 이런 환경속에 속해있기 위해선 최대한 많은 실무 경험과 프로젝트를 경험해야한다. 블로깅을 통해 이론을 인출(Output) 하는 방식만으론 성장에 한계가 있다. 내가 학습한 이론들이 정확히 어디에, 어떻게 쓰이는지 알 수 있어야하고, 그래야 내가 부족한 부분을 매꿀 수 있는 기회가 주어진다. 많은 트러블슈팅을 만나야 더 학습할 키워드들이 생길것이다.&lt;/p&gt;
+&lt;p&gt;또한 개발자의 가장 중요한 자질은 &lt;code class=&quot;language-text&quot;&gt;문제해결력&lt;/code&gt; 이다. 특정 상황에서 마추지는 수많은 장애와 버그, 트러블슈팅에 대해 유연하게 대응할 수 있어야한다. 아무리 뛰어난 이론과 지식을 공부한 학자이라고 한들, 그 지식이 실무 상황에서 쓰이지 못한다면 어떻게 사용해야할지, 언제 어떻게 쓰이는것인지 알기 힘들다. 이 때문에 &lt;strong&gt;최대한 많은 트러블슈팅을 만나기위한 환경에 속해 있어야한다.&lt;/strong&gt; 본인이 지금까지 이론만을 고집하고, 안일하게 학습해왔고, 책과 인강으로만 가만히 학습해왔다면 더 올바른 학습방식에 대해 다시 고민해볼 필요가 있다.&lt;/p&gt;
+&lt;p&gt;무엇보다 문제를 해결해나가는 과정은 즐겁기도하다. 내가 이렇게 어려운 문제를 해결했다니. 난 이만큼이나 성장했구나! 라는 성취감을 만끽할 수 있다. 또한 &lt;strong&gt;문제를 해결해가는 과정속엔 학습자에게 깊게 고민하고, 생각하고, 개선해나가는 능동적인 학습이 동반된다.&lt;/strong&gt; 이론과 경험은 동반되어야 함을 명심하자. 현직자라면 현직에서 더 많은 트러블슈팅을 만나길 고대하고, 현직자가 아니라고 한들 유사 실무 경험, 양질의 사이드 프로젝트를 경험할 환경에 속해있도록 하자.&lt;/p&gt;
+&lt;p&gt;유사 실무 경험이라하면 인지도 높은 교육기관, 부트캠프가 적합하다. 훌륭한 교육기관, 부트캠프를 보며 항상 느끼지만, 실무에서 충분히 발생할 법한 트러블슈팅과 경험을 쌓게 해주어, 현업에 참여할 수 있을만큼 학습자를 훈련시킨다.&lt;/p&gt;
+&lt;h3 id=&quot;why-질문해라-왜-써야하지-왜-필요하지&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#why-%EC%A7%88%EB%AC%B8%ED%95%B4%EB%9D%BC-%EC%99%9C-%EC%8D%A8%EC%95%BC%ED%95%98%EC%A7%80-%EC%99%9C-%ED%95%84%EC%9A%94%ED%95%98%EC%A7%80&quot; aria-label=&quot;why 질문해라 왜 써야하지 왜 필요하지 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Why? 질문해라. 왜 써야하지? 왜 필요하지?&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;왜? 라는 질문을 던지며 학습하는 습관은 학습자 본인에게 더 고민할 기회, 생각할 기회를 만들어준다.&lt;/strong&gt; 맹목적인 주입식 학습은 &quot;왜&quot; 라는 질문을 던질 기회가 없다. 이 기술을 왜 써야하는지, 더 효율적인 방법은 없는지 따져볼 때 자신만의 주관, 논리과 명확해진다.&lt;/p&gt;
+&lt;p&gt;가령 API 성능 개선을 고민하는 상황을 생각해보자. API 성능 개선을 위해 캐싱 전략을 떠올려볼 수 있다. 여기서 &quot;왜 캐싱을 도입해야할까?&quot; 라는 질문을 넣어보면 더 좋은 학습 경험이 된다. 캐싱외에 더 효과적인 성능 개선 전략은 없을지 고민하다 인덱스를 발견할 수 있다. 인덱스를 적용하고 싶다는 생각이 들때쯤 &quot;과연 모든 컬럼에 인덱스를 적용하는게 올바를까?&quot; 라는 질문은 더 나은 고민거리가 된다. 커버링 인덱스를 발견할 수 있고, 인덱스외에 더 기법이 없을지 또 고민할 수 있다. 이렇듯 &lt;strong&gt;&quot;Why?&quot;&lt;/strong&gt; 라는 질문 습관은 더 나은 학습전략이 되며, 더 효과적인 소프트웨어 품질 향상에 기여할 수 있게된다.&lt;/p&gt;
+&lt;h3 id=&quot;하지만-블로깅과-세컨드-브레인을-더-효과적으로-활용하기-위해&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%98%EC%A7%80%EB%A7%8C-%EB%B8%94%EB%A1%9C%EA%B9%85%EA%B3%BC-%EC%84%B8%EC%BB%A8%EB%93%9C-%EB%B8%8C%EB%A0%88%EC%9D%B8%EC%9D%84-%EB%8D%94-%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9C%BC%EB%A1%9C-%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0-%EC%9C%84%ED%95%B4&quot; aria-label=&quot;하지만 블로깅과 세컨드 브레인을 더 효과적으로 활용하기 위해 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;하지만, 블로깅과 세컨드 브레인을 더 효과적으로 활용하기 위해&lt;/h3&gt;
+&lt;p&gt;아직 혼자서 결론을 내리지 못해서 못적고 있지만, 내가 가장 해결하고 싶은 학습법 중 하나가 블로깅과 세컨드 브레인의 적절한 비중이다. 블로깅은 내 생각을 인출하여 정교화, 설명하기에 매우 큰 도움이 되지만, 시간이 오래걸린다는 단점이 있다. 이 떄문에 세컨드 브레인을 몇달전부터 시작했는데, 아직 더 연구해봐야할 필요가 있다. 세컨드 브레인에 정리한 것들이 생각보다 잘 정교화되지 않는다.&lt;/p&gt;
+&lt;p&gt;향후 찾아낸 나만의 더욱 효과적인 학습법은 이곳에 추가하거나, 또는 새로운 글로 발행하도록 하겠다.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;마치며&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A7%88%EC%B9%98%EB%A9%B0&quot; aria-label=&quot;마치며 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;마치며&lt;/h2&gt;
+&lt;p&gt;글을 작성하는데는 오랜 시간이 걸린다. 이 회고를 작성하는데도 생각보다 많은 시간이 걸렸고. 그럼에도 난 블로깅을 통한 능동적인 학습법을 할 수 있다고 굳게 믿기에, 꾸준히 글을 작성할 것이다.&lt;/p&gt;</content:encoded></item></channel></rss>
