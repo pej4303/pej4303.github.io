@@ -1,5 +1,5 @@
-const metaConfig = require("./meta-config")
-const {title, description, author, siteUrl, keywords, repo, socialLinks, gtag} = metaConfig
+const metaConfig = require("./meta-config");
+const { title, description, author, siteUrl, keywords, repo, socialLinks, gtag } = metaConfig;
 
 module.exports = {
   pathPrefix: "/", // 저장소 이름을 입력. xxxx.github.io만 되어있으면 "/"만 하면됨
@@ -11,7 +11,7 @@ module.exports = {
     keywords,
     repo,
     socialLinks,
-    gtag
+    gtag,
   },
   plugins: [
     {
@@ -39,8 +39,8 @@ module.exports = {
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   custom_elements: [{ 'content:encoded': edge.node.html }],
-                })
-              })
+                });
+              });
             },
             query: `
               {
@@ -71,7 +71,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-gtag",
       options: {
-        trackingId: [gtag],
+        trackingId: gtag, // 수정: 배열이 필요 없을 수 있습니다.
       },
     },
     `gatsby-plugin-sharp`,
@@ -80,7 +80,7 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: `gatsby-remark-images`
+            resolve: `gatsby-remark-images`,
           },
           {
             resolve: 'gatsby-remark-prismjs',
@@ -89,7 +89,7 @@ module.exports = {
             },
           },
           {
-            resolve: `gatsby-remark-autolink-headers`
+            resolve: `gatsby-remark-autolink-headers`,
           },
         ],
       },
@@ -120,8 +120,8 @@ module.exports = {
       options: {
         host: siteUrl,
         sitemap: `${siteUrl}/sitemap.xml`,
-        policy: [{userAgent: '*', allow: '/'}]
-      }
-    }
+        policy: [{ userAgent: '*', allow: '/' }],
+      },
+    },
   ],
-}
+};
