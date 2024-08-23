@@ -1,11 +1,11 @@
 module.exports = {
-    title: `보통사람`,
-    description: `Dev Note`,
-    author: `pej4303`,
-    siteUrl: `https://gatsby-starter-haon.netlify.app`,
-    keywords: [`server`, `backend`, `gatsby`], 
+    title: `보통사람`, // 블로그명
+    description: `Dev Note`, // 블로그 서브명
+    author: `pej4303`, 
+    siteUrl: `https://pej4303.github.io`, // 블로그 사이트 주소
+    keywords: [`안녕`, `기술`, `블로그`], 
     repo: 'pej4303/pej4303.github.io',
-    gtag: 'G-CD9E7GB2ED', // with. Google Analytics
+    gtag: 'GTM-59BDNJNQ', // with. Google Analytics
     socialLinks: { 
       github: 'https://github.com/pej4303', 
       // instagram: 'https://www.instagram.com/iminseong920/', 

@@ -2,6 +2,7 @@ const metaConfig = require("./meta-config")
 const {title, description, author, siteUrl, keywords, repo, socialLinks, gtag} = metaConfig
 
 module.exports = {
+  pathPrefix: "/pej4303.github.io", // 여기에 자신의 저장소 이름을 입력
   siteMetadata: {
     title,
     description,
