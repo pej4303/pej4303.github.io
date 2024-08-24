@@ -6,7 +6,7 @@ tags:
   - Error
   - Web
 series: 오류 모음집
-previewImage: 'writing.png'
+previewImage: 'how.png'
 isPrivate: false
 ---
 
