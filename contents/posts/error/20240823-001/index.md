@@ -5,7 +5,9 @@ date: "2024-08-23"
 tags:
   - Error
   - Web
-series: "오류 모음집"
+series: 오류 모음집
+previewImage: 'writing.png'
+isPrivate: false
 ---
 
 ## 1. 현상 

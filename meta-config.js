@@ -5,7 +5,7 @@ module.exports = {
     siteUrl: `https://pej4303.github.io/`, // 블로그 사이트 주소
     keywords: [`java`, `error`, `blog`], 
     repo: 'pej4303/pej4303.github.io',
-    // gtag: 'GTM-59BDNJNQ', // with. Google Analytics
+    gtag: 'GTM-59BDNJNQ', // with. Google Analytics
     socialLinks: { 
       github: 'https://github.com/pej4303', 
       // instagram: 'https://www.instagram.com/iminseong920/', 
