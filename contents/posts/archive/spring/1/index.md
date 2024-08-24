@@ -17,7 +17,7 @@ isPrivate: false
 > + Java : 11
 > + Gradle
 
-![SpringBoot](/springboot.png)
+![SpringBoot](/images/springboot_post.png)
 
 Spring Boot에서 Quartz 연동 하는 예제를 소개합니다.
 
