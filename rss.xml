@@ -1,4 +1,229 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Dev Note]]></description><link>https://pej4303.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 24 Aug 2024 15:44:50 GMT</lastBuildDate><item><title><![CDATA[[오류] 자동으로 도메인에 https가 붙는 경우]]></title><description><![CDATA[1. 현상 개발서버 https 적용으로 아래와 같이 http 요청 블락 에러가 발생하였다. 그래서 아래의 메타 태그를 추가해 줬다.  하지만 개발서버 https 적용을 해제하면서부터 화면 접속시 자동으로  로 붙어서 js, css…]]></description><link>https://pej4303.github.io/how-to-use/error/</link><guid isPermaLink="false">https://pej4303.github.io/how-to-use/error/</guid><pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;1-현상&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%ED%98%84%EC%83%81&quot; aria-label=&quot;1 현상 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 현상&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Dev Note]]></description><link>https://pej4303.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 24 Aug 2024 19:17:26 GMT</lastBuildDate><item><title><![CDATA[[오류] 팝업 여러개 띄울때 화면 reload 발생]]></title><description><![CDATA[1. 현상 A팝업 -> B팝업 -> C팝업으로 호출하는 경우 B팝업에서만 팝업 호출 시 해당 화면이 reload 되는 현상이 발생했다. 2. 원인 form 태그 안에  button 태그가 1개만 있는 경우에 onclick…]]></description><link>https://pej4303.github.io/error/2/</link><guid isPermaLink="false">https://pej4303.github.io/error/2/</guid><pubDate>Sun, 25 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;1-현상&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%ED%98%84%EC%83%81&quot; aria-label=&quot;1 현상 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 현상&lt;/h2&gt;
+&lt;p&gt;A팝업 -&gt; B팝업 -&gt; C팝업으로 호출하는 경우 B팝업에서만 팝업 호출 시 해당 화면이 reload 되는 현상이 발생했다.&lt;/p&gt;
+&lt;h2 id=&quot;2-원인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%9B%90%EC%9D%B8&quot; aria-label=&quot;2 원인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 원인&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;form&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt; &lt;span class=&quot;token special-attr&quot;&gt;&lt;span class=&quot;token attr-name&quot;&gt;onclick&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;token value javascript language-javascript&quot;&gt;&lt;span class=&quot;token function&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;form&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;form 태그 안에  button 태그가 1개만 있는 경우에 onclick() 이벤트와 동시에 submit()도 같이&lt;/strong&gt; 동작된다. 그래서 발생한 오류였다.&lt;/p&gt;
+&lt;h2 id=&quot;3-해결&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%ED%95%B4%EA%B2%B0&quot; aria-label=&quot;3 해결 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 해결&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;방법1)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;form&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;testForm&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;method&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;post&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;iframe1&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;iframe&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;iframe1&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;iframe1&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token special-attr&quot;&gt;&lt;span class=&quot;token attr-name&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;token value css language-css&quot;&gt;&lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;none&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;iframe&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;form&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;방법2)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;html&quot;&gt;&lt;pre class=&quot;language-html&quot;&gt;&lt;code class=&quot;language-html&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;form&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;testForm&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;method&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;post&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;iframe1&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;button&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;button&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token special-attr&quot;&gt;&lt;span class=&quot;token attr-name&quot;&gt;onclick&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;token value javascript language-javascript&quot;&gt;&lt;span class=&quot;token function&quot;&gt;test&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;button&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;form&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이런 방법 말고도 검색해보면 다른 방법이 많이 있지만 나의 경우에는 이 2가지 방법으로 했을 때 오류가 발생하지 않았다.&lt;/p&gt;
+&lt;p&gt;button 태그에 대해서 좀 더 알아보다가 재미난 글을 발견하였다.&lt;br&gt;
+👉🏻&lt;a href=&quot;https://nykim.work/96&quot; title=&quot;버튼에 타입을 쓰는 이유 (button type=&amp;#x27;button&amp;#x27;)&quot;&gt;버튼에 타입을 쓰는 이유 (button type=&apos;button&apos;)&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;참조
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://nykim.work/96&quot;&gt;https://nykim.work/96&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[오류] https 도메인인데 request.isSecure() return false인 경우]]></title><description><![CDATA[1. 현상  메소드를 이용해서 js를 분기처리 하는데 SSL 적용이 된 운영서버에서 http 리소스가 로드되어서 에러가 발생하였다. 2. 원인 web서버에서 was서버를 호출할때는 http 통신이기 때문에 isSecure() 메소드에서 false…]]></description><link>https://pej4303.github.io/error/3/</link><guid isPermaLink="false">https://pej4303.github.io/error/3/</guid><pubDate>Sun, 25 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;1-현상&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%ED%98%84%EC%83%81&quot; aria-label=&quot;1 현상 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 현상&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;request.isSecure()&lt;/code&gt; 메소드를 이용해서 js를 분기처리 하는데 SSL 적용이 된 운영서버에서 http 리소스가 로드되어서 에러가 발생하였다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;%
+   if( !request.isSecure() ) {
+%&gt;
+	&amp;lt;!-- http --&gt;
+&amp;lt;%
+    } else {
+%&gt;
+	&amp;lt;!-- https --&gt;
+&amp;lt;%
+    }
+%&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;2-원인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%9B%90%EC%9D%B8&quot; aria-label=&quot;2 원인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 원인&lt;/h2&gt;
+&lt;p&gt;web서버에서 was서버를 호출할때는 http 통신이기 때문에 isSecure() 메소드에서 false가 나온 것이다.&lt;/p&gt;
+&lt;h2 id=&quot;3-해결&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%ED%95%B4%EA%B2%B0&quot; aria-label=&quot;3 해결 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 해결&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;방법1)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;request.getHeader(&quot;x-forwarded-proto&quot;)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;방법2)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;request.getRequestURL().indexOf(&quot;http://&quot;) != -1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위와 같이 2가지 방법이 있는데 처음에는 x-forwarded-proto를 이용해서 하였으나 로드밸런서가 없는 로컬과 개발에서는 null로 나와서 방법 2로 변경하였다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;x-forwarded-proto&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;클라이언트가 로드밸런서에 접속할 때 사용한 프토토콜을 식별하는 표준 헤더&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;참조
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://zetawiki.com/wiki/X-Forwarded-Proto&quot;&gt;https://zetawiki.com/wiki/X-Forwarded-Proto&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[test]]></title><description><![CDATA[1. 현상 2. 원인 3. 해결 참조]]></description><link>https://pej4303.github.io/sample/test/</link><guid isPermaLink="false">https://pej4303.github.io/sample/test/</guid><pubDate>Sun, 25 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;1-현상&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%ED%98%84%EC%83%81&quot; aria-label=&quot;1 현상 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 현상&lt;/h2&gt;
+&lt;h2 id=&quot;2-원인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%9B%90%EC%9D%B8&quot; aria-label=&quot;2 원인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 원인&lt;/h2&gt;
+&lt;h2 id=&quot;3-해결&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%ED%95%B4%EA%B2%B0&quot; aria-label=&quot;3 해결 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 해결&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;참조&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[JPA] Hibernate 쿼리 파라미터 바인딩 출력]]></title><description><![CDATA[환경설정 개발툴 : InteliJ Spring Boot : 2.7.14 Hibernate : 5.6.15 Java : 11 Gradle SpringBoot 검색을 해보면 application.properties…]]></description><link>https://pej4303.github.io/archive/jpa/1/</link><guid isPermaLink="false">https://pej4303.github.io/archive/jpa/1/</guid><pubDate>Sun, 25 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;환경설정&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;개발툴 : InteliJ&lt;/li&gt;
+&lt;li&gt;Spring Boot : 2.7.14&lt;/li&gt;
+&lt;li&gt;Hibernate : 5.6.15&lt;/li&gt;
+&lt;li&gt;Java : 11&lt;/li&gt;
+&lt;li&gt;Gradle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/images/hibernate_post.png&quot; alt=&quot;SpringBoot&quot;&gt;&lt;/p&gt;
+&lt;p&gt;검색을 해보면 application.properties 파일에&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;logging.level.org.hibernate.SQL = debug
+logging.level.org.hibernate.type.descriptor.sql = trace&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이 내용을 추가하면 파라미터 바인딩이 출력된다고 하는데, 저의 경우에는 그렇게 해도 나오지 않았습니다.&lt;br&gt;
+이 글을 참고하여 하니 원하는 결과가 나왔습니다.&lt;br&gt;
+👉🏻&lt;a href=&quot;https://www.inflearn.com/community/questions/59014/hibernate-%EC%9D%98-%EC%99%84%EC%84%B1%EB%90%9C-%EC%BF%BC%EB%A6%AC%EB%A5%BC-%ED%99%95%EC%9D%B8-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-%EB%AC%B8%EC%9D%98-%EB%93%9C%EB%A6%BD%EB%8B%88%EB%8B%A4&quot;&gt;hibernate 의 완성된(?) 쿼리를 확인 하는 방법 문의 드립니다&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1-bulidgradle-파일에-추가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-bulidgradle-%ED%8C%8C%EC%9D%BC%EC%97%90-%EC%B6%94%EA%B0%80&quot; aria-label=&quot;1 bulidgradle 파일에 추가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. bulid.gradle 파일에 추가&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;implementation &apos;org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4.1:1.16&apos;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;2-logbackxml-파일-추가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-logbackxml-%ED%8C%8C%EC%9D%BC-%EC%B6%94%EA%B0%80&quot; aria-label=&quot;2 logbackxml 파일 추가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. logback.xml 파일 추가&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;resources&lt;/code&gt; 폴더 밑에 &lt;code class=&quot;language-text&quot;&gt;logback.xml&lt;/code&gt; 파일을 만들어줍니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;xml&quot;&gt;&lt;pre class=&quot;language-xml&quot;&gt;&lt;code class=&quot;language-xml&quot;&gt;&lt;span class=&quot;token prolog&quot;&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;configuration&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;appender&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;STDOUT&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;ch.qos.logback.core.ConsoleAppender&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;layout&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;ch.qos.logback.classic.PatternLayout&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+            &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;Pattern&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;%d{HH:mm} %-5level %logger{36} - %msg%n&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;Pattern&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;layout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;appender&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;logger&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;org.hibernate.type&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;level&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;trace&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;
+
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;root&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;level&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;info&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;appender-ref&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;ref&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;STDOUT&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;root&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;configuration&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;3-실행-결과&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%EC%8B%A4%ED%96%89-%EA%B2%B0%EA%B3%BC&quot; aria-label=&quot;3 실행 결과 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 실행 결과&lt;/h2&gt;
+&lt;p&gt;파라미터가 같이 나오는 것을 확인 할 수 있습니다.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b08d2ce0bd7497e737507436b17ec06f/525d3/result.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 43.558282208588956%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsTAAALEwEAmpwYAAABA0lEQVR42p1RSY6DMBD0/9/HARHiBdt4A4xYExGTVECRZqRcZupg9VLdVbbJtm3DMKSUnn8HEUJ475//AlnXtW3bZVnSbzwOnPG+79+HwWiapusizI/jOE0TApyI+76f5xkpBL4Pgwfl2/2+HADvlD0FHx/8dIT62SWcM865tfZyKSiljDEpZVmWeZ7DEVqIi6LgQjjv0M2yLARfVRVMESkrpSTEkesDzjpZSXq9xhi1VqhzwZXW2IW9lL7rdV3DAoGmczb2vTEGz+5DaEJjjcEWXBsF8MAJIXQxWmve5BixCM6JMTXGoAyHSkFAI4UaHB7KNf6SMYp623YgIMVDopVSegHSBP6kJm2kIQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;실행결과&quot;
+        title=&quot;&quot;
+        src=&quot;/static/b08d2ce0bd7497e737507436b17ec06f/a6d36/result.png&quot;
+        srcset=&quot;/static/b08d2ce0bd7497e737507436b17ec06f/222b7/result.png 163w,
+/static/b08d2ce0bd7497e737507436b17ec06f/ff46a/result.png 325w,
+/static/b08d2ce0bd7497e737507436b17ec06f/a6d36/result.png 650w,
+/static/b08d2ce0bd7497e737507436b17ec06f/e548f/result.png 975w,
+/static/b08d2ce0bd7497e737507436b17ec06f/525d3/result.png 1090w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;참조
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.inflearn.com/questions/59014/hibernate-%EC%9D%98-%EC%99%84%EC%84%B1%EB%90%9C-%EC%BF%BC%EB%A6%AC%EB%A5%BC-%ED%99%95%EC%9D%B8-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-%EB%AC%B8%EC%9D%98-%EB%93%9C%EB%A6%BD%EB%8B%88%EB%8B%A4&quot;&gt;https://www.inflearn.com/questions/59014/hibernate-%EC%9D%98-%EC%99%84%EC%84%B1%EB%90%9C-%EC%BF%BC%EB%A6%AC%EB%A5%BC-%ED%99%95%EC%9D%B8-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-%EB%AC%B8%EC%9D%98-%EB%93%9C%EB%A6%BD%EB%8B%88%EB%8B%A4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[Spring Boot] Quartz 연동 예제]]></title><description><![CDATA[환경설정 개발툴 : InteliJ Spring Boot : 2.7.14 Quartz : 2.3.2 Java : 11 Gradle SpringBoot Spring Boot에서 Quartz 연동 하는 예제를 소개합니다. 1. bulid.gradle…]]></description><link>https://pej4303.github.io/archive/spring/1/</link><guid isPermaLink="false">https://pej4303.github.io/archive/spring/1/</guid><pubDate>Sun, 25 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;환경설정&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;개발툴 : InteliJ&lt;/li&gt;
+&lt;li&gt;Spring Boot : 2.7.14&lt;/li&gt;
+&lt;li&gt;Quartz : 2.3.2&lt;/li&gt;
+&lt;li&gt;Java : 11&lt;/li&gt;
+&lt;li&gt;Gradle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;/images/springboot_post.png&quot; alt=&quot;SpringBoot&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Spring Boot에서 Quartz 연동 하는 예제를 소개합니다.&lt;/p&gt;
+&lt;h2 id=&quot;1-bulidgradle-파일에-추가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-bulidgradle-%ED%8C%8C%EC%9D%BC%EC%97%90-%EC%B6%94%EA%B0%80&quot; aria-label=&quot;1 bulidgradle 파일에 추가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. bulid.gradle 파일에 추가&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;implementation &quot;org.springframework.boot:spring-boot-starter-quartz&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;2-scheduled-어노테이션을-이용&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-scheduled-%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98%EC%9D%84-%EC%9D%B4%EC%9A%A9&quot; aria-label=&quot;2 scheduled 어노테이션을 이용 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. @Scheduled 어노테이션을 이용&lt;/h2&gt;
+&lt;p&gt;스케쥴러를 적용할 메소드에 &lt;code class=&quot;language-text&quot;&gt;@Scheduled&lt;/code&gt; 어노테이션을 사용합니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token annotation punctuation&quot;&gt;@Controller&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;QuartzController&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token annotation punctuation&quot;&gt;@Scheduled&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;cron &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;0/5 * * * * ?&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;everyFiveSeconds&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token class-name&quot;&gt;DateTimeFormatter&lt;/span&gt; patten &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;DateTimeFormatter&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;ofPattern&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;yyyy-MM-dd HH:mm:ss&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; formatDt &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; patten&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;LocalDateTime&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+        &lt;span class=&quot;token class-name&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;out&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;formatDt&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;@SpringBootApplication&lt;/code&gt;이 붙은 파일에 &lt;code class=&quot;language-text&quot;&gt;@EnableScheduling&lt;/code&gt; 어노테이션를 추가합니다.&lt;br&gt;
+추가 하지 않으면 스케쥴러가 실행되지 않습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token annotation punctuation&quot;&gt;@SpringBootApplication&lt;/span&gt;
+&lt;span class=&quot;token annotation punctuation&quot;&gt;@EnableScheduling&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Application&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token class-name&quot;&gt;SpringApplication&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;run&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Application&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; args&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;@EnableScheduling&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;스케쥴러를 기능을 켜는 역할을 하며, @Scheduled 어노테이션을 찾아서 실행을 시킨다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;3-실행-결과&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%EC%8B%A4%ED%96%89-%EA%B2%B0%EA%B3%BC&quot; aria-label=&quot;3 실행 결과 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 실행 결과&lt;/h2&gt;
+&lt;p&gt;5초마다 실행 된것을 확인 할 수 있습니다.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 476px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/0648ef6c91c61604492afa2d8402bfce/f2205/result.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 92.02453987730061%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAIAAADUsmlHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADKElEQVR42l1TWVPiaBTt//82XZbV82RVz3TZZbU4dsugoyyKElkFwiJJyAJZIYHsJGRhToLzMrcSuLnfXc8936fD4bDb+a7rep7n7/wkSRzHhhrHse95YbiPor1lmftcHNeF3cOB5yHwE952i/hxWShXq612R+C4b39++3VTVCWRIAia4Whq9vnzb0OSpCjq/uFBWC4bjZeHcmUXhAhOvbys7ThBEBxSNLJDkSSJLcuKc4ElDEPf9+EJnyDMnjRNs8rLBd/vD2iG5nhhu922221yNLZNk+d5baWv16tarappmmEYk8nUtp3piGy1msfKhxE5rNYeW+32ZDrVVPX+/r5BEIa+7r29iZIiLheFQmFGzeYs2+t2hcWi/lRD/64fZG1HuaDVOIqRK46jND0AOZjSJEnTBKdoMk7ifabAIVM+AOt1moWrq9oTincFnjs/P78pllRZfG026TnH0NTJyQk5GtEMUy5XeEG4Lf4slu6CfZQFY87NZqvrBhaGgvjEYHEU6boOYACVscmObAdm2/VcDO84TnIEbK2pDMNIkijJius4s9k7x/MAVlGVzda0THPQ729N07ZsluV2u8DcbijqPQj3WXC/1y3d3j2/NAZDUpbE6+uflWoNGZvNlrAQeY794+vX8XiMtokGgT3333ql4o3t7j4AyzDIdpsg1/E3QyiO01yOCuxQcJL95z7Hyp3r61/15+d2p7dcCBcXF6W7f1RFwvIYlmfnzO9fvkwmY4aZV8pVUZLGIxKb/wBMVVVRlPAAqjAMlsslKAEWSZIM7gEqjuO3uazXaxBR01QoWGIWDN4rimKAFroOdJFGW632YbjZGHAFKUE1N08jywquimM78MGqs+BWs4E9lyuVY9vn37//XbpVZLFef56zPEPTp6eng+HgfTarVWtYBEG8XF7+sBw/C0YOgPE/wHKqfQCW/mcHUFDAvKOSc3v4hlLE62u311dk+eovdFHVV2q322X5Bc9zZ2dn0+k7y7KPj0+SLJPk4PGpHkZxFsxxLK7LjKJkRcH8IzCRZhzLYuZzkGRjGJ1OBxdmtVpjeADB8ZwgCFEU/wsnysUYbajhLgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;SpringBoot&quot;
+        title=&quot;&quot;
+        src=&quot;/static/0648ef6c91c61604492afa2d8402bfce/f2205/result.png&quot;
+        srcset=&quot;/static/0648ef6c91c61604492afa2d8402bfce/222b7/result.png 163w,
+/static/0648ef6c91c61604492afa2d8402bfce/ff46a/result.png 325w,
+/static/0648ef6c91c61604492afa2d8402bfce/f2205/result.png 476w&quot;
+        sizes=&quot;(max-width: 476px) 100vw, 476px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;참조
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/scheduling/annotation/EnableScheduling.html&quot;&gt;https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/scheduling/annotation/EnableScheduling.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[오류] 자동으로 도메인에 https가 붙는 경우]]></title><description><![CDATA[1. 현상 개발서버 https 적용으로 아래와 같이 http 요청 블락 에러가 발생하였다. 그래서 아래의 메타 태그를 추가해 줬다.  하지만 개발서버 https 적용을 해제하면서부터 화면 접속시 자동으로  로 붙어서 js, css…]]></description><link>https://pej4303.github.io/error/1/</link><guid isPermaLink="false">https://pej4303.github.io/error/1/</guid><pubDate>Fri, 23 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;1-현상&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%ED%98%84%EC%83%81&quot; aria-label=&quot;1 현상 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 현상&lt;/h2&gt;
 &lt;p&gt;개발서버 https 적용으로 아래와 같이 http 요청 블락 에러가 발생하였다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;This request has been blocked; the content must be served over HTTPS.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;그래서 아래의 메타 태그를 추가해 줬다. &lt;/p&gt;
@@ -17,345 +242,54 @@ HTTP Content-Security-Policy(CSP) upgrade-insecure-requests&lt;/code&gt;&lt;/pre
 &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/upgrade-insecure-requests&quot;&gt;https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/upgrade-insecure-requests&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[How to Write Markdown Posts? ✍️]]></title><description><![CDATA[1. Markdown Based This template is based on Markdown. To write a post, create a directory under  and write the post in Markdown format. For…]]></description><link>https://pej4303.github.io/how-to-use/writing-posts/</link><guid isPermaLink="false">https://pej4303.github.io/how-to-use/writing-posts/</guid><pubDate>Thu, 07 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;1-markdown-based&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-markdown-based&quot; aria-label=&quot;1 markdown based permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Markdown Based&lt;/h2&gt;
-&lt;p&gt;This template is based on Markdown. To write a post, create a directory under &lt;code class=&quot;language-text&quot;&gt;/contents/posts&lt;/code&gt; and write the post in Markdown format.&lt;/p&gt;
-&lt;p&gt;For example, create a directory called &lt;code class=&quot;language-text&quot;&gt;how-to-use&lt;/code&gt; under &lt;code class=&quot;language-text&quot;&gt;/contents/posts&lt;/code&gt; and write the post in an &lt;code class=&quot;language-text&quot;&gt;index.md&lt;/code&gt; file. In this case, the URL of the post will be &lt;code class=&quot;language-text&quot;&gt;http(s)://your-domain/how-to-use&lt;/code&gt;.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;2-meta-information&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-meta-information&quot; aria-label=&quot;2 meta information permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Meta Information&lt;/h2&gt;
-&lt;p&gt;Once you create the Markdown file, you must enter the meta information for the post. The required information is as follows.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;---
-title: How to Write Markdown Posts and Detailed Features
-description: Let&apos;s learn how to use this template.
-date: &quot;2024-03-02&quot;
-tags:
-  - Introduce
-  - About
-series: how to use this template?
-// isPrivate: true
----&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;The explanations for each meta information are as follows:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;title&lt;/code&gt; : Title of the post&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;description&lt;/code&gt; : Summary of the post. Optional.&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;date&lt;/code&gt; : Posting date&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;tags&lt;/code&gt; : List of tags&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;series&lt;/code&gt; : Series (similar to the category concept)&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;isPrivate&lt;/code&gt; : Privacy setting. If you want to make the post private, set &quot;isPrivate: true&quot;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;3-adding-images-to-the-post&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-adding-images-to-the-post&quot; aria-label=&quot;3 adding images to the post permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Adding Images to the Post&lt;/h2&gt;
-&lt;p&gt;To add an image to a post, use the following format. Note that the image should be located in the same folder as the Markdown file.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![](./image-name)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Here is an example of adding an image named &lt;code class=&quot;language-text&quot;&gt;image1.png&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/5d68b84d9197edb7e0d352fa305e6039/eb3fa/image1.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 84.04907975460122%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAAEFElEQVR42m2T+0+bZRTH+5cYE38wZmhijOOmDoZ3E5hbYqbLflLj4n3AgKER5oZcBsIGltvCUMgCEcZNLAgdk9ILvdBCubZcCqVQLm0plEKB9uPTTsyivsnnfZ7z5pxvvud5zis59Pv4N6GjA/xeD/NWCwadDo1KjVYzjHl0lE3nKsF9P/9XF0byeBDwbYMQa2/v4uz7H3LqjXPEJZ0h9nRKZH1FxElvv4deq4XgQST/P4JHe36OCez6CD9pmTk88UwsJxNSiE5MIUYInkxI5kTM6ySfvRBxTCjIgch/vD6MxL/t4Zhdr5t9n5c1xzIV0hreOXOehDfP8dJr7/JW8nkKMq/yi/QnVuyLETfhYwnX7W1v/YNkZ07F9jGzKsLx/pKW4KoRp0nGkuF3ZjUdWBRtbGgULCn62JgY4MCuIyDyjpb17Nk0olYZqZWwLOwvq8ChgRUNR7ZBAvOD7AuCdvHdrgSnFt/8EGvd93H3tAoBBVuTfayP9rCgbmNrRg6rWkIiX+IXid7ZIbZnBpjRythyTONdX2DSqGR+fIh9tw233cz6hBxHYy3LTVIh/icXL1wkOv5VXohJIvXLzwitiIuyq5HsupfFGHjwOKYwKTrFqJgJ7rmZGtWgV8rZ23LisBhRt5WjbshHVpCKy9jODzkZPPl0NM9HJ/LUiRjqKwpgwyBaDngI4/eusuNaIrS3KXCx63EwqWzEoq6m79c8DP1FzOkrsWjKsWrLMD28Tn5umiCbwu+zaay+ydGiEknQvwkH4Rty4nM7ED0S8q/D4Q62qTbmR27Q0XQFszIPiy6PcdUthmT1KHqkDHSWiItRRZyFzznScmjfJdpy4N1cxL/jFFPoIxjY4tDnwjKuZsFYjLzjW/TyG3htlcibi2kqyKQpP4u+xit4rK0El4YJCXcRwT+6mrhXd5v66lJxbloWZwyMqLpQ9dcLoUJsph8Z7r9GT0s2eOrpq/qKvoJLDJZ+jqbia4wtuXgt8siUhIRbiVrWiGeyH6uyHXWvlAllMfoHuUKoiPXpMtambjFnuElrQzoBZzWme98wVpOFue4q+qoMlKVfMN5SQtAx/Mgh4Y1QP1jU4Fu4y9p0EQumQpbGCrHq8rGPleAwl3G/IQtV73W0d4VYbRYjNRkMS9MjwrqKy8zL68Us6oSgeOHUi8lXYx2uZUYlxab7mRVTMxvmdtbGunBP9OCffUjApmamswJjZZoQzERx+zLK8lTUFaloq7PYsTxA4hzp4phVw2+CbtaNMjbEX+A29wp6cI2J2NSNa7yXKVkNE3cymajLxiBaHruThbXhO6brxCqrQpIY9yzHnI5/jsT4R/uEuChOxUaR8Dfhby/HRJGc9CLNOR/RkfcJLdc+FuulyF5W8Ck16R/wF5EGRyty1h0LAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/5d68b84d9197edb7e0d352fa305e6039/a6d36/image1.png&quot;
-        srcset=&quot;/static/5d68b84d9197edb7e0d352fa305e6039/222b7/image1.png 163w,
-/static/5d68b84d9197edb7e0d352fa305e6039/ff46a/image1.png 325w,
-/static/5d68b84d9197edb7e0d352fa305e6039/a6d36/image1.png 650w,
-/static/5d68b84d9197edb7e0d352fa305e6039/e548f/image1.png 975w,
-/static/5d68b84d9197edb7e0d352fa305e6039/eb3fa/image1.png 1026w&quot;
-        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;4-supports-code-highlight&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-supports-code-highlight&quot; aria-label=&quot;4 supports code highlight permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. Supports Code Highlight&lt;/h2&gt;
-&lt;p&gt;You can create code blocks in posts. Below is a code block written in the Java programming language.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;getLines&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token class-name&quot;&gt;StringBuilder&lt;/span&gt; stringBuilder &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;StringBuilder&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token function&quot;&gt;repeatPrint&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;repeatRows&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;StringBuilder&lt;/span&gt; stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token function&quot;&gt;repeatRow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;two&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;repeatRow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;StringBuilder&lt;/span&gt; stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;one&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;5-post-preview-image-thumbnail&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-post-preview-image-thumbnail&quot; aria-label=&quot;5 post preview image thumbnail permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. Post Preview Image (Thumbnail)&lt;/h2&gt;
-&lt;p&gt;The post preview feature is also available, similar to thumbnails.&lt;/p&gt;
-&lt;h3 id=&quot;5-1-adding-a-preview-image&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-1-adding-a-preview-image&quot; aria-label=&quot;5 1 adding a preview image permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5-1. Adding a Preview Image&lt;/h3&gt;
-&lt;p&gt;The path for adding a preview image is slightly different from the path for adding an image within the post. While the image for the post should be in the same folder as the Markdown file, the preview thumbnail image should be added in the &lt;code class=&quot;language-text&quot;&gt;static&lt;/code&gt; folder.&lt;/p&gt;
-&lt;p&gt;If you have placed a preview image named &lt;code class=&quot;language-text&quot;&gt;writing.png&lt;/code&gt; in the static folder, the post will be displayed as follows.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/1c3f09768c4f564a0d3cafbfd6bf3c43/016a8/result.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 53.37423312883436%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABCElEQVR42q1Sy2qEQBDc/7/mtnmcArlmT9n8gG9cSCRgQKJBo5nouD7iID4q44CLm8WFBAuKoZumqOqeFTj6vkfXdQfO1dN3DissDCHoOA5kWYauadB0A0/PLzBNE6qqYrt9hGVZkCQJiqJA4zNxHGNMNvJI0DAMbDb3uLy6wd3tNV53DwiCD0RRBNu24XkerwP4vi96VVWdd1gUBdI0het68N9dtGx/Ntbo6JPusTN1UBIe+kJwWHTTNJMjnApMow0zA0z7DRfrNWhMjgVz7jAMI3zx3WRZJpjnuXBd1/Ws07ZtUX6z08hlWXLBEJRSJEkiOIgRQsAY+/uVF/820x395r8El3T4A8zTVsrXpxcKAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;result&quot;
-        title=&quot;&quot;
-        src=&quot;/static/1c3f09768c4f564a0d3cafbfd6bf3c43/a6d36/result.png&quot;
-        srcset=&quot;/static/1c3f09768c4f564a0d3cafbfd6bf3c43/222b7/result.png 163w,
-/static/1c3f09768c4f564a0d3cafbfd6bf3c43/ff46a/result.png 325w,
-/static/1c3f09768c4f564a0d3cafbfd6bf3c43/a6d36/result.png 650w,
-/static/1c3f09768c4f564a0d3cafbfd6bf3c43/e548f/result.png 975w,
-/static/1c3f09768c4f564a0d3cafbfd6bf3c43/3c492/result.png 1300w,
-/static/1c3f09768c4f564a0d3cafbfd6bf3c43/016a8/result.png 1576w&quot;
-        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Feel free to customize your preview!&lt;/p&gt;
-&lt;h3 id=&quot;5-2-default-preview-image-defaultpng&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-2-default-preview-image-defaultpng&quot; aria-label=&quot;5 2 default preview image defaultpng permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5-2. Default Preview Image (default.png)&lt;/h3&gt;
-&lt;p&gt;If no preview image is added, the default image &lt;code class=&quot;language-text&quot;&gt;default.png&lt;/code&gt; will be displayed as the preview. &lt;code class=&quot;language-text&quot;&gt;default.png&lt;/code&gt; is located in the static folder. If you want to customize it, feel free to modify the &lt;code class=&quot;language-text&quot;&gt;default.png&lt;/code&gt; image.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;6-toc-table-of-contents&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#6-toc-table-of-contents&quot; aria-label=&quot;6 toc table of contents permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;6. Toc (Table of Contents)&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 632px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/9e8dbabca8b36d1d9f5b0206354c0234/084e2/toc.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 95.70552147239263%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA90lEQVR42u2UWQuDMBCE/f8/0BcfPPG+D1Q8psyCELG0wfatFZZEE7+dnawa+PJl/DBwXVcsyyLzbduw7/spuM5RG0jYPM+o6xqu6yIIAti2Dd/3kSSJzLuuk72vwCfgNE0YhgFpmqIoCsRxLBAq5rqqXBvY9z2iKBJVYRjK/S0Pj5IJoDpGVVVSMi1gEsdxkOe52EFrtBWWZSnBlzg2TSPBedu2YgOt4UHRhpdAQqiG/mVZJmqo7HjmeZ6MlmXBNE2pQPX0AmTZhwKWxwRUoR7I0WJqqz3tw3EcpSQeCNUxO9Xo9N8F+K4dbn96KvhOEuP/+/oY+ACXZNmgVK4eUwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;toc&quot;
-        title=&quot;&quot;
-        src=&quot;/static/9e8dbabca8b36d1d9f5b0206354c0234/084e2/toc.png&quot;
-        srcset=&quot;/static/9e8dbabca8b36d1d9f5b0206354c0234/222b7/toc.png 163w,
-/static/9e8dbabca8b36d1d9f5b0206354c0234/ff46a/toc.png 325w,
-/static/9e8dbabca8b36d1d9f5b0206354c0234/084e2/toc.png 632w&quot;
-        sizes=&quot;(max-width: 632px) 100vw, 632px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;You can see the table of contents feature in the upper right corner of the post. The text generated in the table of contents is based on the titles in h1, h2, and h3 tags.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;7-feature-summary&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#7-feature-summary&quot; aria-label=&quot;7 feature summary permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;7. Feature Summary&lt;/h2&gt;
-&lt;p&gt;To summarize the post features:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Markdown&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Tags&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Series&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Share&lt;/code&gt; (Sharing feature: copy post link / share on Facebook / share on Twitter)&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Private mode&lt;/code&gt; (post public / private)&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Toc&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[마크다운 포스트 작성법, 작성시 세부 기능들 ✍️]]></title><description><![CDATA[1. MarkDown 기반 이 템플릿은 Markdown…]]></description><link>https://pej4303.github.io/how-to-use/포스트 작성하기/</link><guid isPermaLink="false">https://pej4303.github.io/how-to-use/포스트 작성하기/</guid><pubDate>Mon, 04 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;1-markdown-기반&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-markdown-%EA%B8%B0%EB%B0%98&quot; aria-label=&quot;1 markdown 기반 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. MarkDown 기반&lt;/h2&gt;
-&lt;p&gt;이 템플릿은 Markdown 작성법을 기반으로 합니다. 글 작성을 위해 &lt;code class=&quot;language-text&quot;&gt;/contents/posts&lt;/code&gt; 아래 디렉토리에 포스트를 생성하고 마크다운 형식으로 작성해야 합니다.&lt;/p&gt;
-&lt;p&gt;예를들어 &lt;code class=&quot;language-text&quot;&gt;/contents/posts&lt;/code&gt; 아래 디렉토리에 &lt;code class=&quot;language-text&quot;&gt;how-to-use&lt;/code&gt; 라는 디렉토리(폴더)를 생성하고 &lt;code class=&quot;language-text&quot;&gt;index.md&lt;/code&gt; 파일에 포스트를 작성하면 됩니다. 이 예시의 경우 포스트의 URL 이 &lt;code class=&quot;language-text&quot;&gt;http(s)://your-domain/how-to-use&lt;/code&gt; 로 지정됩니다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;2-메타-정보&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EB%A9%94%ED%83%80-%EC%A0%95%EB%B3%B4&quot; aria-label=&quot;2 메타 정보 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 메타 정보&lt;/h2&gt;
-&lt;p&gt;마크다운 파일을 생성했다면, 해당 포스트에 대한 메타정보를 필수로 기입해야 합니다. 기입 정보는 아래와 같습니다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;---
-title: 포스트 작성법, 작성시 세부 기능들
-description: 현 템플릿을 어떻게 사용하는지 알아봅시다.
-date: &quot;2024-03-02&quot;
-tags:
-  - Introduce
-  - About
-series: how to use this template?
-// isPrivate: true
----&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;각 메타 정보에 대한 설명은 다음과 같습니다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;title&lt;/code&gt; : 포스트의 제목&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;description&lt;/code&gt; : 포스트에 대한 설명 요약. 생략시&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;date&lt;/code&gt; : 포스팅 날짜&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;tags&lt;/code&gt; : 태그 리스트&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;series&lt;/code&gt; : 시리즈 (카테고리 개념과 유사)&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;isPrivate&lt;/code&gt; : 비공개 여부. (현 포스트에 대해 비공개를 원할시 &quot;isPrivate: true&quot; 를 지정해주세요.)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;3-포스트-내부에-이미지-추가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EB%82%B4%EB%B6%80%EC%97%90-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B6%94%EA%B0%80&quot; aria-label=&quot;3 포스트 내부에 이미지 추가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 포스트 내부에 이미지 추가&lt;/h2&gt;
-&lt;p&gt;포스트에 이미지를 추가시, 아래와 같은 형식으로 이미지를 첨부할 수 있습니다. 이미지는 동일한 폴더 내에 (즉, 현재 markdown 파일과 동일한 폴더 안에) 위치해야 한다는 점을 유의해주세요.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;![](./이미지 이름)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;아래는 &lt;code class=&quot;language-text&quot;&gt;image1.png&lt;/code&gt; 라는 이름의 이미지를 첨부한 예시입니다.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/5d68b84d9197edb7e0d352fa305e6039/eb3fa/image1.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 84.04907975460122%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAAEFElEQVR42m2T+0+bZRTH+5cYE38wZmhijOOmDoZ3E5hbYqbLflLj4n3AgKER5oZcBsIGltvCUMgCEcZNLAgdk9ILvdBCubZcCqVQLm0plEKB9uPTTsyivsnnfZ7z5pxvvud5zis59Pv4N6GjA/xeD/NWCwadDo1KjVYzjHl0lE3nKsF9P/9XF0byeBDwbYMQa2/v4uz7H3LqjXPEJZ0h9nRKZH1FxElvv4deq4XgQST/P4JHe36OCez6CD9pmTk88UwsJxNSiE5MIUYInkxI5kTM6ySfvRBxTCjIgch/vD6MxL/t4Zhdr5t9n5c1xzIV0hreOXOehDfP8dJr7/JW8nkKMq/yi/QnVuyLETfhYwnX7W1v/YNkZ07F9jGzKsLx/pKW4KoRp0nGkuF3ZjUdWBRtbGgULCn62JgY4MCuIyDyjpb17Nk0olYZqZWwLOwvq8ChgRUNR7ZBAvOD7AuCdvHdrgSnFt/8EGvd93H3tAoBBVuTfayP9rCgbmNrRg6rWkIiX+IXid7ZIbZnBpjRythyTONdX2DSqGR+fIh9tw233cz6hBxHYy3LTVIh/icXL1wkOv5VXohJIvXLzwitiIuyq5HsupfFGHjwOKYwKTrFqJgJ7rmZGtWgV8rZ23LisBhRt5WjbshHVpCKy9jODzkZPPl0NM9HJ/LUiRjqKwpgwyBaDngI4/eusuNaIrS3KXCx63EwqWzEoq6m79c8DP1FzOkrsWjKsWrLMD28Tn5umiCbwu+zaay+ydGiEknQvwkH4Rty4nM7ED0S8q/D4Q62qTbmR27Q0XQFszIPiy6PcdUthmT1KHqkDHSWiItRRZyFzznScmjfJdpy4N1cxL/jFFPoIxjY4tDnwjKuZsFYjLzjW/TyG3htlcibi2kqyKQpP4u+xit4rK0El4YJCXcRwT+6mrhXd5v66lJxbloWZwyMqLpQ9dcLoUJsph8Z7r9GT0s2eOrpq/qKvoJLDJZ+jqbia4wtuXgt8siUhIRbiVrWiGeyH6uyHXWvlAllMfoHuUKoiPXpMtambjFnuElrQzoBZzWme98wVpOFue4q+qoMlKVfMN5SQtAx/Mgh4Y1QP1jU4Fu4y9p0EQumQpbGCrHq8rGPleAwl3G/IQtV73W0d4VYbRYjNRkMS9MjwrqKy8zL68Us6oSgeOHUi8lXYx2uZUYlxab7mRVTMxvmdtbGunBP9OCffUjApmamswJjZZoQzERx+zLK8lTUFaloq7PYsTxA4hzp4phVw2+CbtaNMjbEX+A29wp6cI2J2NSNa7yXKVkNE3cymajLxiBaHruThbXhO6brxCqrQpIY9yzHnI5/jsT4R/uEuChOxUaR8Dfhby/HRJGc9CLNOR/RkfcJLdc+FuulyF5W8Ck16R/wF5EGRyty1h0LAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image1&quot;
-        title=&quot;&quot;
-        src=&quot;/static/5d68b84d9197edb7e0d352fa305e6039/a6d36/image1.png&quot;
-        srcset=&quot;/static/5d68b84d9197edb7e0d352fa305e6039/222b7/image1.png 163w,
-/static/5d68b84d9197edb7e0d352fa305e6039/ff46a/image1.png 325w,
-/static/5d68b84d9197edb7e0d352fa305e6039/a6d36/image1.png 650w,
-/static/5d68b84d9197edb7e0d352fa305e6039/e548f/image1.png 975w,
-/static/5d68b84d9197edb7e0d352fa305e6039/eb3fa/image1.png 1026w&quot;
-        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;4-코드-하이라이트-지원&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-%EC%BD%94%EB%93%9C-%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8-%EC%A7%80%EC%9B%90&quot; aria-label=&quot;4 코드 하이라이트 지원 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. 코드 하이라이트 지원&lt;/h2&gt;
-&lt;p&gt;포스트에 코드 블럭을 생성 가능합니다. 아래는 JAVA 언어를 기반으로 작성된 코드 블럭입니다.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;getLines&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token class-name&quot;&gt;StringBuilder&lt;/span&gt; stringBuilder &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;StringBuilder&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token function&quot;&gt;repeatPrint&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;repeatRows&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;StringBuilder&lt;/span&gt; stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token function&quot;&gt;repeatRow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;two&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;repeatRow&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;StringBuilder&lt;/span&gt; stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;int&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; i&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    stringBuilder&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;one&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;5-포스트-미리보기-이미지-썸네일&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B0-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%8D%B8%EB%84%A4%EC%9D%BC&quot; aria-label=&quot;5 포스트 미리보기 이미지 썸네일 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. 포스트 미리보기 이미지 (썸네일)&lt;/h2&gt;
-&lt;p&gt;포스트 미리보기 기능도 존재합니다. 썸네일이라고 봐도 좋겠습니다.&lt;/p&gt;
-&lt;h3 id=&quot;5-1-미리보기-추가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-1-%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B0-%EC%B6%94%EA%B0%80&quot; aria-label=&quot;5 1 미리보기 추가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5-1. 미리보기 추가&lt;/h3&gt;
-&lt;p&gt;미리보기 이미지를 첨부하는 경로는 앞서 살펴본 이미지 추가 경로와 조금 다릅니다. 포스트 내부에 이미지를 추가할 땐 마크다운 파일과 동일한 폴더 내에 위치시키면 되지만, 미리보기 썸네일 이미지는 &lt;code class=&quot;language-text&quot;&gt;static&lt;/code&gt; 이라는 폴더내에 이미지를 추가해줘야 합니다.&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;writing.png&lt;/code&gt; 이라는 미리보기 이미지를 static 폴더내 위치했다면, 포스트는 다음과 같이 조회됩니다.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/1c3f09768c4f564a0d3cafbfd6bf3c43/016a8/result.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 53.37423312883436%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABCElEQVR42q1Sy2qEQBDc/7/mtnmcArlmT9n8gG9cSCRgQKJBo5nouD7iID4q44CLm8WFBAuKoZumqOqeFTj6vkfXdQfO1dN3DissDCHoOA5kWYauadB0A0/PLzBNE6qqYrt9hGVZkCQJiqJA4zNxHGNMNvJI0DAMbDb3uLy6wd3tNV53DwiCD0RRBNu24XkerwP4vi96VVWdd1gUBdI0het68N9dtGx/Ntbo6JPusTN1UBIe+kJwWHTTNJMjnApMow0zA0z7DRfrNWhMjgVz7jAMI3zx3WRZJpjnuXBd1/Ws07ZtUX6z08hlWXLBEJRSJEkiOIgRQsAY+/uVF/820x395r8El3T4A8zTVsrXpxcKAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;result&quot;
-        title=&quot;&quot;
-        src=&quot;/static/1c3f09768c4f564a0d3cafbfd6bf3c43/a6d36/result.png&quot;
-        srcset=&quot;/static/1c3f09768c4f564a0d3cafbfd6bf3c43/222b7/result.png 163w,
-/static/1c3f09768c4f564a0d3cafbfd6bf3c43/ff46a/result.png 325w,
-/static/1c3f09768c4f564a0d3cafbfd6bf3c43/a6d36/result.png 650w,
-/static/1c3f09768c4f564a0d3cafbfd6bf3c43/e548f/result.png 975w,
-/static/1c3f09768c4f564a0d3cafbfd6bf3c43/3c492/result.png 1300w,
-/static/1c3f09768c4f564a0d3cafbfd6bf3c43/016a8/result.png 1576w&quot;
-        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;멋진 미리보기를 마음껏 꾸며보세요!&lt;/p&gt;
-&lt;h3 id=&quot;5-2-디폴트-미리보기-이미지-defaultpng&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-2-%EB%94%94%ED%8F%B4%ED%8A%B8-%EB%AF%B8%EB%A6%AC%EB%B3%B4%EA%B8%B0-%EC%9D%B4%EB%AF%B8%EC%A7%80-defaultpng&quot; aria-label=&quot;5 2 디폴트 미리보기 이미지 defaultpng permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5-2. 디폴트 미리보기 이미지 (default.png)&lt;/h3&gt;
-&lt;p&gt;미리보기 이미지를 추가하지 않았다면, 기본적으로 &lt;code class=&quot;language-text&quot;&gt;default.png&lt;/code&gt; 이미지를 미리보기로 표기하고 있습니다. &lt;code class=&quot;language-text&quot;&gt;default.png&lt;/code&gt;
-는 static 파일 내에 존재합니다. 만약 커스터마이징을 원한다면 자유롭게 &lt;code class=&quot;language-text&quot;&gt;default.png&lt;/code&gt; 이미지를 수정하세요.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;6-toc-목차&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#6-toc-%EB%AA%A9%EC%B0%A8&quot; aria-label=&quot;6 toc 목차 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;6. Toc (목차)&lt;/h2&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 632px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/9e8dbabca8b36d1d9f5b0206354c0234/084e2/toc.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 95.70552147239263%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA90lEQVR42u2UWQuDMBCE/f8/0BcfPPG+D1Q8psyCELG0wfatFZZEE7+dnawa+PJl/DBwXVcsyyLzbduw7/spuM5RG0jYPM+o6xqu6yIIAti2Dd/3kSSJzLuuk72vwCfgNE0YhgFpmqIoCsRxLBAq5rqqXBvY9z2iKBJVYRjK/S0Pj5IJoDpGVVVSMi1gEsdxkOe52EFrtBWWZSnBlzg2TSPBedu2YgOt4UHRhpdAQqiG/mVZJmqo7HjmeZ6MlmXBNE2pQPX0AmTZhwKWxwRUoR7I0WJqqz3tw3EcpSQeCNUxO9Xo9N8F+K4dbn96KvhOEuP/+/oY+ACXZNmgVK4eUwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;toc&quot;
-        title=&quot;&quot;
-        src=&quot;/static/9e8dbabca8b36d1d9f5b0206354c0234/084e2/toc.png&quot;
-        srcset=&quot;/static/9e8dbabca8b36d1d9f5b0206354c0234/222b7/toc.png 163w,
-/static/9e8dbabca8b36d1d9f5b0206354c0234/ff46a/toc.png 325w,
-/static/9e8dbabca8b36d1d9f5b0206354c0234/084e2/toc.png 632w&quot;
-        sizes=&quot;(max-width: 632px) 100vw, 632px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;포스트 우측 상단을 보면 목차 기능이 존재하는 것을 볼 수 있습니다. 목차에 생성되는 텍스트는 h1, h2, h3 에 타이틀에 기반해 있습니다.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&quot;7-기능-요약&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#7-%EA%B8%B0%EB%8A%A5-%EC%9A%94%EC%95%BD&quot; aria-label=&quot;7 기능 요약 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;7. 기능 요약&lt;/h2&gt;
-&lt;p&gt;포스트 기능을 정리해보자면 다음과 같습니다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Markdown&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Tags&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Series&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Share&lt;/code&gt; (공유하기 기능 : 포스트 링크 복사 / Facebook 공유 / Twitter 공유)&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;private mode&lt;/code&gt; (포스트 공개 / 비공개)&lt;/li&gt;
-&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Toc&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Default Private]]></title><description><![CDATA[Default Private Posts This is a default private post. It's recommended not to delete this posts 😵 (현재 이 포스트는 삭제하지 말아주세요.)]]></description><link>https://pej4303.github.io/default/private-default/</link><guid isPermaLink="false">https://pej4303.github.io/default/private-default/</guid><pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;default-private-posts&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#default-private-posts&quot; aria-label=&quot;default private posts permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Default Private Posts&lt;/h2&gt;
 &lt;p&gt;This is a default private post. It&apos;s recommended not to delete this posts 😵&lt;/p&gt;
-&lt;p&gt;(현재 이 포스트는 삭제하지 말아주세요.)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Gatsby Starter Haon 저자에 대해 소개합니다.]]></title><description><![CDATA[💡 현 포스트는 about 페이지에서도 조회 가능합니다. 포스트를 삭제하지 말고, 이 곳에다 본인만의 멋진 소개 글을 작성해주세요.]]></description><link>https://pej4303.github.io/default/about/</link><guid isPermaLink="false">https://pej4303.github.io/default/about/</guid><pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;(현재 이 포스트는 삭제하지 말아주세요.)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[오류] 톰캣 프로세스 여러개 뜨는 경우]]></title><description><![CDATA[환경설정 개발툴 : 이클립스 Spring : 4.3.3 Quartz : 2.3.0 Tomcat : 8.5 Java : 8 서버 :CentOS…]]></description><link>https://pej4303.github.io/error/4/</link><guid isPermaLink="false">https://pej4303.github.io/error/4/</guid><pubDate>Sat, 12 Aug 2023 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;환경설정&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;개발툴 : 이클립스&lt;/li&gt;
+&lt;li&gt;Spring : 4.3.3&lt;/li&gt;
+&lt;li&gt;Quartz : 2.3.0&lt;/li&gt;
+&lt;li&gt;Tomcat : 8.5&lt;/li&gt;
+&lt;li&gt;Java : 8&lt;/li&gt;
+&lt;li&gt;서버 :CentOS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;1-현상&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%ED%98%84%EC%83%81&quot; aria-label=&quot;1 현상 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 현상&lt;/h2&gt;
+&lt;p&gt;개발서버에서 톰캣 프로세스가 여러개가 뜨면서 메모리 너무 많이 잡아먹는 현상이 발생하였다.
+&lt;strong&gt;netstate -tnlp 하면 8080포트는 하나만 나오고, ps -ef | grep tomcat 하면 여러개 나왔다.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-원인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%9B%90%EC%9D%B8&quot; aria-label=&quot;2 원인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 원인&lt;/h2&gt;
+&lt;p&gt;검색을 하다가 아래의 글을 보고 quartz 스케쥴러의 문제라고 생각이 들었다.
+톰캣 서버가 종료되어도 이미 실행된 job 스레드는 종료되지 않고 계속 남는다.&lt;br&gt;
+👉🏻&lt;a href=&quot;https://log4day.tistory.com/m/59&quot; title=&quot;톰켓 프로세스 종료 이슈&quot;&gt;톰켓 프로세스 종료 이슈&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;3-해결&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%ED%95%B4%EA%B2%B0&quot; aria-label=&quot;3 해결 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 해결&lt;/h2&gt;
+&lt;p&gt;destroy-method 속성을 이용해서 SchedulerFactoryBean 클래스에 있는 destroy() 메소드를 추가해줬다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;xml&quot;&gt;&lt;pre class=&quot;language-xml&quot;&gt;&lt;code class=&quot;language-xml&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;bean&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;qcrmJobScheduler&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;org.springframework.scheduling.quartz.SchedulerFactoryBean&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;destroy-method&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;destroy&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;property&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;triggers&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;list&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+            &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;ref&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;bean&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation attr-equals&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;testJobTrigger&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;/&gt;&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;list&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;property&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;bean&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;-추가20231013&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%B6%94%EA%B0%8020231013&quot; aria-label=&quot; 추가20231013 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;+ 추가(2023.10.13)&lt;/h2&gt;
+&lt;p&gt;위 방법으로 적용 후에도 계속 발생하여 젠킨스 배포시 실행중인 톰캣 프로세스 모두 종료시키는 쉘 스크립트를 추가하였다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token shebang important&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;token assign-left variable&quot;&gt;tomcat_pids&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;ps&lt;/span&gt; aux &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;grep&lt;/span&gt; tomcat &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;java&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-v&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;grep&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;awk&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;{print $2}&apos;&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;)&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-n&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&lt;span class=&quot;token variable&quot;&gt;$tomcat_pids&lt;/span&gt;&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;then&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token for-or-select variable&quot;&gt;pid&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$tomcat_pids&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;do&lt;/span&gt;
+        &lt;span class=&quot;token builtin class-name&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;PID: &lt;span class=&quot;token variable&quot;&gt;$pid&lt;/span&gt;&quot;&lt;/span&gt;
+        &lt;span class=&quot;token function&quot;&gt;kill&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-9&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;$pid&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;done&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;fi&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;참조
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/scheduling/quartz/SchedulerFactoryBean.htmlhttps://log4day.tistory.com/m/59&quot;&gt;https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/scheduling/quartz/SchedulerFactoryBean.htmlhttps://log4day.tistory.com/m/59&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://log4day.tistory.com/m/59&quot;&gt;https://log4day.tistory.com/m/59&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Gatsby Starter Haon 저자에 대해 소개합니다.]]></title><description><![CDATA[💡 현 포스트는 about 페이지에서도 조회 가능합니다. 포스트를 삭제하지 말고, 이 곳에다 본인만의 멋진 소개 글을 작성해주세요.]]></description><link>https://pej4303.github.io/default/about/</link><guid isPermaLink="false">https://pej4303.github.io/default/about/</guid><pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;💡 현 포스트는 about 페이지에서도 조회 가능합니다. 포스트를 삭제하지 말고, 이 곳에다 본인만의 멋진 소개 글을 작성해주세요.&lt;/p&gt;
 &lt;/blockquote&gt;</content:encoded></item></channel></rss>
