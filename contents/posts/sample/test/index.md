@@ -6,7 +6,7 @@ tags:
   - Error
   - Web
 series: "오류 모음집"
-previewImage: 'java.png'
+previewImage: 'java_logo.png'
 isPrivate: false
 ---
 

@@ -6,7 +6,7 @@ tags:
   - Srping Boot
   - Quartz
 series: "Spring Boot"
-previewImage: 'springboot.png'
+previewImage: 'springboot_logo.png'
 isPrivate: false
 ---
 
