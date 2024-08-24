@@ -17,8 +17,7 @@ isPrivate: false
 > + Java : 11
 > + Gradle
 
-
-![SpringBoot](/static/springboot.png)
+![SpringBoot](/jpa.png)
 
 
 검색을 해보면 application.properties 파일에   
