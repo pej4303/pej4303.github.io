@@ -7,7 +7,7 @@ tags:
   - Web
 series: "오류 모음집"
 previewImage: 'java_logo.png'
-isPrivate: false
+isPrivate: true
 ---
 
 ## 1. 현상 
