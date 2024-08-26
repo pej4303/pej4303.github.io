@@ -69,19 +69,19 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-google-gtag",
+      resolve: "gatsby-plugin-gtag",
       options: {
         trackingId: [gtag] , // 수정: 배열이 필요 없을 수 있습니다.
         // Google Analytics 관련 설정
-        gtagConfig: {
-          anonymize_ip: true, // 사용자 IP 익명화
-          cookie_expires: 0, // 쿠키 만료 기간 설정
-        },
-        // 플러그인 설정
-        pluginConfig: {
-          head: true, // true로 설정하면 <head>에 스크립트가 추가됨
-          respectDNT: true, // Do Not Track를 지원
-        },
+        // gtagConfig: {
+        //   anonymize_ip: true, // 사용자 IP 익명화
+        //   cookie_expires: 0, // 쿠키 만료 기간 설정
+        // },
+        // // 플러그인 설정
+        // pluginConfig: {
+        //   head: true, // true로 설정하면 <head>에 스크립트가 추가됨
+        //   respectDNT: true, // Do Not Track를 지원
+        // },
       },
     },
     `gatsby-plugin-sharp`,
