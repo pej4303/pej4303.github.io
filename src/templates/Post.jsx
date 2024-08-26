@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 import Post from "../components/post/post-component";
 import PageLayout from "../components/layout/page-component";
 import PostContent from "../components/post/post-content";
@@ -7,7 +7,7 @@ import Utterances from "../components/utterances";
 import Seo from "../components/seo";
 import styled from "styled-components";
 
-export default ({ data, location }) => {
+export default ({ data }) => {
   const { previous, next } = data;
   const post = data.markdownRemark;
   const { title, date, description, isPrivate } = post.frontmatter;

@@ -2,7 +2,6 @@ import { Link } from "gatsby";
 import React from "react"
 import styled from "styled-components";
 import { useLocation } from "@reach/router";
-import { MdOutlineDarkMode } from "react-icons/md";
 import { siteMetadata } from "../../../../gatsby-config";
 import { IoSearch } from "react-icons/io5";
 import { FaBook } from "react-icons/fa";

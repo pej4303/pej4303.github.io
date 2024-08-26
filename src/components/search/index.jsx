@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styled from 'styled-components';
-import { IoIosSearch } from "react-icons/io";
 
 const Search = ({ onChange, placeholder, count }) => {
   const [isFocused, setIsFocused] = useState(false);

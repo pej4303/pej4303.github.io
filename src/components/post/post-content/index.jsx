@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components"
 import TableOfContents from "../../toc";
 import { ContentWrapper, HtmlWrapper } from "./post-style";
 import CodeHighLight from "./code-highlight";

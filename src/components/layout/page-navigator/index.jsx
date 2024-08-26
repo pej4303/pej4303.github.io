@@ -3,24 +3,6 @@ import styled, { keyframes } from "styled-components";
 import AsideMenuBar from "../../menu-bar/aside";
 import HeaderMenuBar from "../../menu-bar/header";
 
-const slideIn = keyframes`
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(0);
-  }
-`;
-
-const slideOut = keyframes`
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-100%);
-  }
-`;
-
 const PageNavigator = () => {
   const [showHaonBlog, setShowHaonBlog] = useState(true);
   const [showSideMenu, setShowSideMenu] = useState(true);
