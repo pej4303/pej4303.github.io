@@ -48,6 +48,11 @@ const Seo = ({ title, description}) => {
           property: "og:type",
           content: "website",
         },
+        // 2024.08.26 : Google Search Console 추가
+        {
+          name: "google-site-verification",
+          content: "2GoD2RBgaJZeht0kwZqURweK_xBuJ8RjwjWzr2td0zY",
+        },
       ]}
     />
   )
