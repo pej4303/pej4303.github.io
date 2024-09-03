@@ -1,14 +1,156 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Dev Note]]></description><link>https://pej4303.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 28 Aug 2024 15:16:32 GMT</lastBuildDate><item><title><![CDATA[[기술면접] Git 브랜치 전략]]></title><description><![CDATA[0. 서론 최근 면접을 보러 다니면서  Git 브랜치 전략에 대해 설명해 달라는 기술 질문을 공통적으로 받게 되었습니다. 사실 Git으로 소스 commit만 했지, 깊이있게 공부 하지 않았기 때문에 해당 질문에 대답 할 수 없었습니다. 따라서, Git…]]></description><link>https://pej4303.github.io/archive/tech/1/</link><guid isPermaLink="false">https://pej4303.github.io/archive/tech/1/</guid><pubDate>Wed, 28 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;0-서론&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#0-%EC%84%9C%EB%A1%A0&quot; aria-label=&quot;0 서론 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;0. 서론&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Dev Note]]></description><link>https://pej4303.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 03 Sep 2024 16:11:04 GMT</lastBuildDate><item><title><![CDATA[[기술면접] Git 브랜치 전략]]></title><description><![CDATA[0. 서론 최근 면접을 보러 다니면서  Git 브랜치 전략에 대해 설명해 달라는 기술 질문을 공통적으로 받게 되었습니다. 사실 Git으로 소스 commit만 했지, 깊이있게 공부 하지 않았기 때문에 해당 질문에 대답 할 수 없었습니다. 따라서, Git…]]></description><link>https://pej4303.github.io/archive/tech/1/</link><guid isPermaLink="false">https://pej4303.github.io/archive/tech/1/</guid><pubDate>Wed, 04 Sep 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;0-서론&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#0-%EC%84%9C%EB%A1%A0&quot; aria-label=&quot;0 서론 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;0. 서론&lt;/h2&gt;
 &lt;p&gt;최근 면접을 보러 다니면서  &lt;strong&gt;Git 브랜치 전략&lt;/strong&gt;에 대해 설명해 달라는 기술 질문을 공통적으로 받게 되었습니다. 사실 Git으로 소스 commit만 했지, 깊이있게 공부 하지 않았기 때문에 해당 질문에 대답 할 수 없었습니다.&lt;/p&gt;
-&lt;p&gt;따라서, Git 브랜치에 대해 정리해보고자 합니다.&lt;/p&gt;
+&lt;p&gt;따라서, Git 브랜치 전략에 대해 정리해보고자 합니다.&lt;/p&gt;
 &lt;h2 id=&quot;1-git-브랜치-전략이란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5%EC%9D%B4%EB%9E%80&quot; aria-label=&quot;1 git 브랜치 전략이란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Git 브랜치 전략이란?&lt;/h2&gt;
-&lt;h2 id=&quot;2-git-브랜치-전략-왜-사용하는가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5-%EC%99%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%EA%B0%80&quot; aria-label=&quot;2 git 브랜치 전략 왜 사용하는가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Git 브랜치 전략 왜 사용하는가?&lt;/h2&gt;
-&lt;h2 id=&quot;3-git-브랜치-전략-왜-중요한가&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5-%EC%99%9C-%EC%A4%91%EC%9A%94%ED%95%9C%EA%B0%80&quot; aria-label=&quot;3 git 브랜치 전략 왜 중요한가 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Git 브랜치 전략 왜 중요한가?&lt;/h2&gt;
-&lt;h2 id=&quot;4-git-브랜치-전략-종류&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5-%EC%A2%85%EB%A5%98&quot; aria-label=&quot;4 git 브랜치 전략 종류 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. Git 브랜치 전략 종류&lt;/h2&gt;
-&lt;h2 id=&quot;4-1-git-브랜치-전략-종류데브옵스-관점으로&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-1-git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5-%EC%A2%85%EB%A5%98%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4-%EA%B4%80%EC%A0%90%EC%9C%BC%EB%A1%9C&quot; aria-label=&quot;4 1 git 브랜치 전략 종류데브옵스 관점으로 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4-1. Git 브랜치 전략 종류(데브옵스 관점으로)&lt;/h2&gt;
-&lt;h2 id=&quot;5-결론&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-%EA%B2%B0%EB%A1%A0&quot; aria-label=&quot;5 결론 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. 결론&lt;/h2&gt;
+&lt;p&gt;Git은 브랜치라는 것을 사용하는데요. 브랜치는 특정 시점 스냅샷 같은 개념이라고 생각하시면 됩니다.&lt;br&gt;
+브랜치를 사용하면 한 프로젝트에서 서로 여러 작업을 동시에 수행하면서도, 작업간의 영향을 최소화 할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;이런 Git의 브랜치를 관리하는 전략을 Git 브랜치 전략이라고 말합니다.&lt;/p&gt;
+&lt;h2 id=&quot;2-git-브랜치-전략-사용-목적&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5-%EC%82%AC%EC%9A%A9-%EB%AA%A9%EC%A0%81&quot; aria-label=&quot;2 git 브랜치 전략 사용 목적 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Git 브랜치 전략 사용 목적&lt;/h2&gt;
+&lt;p&gt;그렇다면 Git 브랜치 전략을 사용하는 목적이 뭘까요?&lt;br&gt;
+Git 브랜치 전략을 사용하는 목적에는 여러가지가 있지만 &lt;strong&gt;문제가 생겼을 때 빠르게 복구하기 위해서&lt;/strong&gt;라고 생각합니다. 앞서 설명한 것처럼 브랜치를 사용하면 여러 가지 작업을 동시에 안전하게 진행할 수 있고, 언제든지 문제가 생기면 원래 상태로 돌아갈 수 있습니다.&lt;/p&gt;
+&lt;h2 id=&quot;3-git-브랜치-전략-종류&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5-%EC%A2%85%EB%A5%98&quot; aria-label=&quot;3 git 브랜치 전략 종류 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Git 브랜치 전략 종류&lt;/h2&gt;
+&lt;p&gt;대표적인 Git 브랜치 전략에 대해 알아보겠습니다.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;참조&lt;/li&gt;
+&lt;li&gt;Git Flow
+&lt;ul&gt;
+&lt;li&gt;브랜치 설명
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;main 브랜치&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;main 또는 master 브랜치 의미.&lt;/li&gt;
+&lt;li&gt;항상 배포 가능한 상태를 유지해야 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;develop 브랜치&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;개발이 완료된 코드를 통합하는 브랜치.&lt;/li&gt;
+&lt;li&gt;모든 기능은 develop 브랜치로 병합된 후 테스트 되어야 합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;feature 브랜치&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;개발을 위해 develop 브랜치에서 파생된 브랜치.&lt;/li&gt;
+&lt;li&gt;개발이 완료되면 develop 브랜치로 병합됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;release 브랜치&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;배포 준비가 된 코드를 관리하는 브랜치.&lt;/li&gt;
+&lt;li&gt;develop 브랜치에서 파생되어 테스트와 버그 수정을 거쳐 main 브랜치에 병합됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;hotfix 브랜치&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;main 브랜치에서 직접 파생된 브랜치.&lt;/li&gt;
+&lt;li&gt;긴급한 버그 수정을 위해 사용되며, 수정 후 main과 develop 브랜치에 병합됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;과정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img src=&quot;https://images.squarespace-cdn.com/content/v1/5cd29903aadd34273bef66f8/50f3fcb5-5798-481c-85f0-5a85f0886ed9/Gitflow.png?format=2500w&quot; alt=&quot;GitFlow&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;특징
+&lt;ul&gt;
+&lt;li&gt;복잡한 프로젝트에서 브랜치를 체계적으로 관리하기 위한 전략입니다. &lt;strong&gt;주로 여러 단계의 개발과 배포를 체계적으로 관리하고자 할 때 사용&lt;/strong&gt;됩니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;릴리즈와 관련된 버전을 체계적으로 관리하는 데 유리&lt;/strong&gt;합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;장/단점
+&lt;ul&gt;
+&lt;li&gt;개발과 릴리즈 준비를 분리하여 안정성을 유지할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;브랜치가 많아지면 복잡해질수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;GitHub Flow
+&lt;ul&gt;
+&lt;li&gt;브랜치 설명
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;main 브랜치&lt;/code&gt;:
+&lt;ul&gt;
+&lt;li&gt;Git Flow의 &lt;code class=&quot;language-text&quot;&gt;main 브랜치&lt;/code&gt;와 동일합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;feature 브랜치&lt;/code&gt;:
+&lt;ul&gt;
+&lt;li&gt;기능 또는 버그 수정을 위해 main 브랜치에서 파생된 브랜치&lt;/li&gt;
+&lt;li&gt;개발이 완료되면 &lt;code class=&quot;language-text&quot;&gt;pull request&lt;/code&gt;를 통해 코드 리뷰를 받고 main 브랜치로 병합됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;과정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img src=&quot;https://images.squarespace-cdn.com/content/v1/5cd29903aadd34273bef66f8/e05668eb-89fa-4ee0-8350-35c93d029fad/GitHub+Flow.png?format=2500w&quot; alt=&quot;GitHubFlow&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;특징
+&lt;ul&gt;
+&lt;li&gt;소규모이거나 빠른 배포 주기를 가진 프로젝트를 위해 제안된 &lt;strong&gt;간단하고 단순한 브랜치 전략&lt;/strong&gt;입니다.&lt;/li&gt;
+&lt;li&gt;단일 main 브랜치에서 이루어지며, feature 브랜치를 통해 코드 변경을 관리합니다.&lt;/li&gt;
+&lt;li&gt;GitHub Flow는 PR 생성 시 자동으로 테스트가 실행되도록 설정할 수 있습니다. 이를 통해 코드가 main 브랜치에 병합되기 전에 버그가 없는지 기능이 정상적으로 동작하는지를 확인할 수 있습니다. 이를 통해 소스 코드의 품질까지 향상 시킬 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;장/단점
+&lt;ul&gt;
+&lt;li&gt;간단하고 직관적인 구조, 빠른 배포와 피드백 주기에 적합합니다.&lt;/li&gt;
+&lt;li&gt;릴리즈와 핫픽스 관리가 다소 비효율적일 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;GitLab Flow
+&lt;ul&gt;
+&lt;li&gt;브랜치 설명
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;production 브랜치&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;운영 환경에 배포되는 브랜치.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;environment-specific 브랜치&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;다양한 환경(staging, pre-production 등)에 맞는 브랜치로, 각 환경에 맞게 코드가 준비됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;feature 브랜치&lt;/code&gt;
+&lt;ul&gt;
+&lt;li&gt;개발을 위한 브랜치로 특정 환경 브랜치에 병합됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;과정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img src=&quot;https://images.squarespace-cdn.com/content/v1/5cd29903aadd34273bef66f8/87ed52b9-cb2e-456a-b345-c04121fb49b2/Gitlab+flow.png?format=2500w&quot; alt=&quot;GitLabFlow&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;특징
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Flow와 Git Flow의 장점을 결합&lt;/strong&gt;한 브랜치 전략입니다.&lt;/li&gt;
+&lt;li&gt;주로 main 브랜치와 feature 브랜치 외에도 환경 기반 브랜치를 사용합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;장/단점
+&lt;ul&gt;
+&lt;li&gt;환경에 맞는 브랜치 관리로 안정성 향상시킬 수 있으나, 환경 브랜치 관리가 복잡할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;4-결론&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-%EA%B2%B0%EB%A1%A0&quot; aria-label=&quot;4 결론 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. 결론&lt;/h2&gt;
+&lt;p&gt;배포를 체계적으로 해야되는 경우에는 Git Flow를 사용하고, 배포를 자주 해야되는 경우에는 GitHub Flow를 사용하면 될 것 같습니다.
+프로젝트의 규모와 배포 주기에 따라서 알맞은 Git 브랜치 전략을 세우는것이 중요합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;참조
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://be-student.tistory.com/83&quot;&gt;https://be-student.tistory.com/83&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://parkstate.tistory.com/33&quot;&gt;https://parkstate.tistory.com/33&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.eisquare.co.uk/blogs/how-to-choose-your-branching-strategy&quot;&gt;https://www.eisquare.co.uk/blogs/how-to-choose-your-branching-strategy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[오류] 팝업 여러개 띄울때 화면 reload 발생]]></title><description><![CDATA[1. 현상 A팝업 -> B팝업 -> C팝업으로 호출하는 경우 B팝업에서만 팝업 호출 시 해당 화면이 reload 되는 현상이 발생했다. 2. 원인 form 태그 안에  button 태그가 1개만 있는 경우에 onclick…]]></description><link>https://pej4303.github.io/error/2/</link><guid isPermaLink="false">https://pej4303.github.io/error/2/</guid><pubDate>Sun, 25 Aug 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;1-현상&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%ED%98%84%EC%83%81&quot; aria-label=&quot;1 현상 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 현상&lt;/h2&gt;
 &lt;p&gt;A팝업 -&gt; B팝업 -&gt; C팝업으로 호출하는 경우 B팝업에서만 팝업 호출 시 해당 화면이 reload 되는 현상이 발생했다.&lt;/p&gt;
 &lt;h2 id=&quot;2-원인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%9B%90%EC%9D%B8&quot; aria-label=&quot;2 원인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 원인&lt;/h2&gt;
