@@ -119,3 +119,9 @@ public class PolyTest {
 + 다형적 참조(Polymorphic Reference)
    + 부모 클래스 타입의 인스턴스로 자식 클래스 타입의 인스턴스를 참조 할 수 있는 기능을 의미합니다. 
 + 메소드를 찾는 방향은 자식->부모순으로, 부모에서 내려가면서 찾을 수는 없습니다.
+
+
+## 참조
++ https://medium.com/@binmuxiz/java-polymorphism-%EB%8B%A4%ED%98%95%EC%84%B1-1-%EB%8B%A4%ED%98%95%EC%A0%81-%EC%B0%B8%EC%A1%B0-1ee2e5535268
++ https://yeoncoding.tistory.com/885
++ GPT
