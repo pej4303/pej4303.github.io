@@ -6,7 +6,7 @@ tags:
   - Java
   - Study
 series: "Java"
-previewImage: 'writing-help.png'
+previewImage: 'java_logo.png'
 isPrivate: false
 ---
 
