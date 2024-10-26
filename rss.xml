@@ -1,4 +1,416 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Dev Note]]></description><link>https://pej4303.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 28 Sep 2024 16:12:54 GMT</lastBuildDate><item><title><![CDATA[[Java] 다형적 참조]]></title><description><![CDATA[스터디에서 다형적참조에 대해 발표하게 되어 정리해보고자 합니다. 0. 서론 다형적 참조에 대해 설명하기 전에 먼저 다형성(Polymorphism)에 대해 알아보죠. 다형성(Polymorphism…]]></description><link>https://pej4303.github.io/archive/java/1/</link><guid isPermaLink="false">https://pej4303.github.io/archive/java/1/</guid><pubDate>Sat, 28 Sep 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;스터디에서 다형적참조에 대해 발표하게 되어 정리해보고자 합니다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Dev Note]]></description><link>https://pej4303.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 26 Oct 2024 07:00:11 GMT</lastBuildDate><item><title><![CDATA[[후기] if(kakao) 2024]]></title><description><![CDATA[if(kakao) 는 카카오 그룹의 기술 비전을 공개하고 기술적 성과를 소개하는 대표 개발자 컨퍼런스입니다. 매년 참여를 희망하며 신청했지만 올해 처음으로 당첨되는 행운을 얻어 마지막 날 행사에 참석할 수 있었습니다. 0. 셔틀버스 & 굿즈 오전…]]></description><link>https://pej4303.github.io/archive/review/1/</link><guid isPermaLink="false">https://pej4303.github.io/archive/review/1/</guid><pubDate>Fri, 25 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d443bac2622b24cf6fe8ba36e20fafb2/d165a/kakao_img1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EABcBAAMBAAAAAAAAAAAAAAAAAAABAwT/2gAMAwEAAhADEAAAAXIOOhlKYf/EABsQAAMAAgMAAAAAAAAAAAAAAAABAwISExQh/9oACAEBAAEFAuuhTRqjkes74sxt5//EABoRAAICAwAAAAAAAAAAAAAAAAACAQMRMWH/2gAIAQMBAT8BhuDLdnZ//8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECESH/2gAIAQIBAT8BWFxP/8QAGxAAAgEFAAAAAAAAAAAAAAAAADECEBIhIkH/2gAIAQEABj8Cdb+EsI2Z/8QAGBAAAwEBAAAAAAAAAAAAAAAAAAEhEVH/2gAIAQEAAT8hhUEHkLxDdxrMZVLiSF01w//aAAwDAQACAAMAAAAQOA//xAAYEQADAQEAAAAAAAAAAAAAAAAAESEBcf/aAAgBAwEBPxCVTRoo6f/EABcRAQEBAQAAAAAAAAAAAAAAAAERACH/2gAIAQIBAT8QMNbiXTf/xAAcEAEBAAICAwAAAAAAAAAAAAABEQAhQYExUWH/2gAIAQEAAT8QB3nzzm+oNb4xVAIMyWNRENbBy5OVRus57yfREah6z//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;카카오컨퍼런스&quot;
+        title=&quot;&quot;
+        src=&quot;/static/d443bac2622b24cf6fe8ba36e20fafb2/6aca1/kakao_img1.jpg&quot;
+        srcset=&quot;/static/d443bac2622b24cf6fe8ba36e20fafb2/d2f63/kakao_img1.jpg 163w,
+/static/d443bac2622b24cf6fe8ba36e20fafb2/c989d/kakao_img1.jpg 325w,
+/static/d443bac2622b24cf6fe8ba36e20fafb2/6aca1/kakao_img1.jpg 650w,
+/static/d443bac2622b24cf6fe8ba36e20fafb2/7c09c/kakao_img1.jpg 975w,
+/static/d443bac2622b24cf6fe8ba36e20fafb2/01ab0/kakao_img1.jpg 1300w,
+/static/d443bac2622b24cf6fe8ba36e20fafb2/d165a/kakao_img1.jpg 1400w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;if(kakao)&lt;/strong&gt; 는 카카오 그룹의 기술 비전을 공개하고 기술적 성과를 소개하는 대표 개발자 컨퍼런스입니다.&lt;br&gt;
+매년 참여를 희망하며 신청했지만 올해 처음으로 당첨되는 행운을 얻어 마지막 날 행사에 참석할 수 있었습니다.&lt;/p&gt;
+&lt;h2 id=&quot;0-셔틀버스--굿즈&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#0-%EC%85%94%ED%8B%80%EB%B2%84%EC%8A%A4--%EA%B5%BF%EC%A6%88&quot; aria-label=&quot;0 셔틀버스  굿즈 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;0. 셔틀버스 &amp;#x26; 굿즈&lt;/h2&gt;
+&lt;p&gt;오전 8시 20분까지 양재역에 도착해 셔틀버스를 타고 행사장으로 이동했습니다.&lt;br&gt;
+버스에 타자마자 굿즈를 나눠주셔서 기분 좋게 시작할 수 있었습니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/021f9b3e311084fa3a116cf25ea46dc5/9ecec/kakao_img3.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.12883435582822%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMCBAUB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAARVqEYppFWG0Zw04V//EAB4QAAEEAgMBAAAAAAAAAAAAAAEAAgMREyIEEiEx/9oACAEBAAEFAsRJki1VrtRk49u+tafDM24ycTdgGhf/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAwEBPwGBP//EABgRAAIDAAAAAAAAAAAAAAAAAAABEBEh/9oACAECAQE/AXDwo//EAB8QAAIBAwUBAAAAAAAAAAAAAAABEQIQISIxQVFxgf/aAAgBAQAGPwKaqp+Gh5V+WyaXBKt2Lwzk2P/EAB0QAQADAAIDAQAAAAAAAAAAAAEAESFRYTFBcaH/2gAIAQEAAT8hK3tK0fkMtzBfmXcuoEBgfFFcQfUrVPspQ5XMJQvtBawC7buacT//2gAMAwEAAgADAAAAEBccQP/EABgRAAMBAQAAAAAAAAAAAAAAAAABERBx/9oACAEDAQE/EF3KDccP/8QAGBEBAQEBAQAAAAAAAAAAAAAAAREAIRD/2gAIAQIBAT8QSPDxR3FFu//EAB4QAQADAQACAwEAAAAAAAAAAAEAESExQWFxobHB/9oACAEBAAE/EHHS2kPwxU7tuR69xsV1erLBpmp25nD3lbv5mpA1HHzFBVVtvsPMSknzVEzzHRhcqJ4v7DJ6MVBgNGT/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;카카오컨퍼런스&quot;
+        title=&quot;&quot;
+        src=&quot;/static/021f9b3e311084fa3a116cf25ea46dc5/6aca1/kakao_img3.jpg&quot;
+        srcset=&quot;/static/021f9b3e311084fa3a116cf25ea46dc5/d2f63/kakao_img3.jpg 163w,
+/static/021f9b3e311084fa3a116cf25ea46dc5/c989d/kakao_img3.jpg 325w,
+/static/021f9b3e311084fa3a116cf25ea46dc5/6aca1/kakao_img3.jpg 650w,
+/static/021f9b3e311084fa3a116cf25ea46dc5/7c09c/kakao_img3.jpg 975w,
+/static/021f9b3e311084fa3a116cf25ea46dc5/9ecec/kakao_img3.jpg 1050w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;이번 행사는 경기도 용인에 위치한 카카오 AI 캠퍼스에서 진행되었는데요. 날씨도 좋고 캠퍼스 건물 역시 인상적이었습니다. 곳곳에 비치된 물, 음료, 견과류 등 간식 덕분에 행사 내내 편하게 즐길 수 있었던 점도 만족스러웠습니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/76df27061b97a253a9a67ffc0fb077f2/d165a/kakao_img2.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGQAAAQUAAAAAAAAAAAAAAAAAAAECAwQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAZ1z31IVgf/EABsQAAICAwEAAAAAAAAAAAAAAAECABEDEiEi/9oACAEBAAEFArCwuphydGzNRth6/8QAFhEBAQEAAAAAAAAAAAAAAAAAABIB/9oACAEDAQE/AZTj/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAECEv/aAAgBAgEBPwF2aZ//xAAZEAADAAMAAAAAAAAAAAAAAAAAEBEBIUH/2gAIAQEABj8C2ZU6Rf/EABoQAAMBAAMAAAAAAAAAAAAAAAABESExQbH/2gAIAQEAAT8hTyrSyWQ63g6XJsVEyetEmp//2gAMAwEAAgADAAAAEPDP/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARIf/aAAgBAwEBPxAYiP/EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAgEBPxCBV//EAB0QAQADAAEFAAAAAAAAAAAAAAEAESFRMUFhcZH/2gAIAQEAAT8QMgFocx5VTbZVdoS+kM2B2jrNv2Mgso+a9xiYeJ//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;카카오컨퍼런스&quot;
+        title=&quot;&quot;
+        src=&quot;/static/76df27061b97a253a9a67ffc0fb077f2/6aca1/kakao_img2.jpg&quot;
+        srcset=&quot;/static/76df27061b97a253a9a67ffc0fb077f2/d2f63/kakao_img2.jpg 163w,
+/static/76df27061b97a253a9a67ffc0fb077f2/c989d/kakao_img2.jpg 325w,
+/static/76df27061b97a253a9a67ffc0fb077f2/6aca1/kakao_img2.jpg 650w,
+/static/76df27061b97a253a9a67ffc0fb077f2/7c09c/kakao_img2.jpg 975w,
+/static/76df27061b97a253a9a67ffc0fb077f2/01ab0/kakao_img2.jpg 1300w,
+/static/76df27061b97a253a9a67ffc0fb077f2/d165a/kakao_img2.jpg 1400w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1-panel-talk&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-panel-talk&quot; aria-label=&quot;1 panel talk permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. Panel Talk&lt;/h2&gt;
+&lt;p&gt;오전 10시 오프닝 세션이 시작되었습니다. 이 시간에는 카카오 계열사들이 AI 기술을 어떻게 활용하고 있는지 구체적으로 소개했는데요. &lt;strong&gt;특히 카카오페이와 카카오뱅크가 이상 거래 탐지 시스템(FDS)에 AI를 적용하고 있다는 점이 인상 깊었습니다.&lt;/strong&gt;  기존에는 사람만이 판단할 수 있다고 여겨졌던 영역에 AI가 도입된 것을 보며 기술의 발전에 신기함을 느꼈습니다.&lt;/p&gt;
+&lt;p&gt;발표 내용은 금융 AI와 생활 AI 두 가지 주제로 나뉘었는데 개인적으로는 생활 AI 분야가 더 흥미로웠습니다. 특히 카카오페이지에서 AI가 웹툰 광고를 제작한다는 점이 놀라웠는데요. &lt;strong&gt;사람이 작업하면 3주가 걸리는 일을 AI가 단 3시간 만에 처리할 수 있다고 합니다.&lt;/strong&gt;  또한 카카오모빌리티의 로봇 배송과 자율주행 택시에 대한 발표도 매우 흥미로웠습니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/aedb77bc37f63d94d6a0104639675ef4/d165a/kakao_img4.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABmudysxE//8QAGxAAAQQDAAAAAAAAAAAAAAAAAgABAxEhM0H/2gAIAQEAAQUC6iw8WlnOzgsv/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8BR//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwFsf//EABwQAAIBBQEAAAAAAAAAAAAAAAABMhESISKhQf/aAAgBAQAGPwLCRLhPpsJJ+lbj/8QAHBAAAgMAAwEAAAAAAAAAAAAAAREAITFRYXGB/9oACAEBAAE/IQbAUCmnGenkFQS+pKK1k5EnkCz0xgGuZ//aAAwDAQACAAMAAAAQe9//xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAIAQMBAT8Qmqf/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxASX//EAB4QAQACAgEFAAAAAAAAAAAAAAEAESFBUTFhcZHB/9oACAEBAAE/EAHiItWIoVm8HyAtlXI9XMdhuKaXk7wl1u7UOnSRWB6lNqz/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;카카오컨퍼런스&quot;
+        title=&quot;&quot;
+        src=&quot;/static/aedb77bc37f63d94d6a0104639675ef4/6aca1/kakao_img4.jpg&quot;
+        srcset=&quot;/static/aedb77bc37f63d94d6a0104639675ef4/d2f63/kakao_img4.jpg 163w,
+/static/aedb77bc37f63d94d6a0104639675ef4/c989d/kakao_img4.jpg 325w,
+/static/aedb77bc37f63d94d6a0104639675ef4/6aca1/kakao_img4.jpg 650w,
+/static/aedb77bc37f63d94d6a0104639675ef4/7c09c/kakao_img4.jpg 975w,
+/static/aedb77bc37f63d94d6a0104639675ef4/01ab0/kakao_img4.jpg 1300w,
+/static/aedb77bc37f63d94d6a0104639675ef4/d165a/kakao_img4.jpg 1400w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c832bf3f12328af2c4babc9f095498a0/d165a/kakao_img5.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB4dyYihH/xAAaEAEBAAIDAAAAAAAAAAAAAAABAgADERJB/9oACAEBAAEFAgnPOXJemOwZ1Msf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8BJ//EAB0QAAIBBAMAAAAAAAAAAAAAAAABMQIRISIyYYH/2gAIAQEABj8ChnAhD7KreGzyf//EABwQAAICAgMAAAAAAAAAAAAAAAARAUEhMVFhcf/aAAgBAQABPyGRh3pWUVOTjJlnLb6sXVLCWZ9JK0f/2gAMAwEAAgADAAAAEDfv/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QZ//EABYRAQEBAAAAAAAAAAAAAAAAAAARQf/aAAgBAgEBPxCNR//EABwQAQACAwEBAQAAAAAAAAAAAAEAESExUUGRof/aAAgBAQABPxDzyLt6+XFUKA2nHyNmGcpjHwh0avhS8l6Cdo628x+wmjYtrPJ//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;카카오컨퍼런스&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c832bf3f12328af2c4babc9f095498a0/6aca1/kakao_img5.jpg&quot;
+        srcset=&quot;/static/c832bf3f12328af2c4babc9f095498a0/d2f63/kakao_img5.jpg 163w,
+/static/c832bf3f12328af2c4babc9f095498a0/c989d/kakao_img5.jpg 325w,
+/static/c832bf3f12328af2c4babc9f095498a0/6aca1/kakao_img5.jpg 650w,
+/static/c832bf3f12328af2c4babc9f095498a0/7c09c/kakao_img5.jpg 975w,
+/static/c832bf3f12328af2c4babc9f095498a0/01ab0/kakao_img5.jpg 1300w,
+/static/c832bf3f12328af2c4babc9f095498a0/d165a/kakao_img5.jpg 1400w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2025e70798d48b98372a736a4e772902/d165a/kakao_img6.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIDBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABzZ67CDEf/8QAGxAAAQUBAQAAAAAAAAAAAAAAAgABAxESISL/2gAIAQEAAQUCGrlbBekPH3pRmLD/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAMAAwEAAAAAAAAAAAAAAAABEQIQISL/2gAIAQEABj8CkIo9cRlEerT/xAAcEAACAgIDAAAAAAAAAAAAAAAAARExIUFRYZH/2gAIAQEAAT8hmRLvbNBiuBvp4csczY8LPpkQVpH/2gAMAwEAAgADAAAAELQv/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFhEBAQEAAAAAAAAAAAAAAAAAEQEQ/9oACAECAQE/EIGf/8QAHBABAAMAAgMAAAAAAAAAAAAAAQARMSFBcYGR/9oACAEBAAE/ELfWo21iq9Rp8iXR4EK5dg4Snkl6gojPO6+ovKlSPU//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;카카오컨퍼런스&quot;
+        title=&quot;&quot;
+        src=&quot;/static/2025e70798d48b98372a736a4e772902/6aca1/kakao_img6.jpg&quot;
+        srcset=&quot;/static/2025e70798d48b98372a736a4e772902/d2f63/kakao_img6.jpg 163w,
+/static/2025e70798d48b98372a736a4e772902/c989d/kakao_img6.jpg 325w,
+/static/2025e70798d48b98372a736a4e772902/6aca1/kakao_img6.jpg 650w,
+/static/2025e70798d48b98372a736a4e772902/7c09c/kakao_img6.jpg 975w,
+/static/2025e70798d48b98372a736a4e772902/01ab0/kakao_img6.jpg 1300w,
+/static/2025e70798d48b98372a736a4e772902/d165a/kakao_img6.jpg 1400w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/68972d905ddfbaa11fd74fe56910a3ff/d165a/kakao_img7.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgED/9oADAMBAAIQAxAAAAHnXUzQwZBT/8QAGhABAAEFAAAAAAAAAAAAAAAAAQACAxARIf/aAAgBAQABBQLRnot2FaT/xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8BjIz/xAAYEQADAQEAAAAAAAAAAAAAAAAAAQISUf/aAAgBAgEBPwFODU8P/8QAGRAAAwADAAAAAAAAAAAAAAAAARARACFh/9oACAEBAAY/AneYBNr/xAAbEAEBAAMAAwAAAAAAAAAAAAABEQAhMRBBkf/aAAgBAQABPyEP0uQCAd8EfViZq1gb+YFLn//aAAwDAQACAAMAAAAQC8//xAAXEQEAAwAAAAAAAAAAAAAAAAAAAVFh/9oACAEDAQE/EJtbv//EABYRAQEBAAAAAAAAAAAAAAAAAAABQf/aAAgBAgEBPxDBEb//xAAcEAEAAwACAwAAAAAAAAAAAAABABEhYfAxQZH/2gAIAQEAAT8QM8TlycQ4DY3fr5LE3ZDVr0mwa9wBExSd2VI3b1n/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;카카오컨퍼런스&quot;
+        title=&quot;&quot;
+        src=&quot;/static/68972d905ddfbaa11fd74fe56910a3ff/6aca1/kakao_img7.jpg&quot;
+        srcset=&quot;/static/68972d905ddfbaa11fd74fe56910a3ff/d2f63/kakao_img7.jpg 163w,
+/static/68972d905ddfbaa11fd74fe56910a3ff/c989d/kakao_img7.jpg 325w,
+/static/68972d905ddfbaa11fd74fe56910a3ff/6aca1/kakao_img7.jpg 650w,
+/static/68972d905ddfbaa11fd74fe56910a3ff/7c09c/kakao_img7.jpg 975w,
+/static/68972d905ddfbaa11fd74fe56910a3ff/01ab0/kakao_img7.jpg 1300w,
+/static/68972d905ddfbaa11fd74fe56910a3ff/d165a/kakao_img7.jpg 1400w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-점심시간--체험부스&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EC%A0%90%EC%8B%AC%EC%8B%9C%EA%B0%84--%EC%B2%B4%ED%97%98%EB%B6%80%EC%8A%A4&quot; aria-label=&quot;2 점심시간  체험부스 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 점심시간 &amp;#x26; 체험부스&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/07cb296ce8e586fc2c04d3a4ed389534/d165a/kakao_img8.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAUMluHPLw3//xAAbEAEAAgIDAAAAAAAAAAAAAAACAQMAEhMhI//aAAgBAQABBQKurzrHIUMPYh6IxtH/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEUH/2gAIAQMBAT8BxH//xAAWEQEBAQAAAAAAAAAAAAAAAAAAESH/2gAIAQIBAT8B1X//xAAaEAACAgMAAAAAAAAAAAAAAAAAEQExEBJB/9oACAEBAAY/An0khQOjV3WP/8QAGxAAAgMAAwAAAAAAAAAAAAAAAREAIUExUcH/2gAIAQEAAT8hYlJZCjwhzogV1PYtxE62ACzUXz2f/9oADAMBAAIAAwAAABD/AN//xAAWEQEBAQAAAAAAAAAAAAAAAAABERD/2gAIAQMBAT8QYxj/xAAYEQADAQEAAAAAAAAAAAAAAAAAAREhof/aAAgBAgEBPxCo6umT/8QAHBABAAMAAgMAAAAAAAAAAAAAAQARIUHBUXGB/9oACAEBAAE/ELh2Viy5fzIb6BQo3IlM3ec2g0NYIceOoPLDUGV1AXYEF+77n//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;카카오컨퍼런스&quot;
+        title=&quot;&quot;
+        src=&quot;/static/07cb296ce8e586fc2c04d3a4ed389534/6aca1/kakao_img8.jpg&quot;
+        srcset=&quot;/static/07cb296ce8e586fc2c04d3a4ed389534/d2f63/kakao_img8.jpg 163w,
+/static/07cb296ce8e586fc2c04d3a4ed389534/c989d/kakao_img8.jpg 325w,
+/static/07cb296ce8e586fc2c04d3a4ed389534/6aca1/kakao_img8.jpg 650w,
+/static/07cb296ce8e586fc2c04d3a4ed389534/7c09c/kakao_img8.jpg 975w,
+/static/07cb296ce8e586fc2c04d3a4ed389534/01ab0/kakao_img8.jpg 1300w,
+/static/07cb296ce8e586fc2c04d3a4ed389534/d165a/kakao_img8.jpg 1400w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;카카오 AI 캠퍼스는 주변에 먹을만한 곳이 없습니다. 그래서 도시락 제공이 되었는데요. 아무래도 냉동이다보니 닭강정이랑 김밥이 좀 차갑더라구요. 식사 후에는 건물을 둘러보며 체험 부스도 구경했습니다. 밖에는 자율주행 택시가 1층 체험존에는 카바나 AI 포토부스가 있었고 2층에서는 카카오모빌리티의 로봇배송 서비스인 &apos;브링&apos;과 카카오헬스의 &apos;파스타&apos; 등 다양한 기술들을 직접 체험할 수 있었습니다. 오전에 들었던 기술 설명을 실제로 사용해 볼 수 있어 흥미로운 경험이었습니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bc3cb54b7e044d2d7927d1d9c14250ef/d165a/kakao_img9.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAU7alLE//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACERID/9oACAEBAAEFAgnWTtj5re9W4YH/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAcEAABBAMBAAAAAAAAAAAAAAAAAQIRIRIxcSL/2gAIAQEABj8CWq4SrVjh51wR2Wi3KQf/xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMUFhcf/aAAgBAQABPyHYcHRQ+LuZjNGYuLoTjyUiAjAUeT//2gAMAwEAAgADAAAAEMPv/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERgf/aAAgBAwEBPxCbY//EABgRAAIDAAAAAAAAAAAAAAAAAAABEVGB/9oACAECAQE/EFFmn//EABsQAQEAAwEBAQAAAAAAAAAAAAERACExUWGR/9oACAEBAAE/EESdwYuT994RXW1yKSQgLHDAeAHjzf7ih4WvA+aDJBxC7Z//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;카카오컨퍼런스&quot;
+        title=&quot;&quot;
+        src=&quot;/static/bc3cb54b7e044d2d7927d1d9c14250ef/6aca1/kakao_img9.jpg&quot;
+        srcset=&quot;/static/bc3cb54b7e044d2d7927d1d9c14250ef/d2f63/kakao_img9.jpg 163w,
+/static/bc3cb54b7e044d2d7927d1d9c14250ef/c989d/kakao_img9.jpg 325w,
+/static/bc3cb54b7e044d2d7927d1d9c14250ef/6aca1/kakao_img9.jpg 650w,
+/static/bc3cb54b7e044d2d7927d1d9c14250ef/7c09c/kakao_img9.jpg 975w,
+/static/bc3cb54b7e044d2d7927d1d9c14250ef/01ab0/kakao_img9.jpg 1300w,
+/static/bc3cb54b7e044d2d7927d1d9c14250ef/d165a/kakao_img9.jpg 1400w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e7e1bb2a5640cd08019b1a25ebf959ec/9ecec/kakao_img10.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.12883435582822%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAMBAgQF/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAABXFmMzFjOjo5GVLTGM//EAB4QAAICAQUBAAAAAAAAAAAAAAECAAMRBBITITIz/9oACAEBAAEFApthWKyhOxORVj4yviwAsRK/pqXZbP/EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPwHYk//EABYRAQEBAAAAAAAAAAAAAAAAAAEQEv/aAAgBAgEBPwHJBn//xAAdEAABBAIDAAAAAAAAAAAAAAABAAIRIRBhQXGB/9oACAEBAAY/Au83ClrSQ5Q6vMMGlYBxGlR4X//EABwQAQADAQADAQAAAAAAAAAAAAEAESFBMVFhwf/aAAgBAQABPyF8DWeE1yAsJGh79zECOpsdor7Ckyh38TSJXSBmTIF1xcoNBH//2gAMAwEAAgADAAAAELMs/f/EABcRAAMBAAAAAAAAAAAAAAAAAAABIRH/2gAIAQMBAT8Q1pCAnD//xAAYEQADAQEAAAAAAAAAAAAAAAAAAREhMf/aAAgBAgEBPxDCtkZpB9P/xAAeEAEBAAICAgMAAAAAAAAAAAABEQAhMUFRsWFxof/aAAgBAQABPxCd/BY3QwW3jdJTCCTjHwsrycKJ8Qkar8hjYQliD6yYMSN13jdb0HXk5enAU1/cfsHn3hvAUlIP1gBaBh5rn//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;카카오컨퍼런스&quot;
+        title=&quot;&quot;
+        src=&quot;/static/e7e1bb2a5640cd08019b1a25ebf959ec/6aca1/kakao_img10.jpg&quot;
+        srcset=&quot;/static/e7e1bb2a5640cd08019b1a25ebf959ec/d2f63/kakao_img10.jpg 163w,
+/static/e7e1bb2a5640cd08019b1a25ebf959ec/c989d/kakao_img10.jpg 325w,
+/static/e7e1bb2a5640cd08019b1a25ebf959ec/6aca1/kakao_img10.jpg 650w,
+/static/e7e1bb2a5640cd08019b1a25ebf959ec/7c09c/kakao_img10.jpg 975w,
+/static/e7e1bb2a5640cd08019b1a25ebf959ec/9ecec/kakao_img10.jpg 1050w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f572e6bc3ba8fdcec10d6da9019a719f/9ecec/kakao_img11.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.12883435582822%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIEA//EABYBAQEBAAAAAAAAAAAAAAAAAAECAP/aAAwDAQACEAMQAAABxopU0ZSDksTpWITX/8QAHRAAAgEEAwAAAAAAAAAAAAAAAQIAAwQSIREUMf/aAAgBAQABBQIklgwLG42FXjBZgkFwk7Agq6Agi+f/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEv/aAAgBAwEBPwGlpS//xAAaEQACAgMAAAAAAAAAAAAAAAAAEgERAiFB/9oACAECAQE/AV4RhFaHGo//xAAbEAACAgMBAAAAAAAAAAAAAAAAASExEBEyQf/aAAgBAQAGPwJaYyUUco5R7BTIQ8//xAAcEAADAAIDAQAAAAAAAAAAAAAAAREhMUFRkcH/2gAIAQEAAT8htBqbKg3ULBMx10TfwEzXkQ4bRmIfCdqwvtilguBa0IP/2gAMAwEAAgADAAAAELzG/P/EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQMBAT8QAOhK3tiy9b//xAAYEQEBAQEBAAAAAAAAAAAAAAABABEhMf/aAAgBAgEBPxB2aZ4VyVDGHl//xAAfEAEBAQABAwUAAAAAAAAAAAABEQAhMUFRYYGhscH/2gAIAQEAAT8Qex8et1K35yuJKUqzXqX0bu5dDfKZqhK9Z1RCXxy0PjHs988qlFBQWYjk5Il+txcOeKgOD9cSqWPG/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;카카오컨퍼런스&quot;
+        title=&quot;&quot;
+        src=&quot;/static/f572e6bc3ba8fdcec10d6da9019a719f/6aca1/kakao_img11.jpg&quot;
+        srcset=&quot;/static/f572e6bc3ba8fdcec10d6da9019a719f/d2f63/kakao_img11.jpg 163w,
+/static/f572e6bc3ba8fdcec10d6da9019a719f/c989d/kakao_img11.jpg 325w,
+/static/f572e6bc3ba8fdcec10d6da9019a719f/6aca1/kakao_img11.jpg 650w,
+/static/f572e6bc3ba8fdcec10d6da9019a719f/7c09c/kakao_img11.jpg 975w,
+/static/f572e6bc3ba8fdcec10d6da9019a719f/9ecec/kakao_img11.jpg 1050w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;3-인상깊었던-세션&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%EC%9D%B8%EC%83%81%EA%B9%8A%EC%97%88%EB%8D%98-%EC%84%B8%EC%85%98&quot; aria-label=&quot;3 인상깊었던 세션 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 인상깊었던 세션&lt;/h2&gt;
+&lt;p&gt;오전에는 카카오모빌리티 발표를 듣고 흥미가 생겨 &lt;strong&gt;&quot;무엇이든 로봇배송! 진짜 되는 플랫폼 이야기&quot;&lt;/strong&gt; 세션에 참석했습니다. 기존 로봇 배송은 API 연동 방식으로 인해 여러 로봇 제조사에 공통 적용이 어려웠고 특정 제조사에 의존하는 구조였다고 합니다. 이를 개선하기 위해 설계를 변경하여 모든 제조사에 적용 가능한 플랫폼으로 바꿨다는 설명이 인상적이었습니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/6dc802686479b080ec4f0c993f248169/d165a/kakao_img12.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAQP/xAAVAQEBAAAAAAAAAAAAAAAAAAABA//aAAwDAQACEAMQAAABU2h2gyRko//EABkQAQEBAQEBAAAAAAAAAAAAAAIBAwARE//aAAgBAQABBQKZuz5ad5ZwRhjNmmwD/8QAFREBAQAAAAAAAAAAAAAAAAAAECH/2gAIAQMBAT8Bp//EABkRAQACAwAAAAAAAAAAAAAAAAEAIQIDMf/aAAgBAgEBPwF3YnSF3P/EABkQAAIDAQAAAAAAAAAAAAAAAAABAhEhMf/aAAgBAQAGPwLDhThZpg02f//EABoQAQADAQEBAAAAAAAAAAAAAAEAESExQWH/2gAIAQEAAT8hFIMzsx4hbsPWOBGa5Aiin5EBW7hP/9oADAMBAAIAAwAAABDo7//EABYRAAMAAAAAAAAAAAAAAAAAAAEQUf/aAAgBAwEBPxAwv//EABgRAQEAAwAAAAAAAAAAAAAAAAEAESEx/9oACAECAQE/EE0TUsAcb//EABoQAQEBAQADAAAAAAAAAAAAAAERACFRYdH/2gAIAQEAAT8QLA76i5KLT2auIvk7rYDaJg52joNfMVBAVSTf/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;카카오컨퍼런스&quot;
+        title=&quot;&quot;
+        src=&quot;/static/6dc802686479b080ec4f0c993f248169/6aca1/kakao_img12.jpg&quot;
+        srcset=&quot;/static/6dc802686479b080ec4f0c993f248169/d2f63/kakao_img12.jpg 163w,
+/static/6dc802686479b080ec4f0c993f248169/c989d/kakao_img12.jpg 325w,
+/static/6dc802686479b080ec4f0c993f248169/6aca1/kakao_img12.jpg 650w,
+/static/6dc802686479b080ec4f0c993f248169/7c09c/kakao_img12.jpg 975w,
+/static/6dc802686479b080ec4f0c993f248169/01ab0/kakao_img12.jpg 1300w,
+/static/6dc802686479b080ec4f0c993f248169/d165a/kakao_img12.jpg 1400w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;마지막으로 &lt;strong&gt;&quot;카카오 빌링 MySQL DB 샤딩 적용&quot;&lt;/strong&gt; 세션도 들었는데요. 발표자분이 유머를 곁들여 진행해 즐겁게 들을 수 있었습니다. 😄 DB 샤딩(Sharding)은 데이터베이스 트래픽을 분산시키는 중요한 방법으로 쉽게 말해서 각 DB서버에 데이터를 나눠 저장하는 방식을 말합니다. 기존에는 1대 서버에 의존하던 것을 12대로 대폭 확장했다고 합니다. 이 작업은 카카오 DB 팀과 협업해 108일 동안 진행되었다고 하네요.&lt;/p&gt;
+&lt;h2 id=&quot;4-마무리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-%EB%A7%88%EB%AC%B4%EB%A6%AC&quot; aria-label=&quot;4 마무리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. 마무리&lt;/h2&gt;
+&lt;p&gt;이번 카카오 AI 캠퍼스 방문을 통해 다양한 기술을 직접 체험하고 최신 트렌드를 배울 수 있는 뜻깊은 시간이었습니다. 특히 로봇 배송과 DB 샤딩과 같은 실무적이고 혁신적인 주제들을 접하며 많은 인사이트를 얻을 수 있었는데요. 앞으로도 이런 기술들이 어떻게 발전해 나갈지 기대가 됩니다. 또 이런 경험을 바탕으로 제 업무와 성장에도 도움이 될 수 있을 것 같아 더욱 의미 있었던 시간이었습니다.&lt;/p&gt;
+&lt;h2 id=&quot;참조&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EC%A1%B0&quot; aria-label=&quot;참조 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참조&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://if.kakao.com/session?t.RVmWsFVgRd=2&quot;&gt;https://if.kakao.com/session?t.RVmWsFVgRd=2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[Java] 다형적 참조]]></title><description><![CDATA[스터디에서 다형적참조에 대해 발표하게 되어 정리해보고자 합니다. 0. 서론 다형적 참조에 대해 설명하기 전에 먼저 다형성(Polymorphism)에 대해 알아보죠. 다형성(Polymorphism…]]></description><link>https://pej4303.github.io/archive/java/1/</link><guid isPermaLink="false">https://pej4303.github.io/archive/java/1/</guid><pubDate>Sat, 28 Sep 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;스터디에서 다형적참조에 대해 발표하게 되어 정리해보고자 합니다.&lt;/p&gt;
 &lt;h2 id=&quot;0-서론&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#0-%EC%84%9C%EB%A1%A0&quot; aria-label=&quot;0 서론 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;0. 서론&lt;/h2&gt;
 &lt;p&gt;다형적 참조에 대해 설명하기 전에 먼저 다형성(Polymorphism)에 대해 알아보죠.&lt;br&gt;
 다형성(Polymorphism)은 객체지향 프로그래밍의 중요한 개념중 하나로 &lt;strong&gt;여러가지 형태를 가질 수 있는 능력을 의미&lt;/strong&gt;합니다. 예시를 들자면, 다형성(Polymorphism)은 부모 클래스 타입의 변수가 자식 클래스 타입의 객체를 참조할 수 있다는 것을 뜻합니다.&lt;/p&gt;
