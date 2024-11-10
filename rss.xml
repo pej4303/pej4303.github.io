@@ -1,4 +1,281 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Dev Note]]></description><link>https://pej4303.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 30 Oct 2024 03:25:45 GMT</lastBuildDate><item><title><![CDATA[[후기] if(kakao) 2024]]></title><description><![CDATA[if(kakao) 는 카카오 그룹의 기술 비전을 공개하고 기술적 성과를 소개하는 대표 개발자 컨퍼런스입니다. 매년 참여를 희망하며 신청했지만 올해 처음으로 당첨되는 행운을 얻어 마지막 날 행사에 참석할 수 있었습니다. 0. 셔틀버스 & 굿즈 오전…]]></description><link>https://pej4303.github.io/archive/review/1/</link><guid isPermaLink="false">https://pej4303.github.io/archive/review/1/</guid><pubDate>Fri, 25 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[Dev Note]]></description><link>https://pej4303.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 10 Nov 2024 11:19:23 GMT</lastBuildDate><item><title><![CDATA[[Java] String 클래스]]></title><description><![CDATA[1. String클래스란? String 클래스는 자바에서 문자열을 다루기 위해 제공하는 클래스입니다. 자바에서 가장 많이 사용되는 클래스 중 하나죠. 문자열을 다루기 위해 기본형인 char…]]></description><link>https://pej4303.github.io/archive/java/2/</link><guid isPermaLink="false">https://pej4303.github.io/archive/java/2/</guid><pubDate>Sun, 10 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;1-string클래스란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-string%ED%81%B4%EB%9E%98%EC%8A%A4%EB%9E%80&quot; aria-label=&quot;1 string클래스란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. String클래스란?&lt;/h2&gt;
+&lt;p&gt;String 클래스는 &lt;strong&gt;자바에서 문자열을 다루기 위해 제공하는 클래스&lt;/strong&gt;입니다. 자바에서 가장 많이 사용되는 클래스 중 하나죠.&lt;br&gt;
+문자열을 다루기 위해 기본형인 char 타입을 사용할 수도 있지만, 이 방법은 불편하기 때문에 자바에서는 문자열을 보다 편리하게 처리할 수 있도록 String 클래스를 제공합니다.&lt;/p&gt;
+&lt;p&gt;String 클래스의 주요 특징 중 하나는 &lt;strong&gt;불변(Immutable) 객체&lt;/strong&gt;라는 점입니다. 불변 객체란 값을 변경할 수 없는 객체를 의미하며, String 클래스는 내부적으로 문자열 데이터를 수정할 수 없게 설계되어 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8d08c91455555546692b3120e906de2e/227ba/img1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 26.993865030674847%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAIAAADKYVtkAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAvklEQVR42p2NWw6CMBBF3f+W/FD/MUQQAW2iUaAtb1r6oMDUtwtwcj5ubnLmLgDA/nsLJUqSbNsyLohfF0cziEcL9vMS4M1n4B1g/sq6z7rSE92Z1wfJ0CjrWWowCgYFSv2caZpe6cVvuWqMj/QlMwFSLhqIczytPGcZ+OsQb7ZB3Lgx28d5GEWmN8SjeVhnO8pZ/5SbbsCFrFqdUpHkit9of07TMHnA0RXnMqGaFBxjMo/AMs6JaK4t67i19g5qohx8B651VAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;String클래스&quot;
+        title=&quot;&quot;
+        src=&quot;/static/8d08c91455555546692b3120e906de2e/a6d36/img1.png&quot;
+        srcset=&quot;/static/8d08c91455555546692b3120e906de2e/222b7/img1.png 163w,
+/static/8d08c91455555546692b3120e906de2e/ff46a/img1.png 325w,
+/static/8d08c91455555546692b3120e906de2e/a6d36/img1.png 650w,
+/static/8d08c91455555546692b3120e906de2e/227ba/img1.png 769w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;위 이미지에서 볼 수 있듯이 value라는 변수는 실제로 String 클래스에서 문자열 데이터를 담는 역할을 합니다. 이 변수는 &lt;strong&gt;final로 선언되어 있어 값 변경이 불가능&lt;/strong&gt;합니다.&lt;/p&gt;
+&lt;p&gt;String 클래스의 소스 코드를 통해 이 구조를 좀 더 자세히 알아보겠습니다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;char&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; value&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;    &lt;span class=&quot;token comment&quot;&gt;// 자바 9 이전&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;byte&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; value&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;    &lt;span class=&quot;token comment&quot;&gt;// 자바 9 이후&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;자바 9 이전에는 char 배열을 이용해 문자열 데이터를 저장했지만, 자바 9 이후부터는 메모리 효율성을 높이기 위해 byte 배열을 사용하도록 변경되었습니다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;byte를 사용하는 이유&lt;/strong&gt;&lt;br&gt;
+예전에는 모든 String 객체가 UTF-16 인코딩을 사용하여 2Byte로 저장되었으나,&lt;br&gt;
+자바 9에서는 저장된 문자가 ASCII 문자일때 더 적은 메모리를 사용하도록 byte[] 배열을 사용하여 저장하는 방식으로 변경되었으며
+이러한 방식을 압축문자열(Compact Strings)이라고 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;2-string-선언-방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-string-%EC%84%A0%EC%96%B8-%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;2 string 선언 방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. String 선언 방법&lt;/h2&gt;
+&lt;p&gt;String을 선언하는 방법에는 리터럴 방식과 new 연산자를 이용한 방식 두 가지가 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 251px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/07b95d4042b7f645a7550655d2aced54/26abe/img2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 12.883435582822086%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAADCAIAAAAcOLh5AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAqElEQVR42jXN2wqCMACAYd//TSIR6dZSPFPdmN0EGXRCl+iUbe7g5kyCvgf4f4MyRgeKEFI/8zwLwQkhnHPG2PzXkAZSpLXGHPcMyUlCCg3P909ZlsShadvrtSUY3TqO6+3SMA6DmInxsE/FqCpUmufNKreixzG5p+4tyj8Xo2nbgZC6roviGvjB0gYAwA5ijCsApFKwbadJL/OOdq/uXSJQIfDsSzHJL1TUoeOT/LQuAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;리터럴 방식&quot;
+        title=&quot;&quot;
+        src=&quot;/static/07b95d4042b7f645a7550655d2aced54/26abe/img2.png&quot;
+        srcset=&quot;/static/07b95d4042b7f645a7550655d2aced54/222b7/img2.png 163w,
+/static/07b95d4042b7f645a7550655d2aced54/26abe/img2.png 251w&quot;
+        sizes=&quot;(max-width: 251px) 100vw, 251px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;리터럴 방식
+&lt;ul&gt;
+&lt;li&gt;JVM는 먼저 String Pool에 &quot;hello&quot;라는 문자열이 존재하는지 확인합니다.&lt;/li&gt;
+&lt;li&gt;이미 &quot;hello&quot;가 존재한다면, 그 문자열의 참조값을 사용합니다.&lt;/li&gt;
+&lt;li&gt;존재하지 않으면 String Pool에 &quot;hello&quot;를 추가하고 그 참조값을 사용합니다.&lt;/li&gt;
+&lt;li&gt;메모리를 절약할 수 있으며, 동일 문자열 비교시 &quot;==&quot; 비교가 가능합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 463px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e800b14276500d5067258d23c80a977e/71ce0/img3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 7.361963190184048%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAABCAIAAABR8BlyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAARElEQVR42gXBMQ6AMAgAQP//Njc3I6aaaCk0IEVidfJuQEQmBgBVISL3Zv7s5VNBOqdtGdM63xG1soj0t+dWDssSl5n9iCE3FHwXHOIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;new 연산자 이용 방식&quot;
+        title=&quot;&quot;
+        src=&quot;/static/e800b14276500d5067258d23c80a977e/71ce0/img3.png&quot;
+        srcset=&quot;/static/e800b14276500d5067258d23c80a977e/222b7/img3.png 163w,
+/static/e800b14276500d5067258d23c80a977e/ff46a/img3.png 325w,
+/static/e800b14276500d5067258d23c80a977e/71ce0/img3.png 463w&quot;
+        sizes=&quot;(max-width: 463px) 100vw, 463px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;new 연산자 이용 방식
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;String Pool을 거치지 않고 무조건 새로운 String 객체가 Heap 영역에 생성&lt;/strong&gt;됩니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/305d2b1295ef11951e802d1c072994f9/dcb79/img4.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 42.94478527607362%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsTAAALEwEAmpwYAAABN0lEQVR42n2RbU/CMBDH9/0/Fq8QEgGNGsVFUAgb2/p0t7Zru9aDQtQX+M/l0qff5f7XIo4uRZ9uyDk33FCMsWia4+ghjZhGnZJJgdYmkyEEa208a7wqb733xBdMMCUZojIIWjDT80i1rjA9oiylzCcEAJxuiae6Ravw2DEuQQNi0/agYsDfMHU+nU7LsqQTpdRkMtlut7lQQX1Q/LiMLv2FKXPOs0naMsaylxNc1zVop3QA48EE1BaR2hjQWK5woHlZeFit6qqicsaY5WJRVdUFboViAgRgD0aRa9RSdH136MVRSLIjCH5+eVu/f/gQnQ+PT6/rdXmBGWDTMSZEL7Xk2CpgQuq2Ay60dQIGrmzTyc3XgaLc7D73tTaGfpAmX6R/Fc/j2O93s9ndfD5bLu4p5+HHGL8BkoIE4mk+l+MAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;선언방법 도식화&quot;
+        title=&quot;&quot;
+        src=&quot;/static/305d2b1295ef11951e802d1c072994f9/a6d36/img4.png&quot;
+        srcset=&quot;/static/305d2b1295ef11951e802d1c072994f9/222b7/img4.png 163w,
+/static/305d2b1295ef11951e802d1c072994f9/ff46a/img4.png 325w,
+/static/305d2b1295ef11951e802d1c072994f9/a6d36/img4.png 650w,
+/static/305d2b1295ef11951e802d1c072994f9/e548f/img4.png 975w,
+/static/305d2b1295ef11951e802d1c072994f9/3c492/img4.png 1300w,
+/static/305d2b1295ef11951e802d1c072994f9/dcb79/img4.png 1700w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&quot;hello&quot;란 문자열은 같지만 리터럴 방식의 str1과 new 연산자를 사용한 str2는 서로 다른 참조값을 가지게 됩니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/35e01b00e60946e38b0e0ddd06b2469a/000c7/img5.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.62576687116564%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsTAAALEwEAmpwYAAABDElEQVR42l2RyW6EQAxE+/+/iisSEkdGYt8u7GFfh3nBYZJJSVhud7ldLtR543mDfJ7npmm+PjGOY9u2JFz1fQ9TCfsvqHB9HAc5cds2Ip2madJMcd93npimSfFFUVQURdd19BCrqiJZloXiuq7yIsfH41FcGG8oqJqmWZbFezKnrmvP83zf13W9LEva2IKrLMvSNKU+DMNPMxlsBtJMRBhHorChuq4LB4GGYUCQvaSiECbeEDmLQvygmcjzFNcLjuMEQcDwX9n0INu27bdhNIsx/1ykmOe5GCHKFTPjOKb0/lsk8MQ8VmDt6oIIlNXIcef7V6Hw+QkqzMeFJEnwEp+RFoYhspm5XTjP8wX7PACtLshxUAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;불변설계이유&quot;
+        title=&quot;&quot;
+        src=&quot;/static/35e01b00e60946e38b0e0ddd06b2469a/a6d36/img5.png&quot;
+        srcset=&quot;/static/35e01b00e60946e38b0e0ddd06b2469a/222b7/img5.png 163w,
+/static/35e01b00e60946e38b0e0ddd06b2469a/ff46a/img5.png 325w,
+/static/35e01b00e60946e38b0e0ddd06b2469a/a6d36/img5.png 650w,
+/static/35e01b00e60946e38b0e0ddd06b2469a/e548f/img5.png 975w,
+/static/35e01b00e60946e38b0e0ddd06b2469a/000c7/img5.png 1137w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;String 클래스가 불변으로 설계된 이유&lt;/strong&gt;&lt;br&gt;
+만약 String 클래스가 값을 변경할 수 있다면, String Pool에 있는 객체의 값이 변경되면 같은 문자열을 참조하고 있는 다른 변수의 값도 함께 변경되는 문제가 발생합니다.
+그래서 불변으로 설계된 것입니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;3-가변-string&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%EA%B0%80%EB%B3%80-string&quot; aria-label=&quot;3 가변 string permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 가변 String&lt;/h2&gt;
+&lt;p&gt;String은 불변 객체이기 때문에 문자열을 조작할 때마다 새로운 객체가 생성됩니다. 이로 인해 메모리 낭비와 속도 저하가 발생할 수 있습니다. 이러한 단점을 보완하기 위해 가변 String 클래스들이 도입되었습니다. 자바에서는 StringBuffer와 StringBuilder 클래스를 제공하여 String과 달리 문자열을 쉽게 수정할 수 있도록 하고 성능 개선에 도움을 줍니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;StringBuilder
+&lt;ul&gt;
+&lt;li&gt;동기화 처리가 없기 때문에 단일 스레드에서의 성능이 좋습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;StringBuffer
+&lt;ul&gt;
+&lt;li&gt;멀티스레드 환경에서 안전하도록 동기화(synchronized) 처리가 되어있어 스레드 안전성을 보장합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;그럼 가변 String을 사용하는게 더 좋은 경우는 언제일까요?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;반복문(만건이상)이나 조건문에서 문자열을 조작할 때&lt;/li&gt;
+&lt;li&gt;복잡한 문자열의 특정 부분을 수정해야 할 때&lt;/li&gt;
+&lt;li&gt;대용량 문자열을 다룰 때&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;이런 경우에는 String보다 가변 String을 사용하는것이 성능 측면에서 더 좋습니다.&lt;/p&gt;
+&lt;h2 id=&quot;4-string-최적화&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-string-%EC%B5%9C%EC%A0%81%ED%99%94&quot; aria-label=&quot;4 string 최적화 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. String 최적화&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;문자열 리터럴 최적화&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 컴파일 전&lt;/span&gt;
+&lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; str &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;A&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;B&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// 컴파일 후&lt;/span&gt;
+&lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; str &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;AB&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;자바 컴파일러는 &lt;strong&gt;컴파일 시점에 문자열 리터럴을 자동으로 결합하여 최적화&lt;/strong&gt;합니다. 이로 인해 런타임 시 문자열 결합 연산을 수행할 필요가 없어 성능이 향상됩니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;String 변수 최적화&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// 런타임 전&lt;/span&gt;
+&lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; str &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;A&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; str2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;A&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; str&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// 런타임 후&lt;/span&gt;
+&lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; str &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;A&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token class-name&quot;&gt;String&lt;/span&gt; str2 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;StringBuilder&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;A&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;str&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;변수가 포함된 문자열 결합은 컴파일 시점에 미리 결합할 수 없으므로, &lt;strong&gt;런타임에 StringBuilder를 이용해 최적화&lt;/strong&gt;합니다. 자바 9부터는 &lt;code class=&quot;language-text&quot;&gt;StringConcatFactory&lt;/code&gt;를 사용하여 최적화가 더욱 개선되었습니다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;StringConcatFactory&lt;/strong&gt;&lt;br&gt;
+자바 9에서 도입된 문자열 결합 최적화 기능으로 다양한 문자열 결합 방식을 효율적으로 처리하기 위해 동적 바이트코드를 생성하는 역할을 합니다.
+기존에는 StringBuilder를 이용해 문자열을 결합했으나 StringConcatFactory는 invokedynamic 명령어와 함께 동작하여 런타임에 가장 효율적인 방식으로 문자열을 결합할 수 있도록 최적화합니다. StringConcatFactory는 문자열 결합 패턴에 따라 적합한 결합 전략을 선택할 수 있게 해주므로 메모리 사용과 처리 속도를 개선하는 데 중요한 역할을 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;5-정리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-%EC%A0%95%EB%A6%AC&quot; aria-label=&quot;5 정리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. 정리&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;String 클래스
+&lt;ul&gt;
+&lt;li&gt;자바에서 문자열을 다루기 위한 클래스입니다. String은 불변(Immutable) 객체로 값을 변경할 수 없도록 설계되었습니다.&lt;/li&gt;
+&lt;li&gt;자바 9부터는 메모리 효율성을 위해 byte[] 배열을 사용하는 압축 문자열(Compact Strings) 방식을 도입했습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;String 선언 방식
+&lt;ul&gt;
+&lt;li&gt;리터럴 방식: 동일한 문자열을 String Pool에 저장해 메모리를 절약하며, &lt;code class=&quot;language-text&quot;&gt;&quot;==&quot;&lt;/code&gt;로 비교할 수 있습니다.&lt;/li&gt;
+&lt;li&gt;new 연산자 방식: Heap 영역에 항상 새로운 String 객체를 생성합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;가변 String 클래스
+&lt;ul&gt;
+&lt;li&gt;문자열 변경 시 메모리와 성능을 개선하기 위해 StringBuffer(스레드 안전)와 StringBuilder(단일 스레드에서 효율적) 클래스를 사용합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;String 최적화
+&lt;ul&gt;
+&lt;li&gt;문자열 리터럴 최적화: 컴파일 시점에 문자열 리터럴을 결합해 성능을 향상시킵니다.&lt;/li&gt;
+&lt;li&gt;String 변수 최적화: 런타임 시점에 StringBuilder를 이용하거나, StringConcatFactory를 이용하여 성능을 최적화합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;참조&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EC%A1%B0&quot; aria-label=&quot;참조 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참조&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://velog.io/@gates/JAVA-String-%ED%81%B4%EB%9E%98%EC%8A%A4%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90&quot;&gt;https://velog.io/@gates/JAVA-String-%ED%81%B4%EB%9E%98%EC%8A%A4%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.baeldung.com/java-string-immutable&quot;&gt;https://www.baeldung.com/java-string-immutable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bugs.openjdk.org/browse/JDK-8054307&quot;&gt;https://bugs.openjdk.org/browse/JDK-8054307&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.inflearn.com/community/questions/1423424/string%ED%81%B4%EB%9E%98%EC%8A%A4-%EB%A6%AC%ED%84%B0%EB%9F%B4-%EB%B0%A9%EC%8B%9D-%EA%B4%80%EB%A0%A8-%EC%A7%88%EB%AC%B8&quot;&gt;https://www.inflearn.com/community/questions/1423424/string%ED%81%B4%EB%9E%98%EC%8A%A4-%EB%A6%AC%ED%84%B0%EB%9F%B4-%EB%B0%A9%EC%8B%9D-%EA%B4%80%EB%A0%A8-%EC%A7%88%EB%AC%B8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.inflearn.com/course/%EA%B9%80%EC%98%81%ED%95%9C%EC%9D%98-%EC%8B%A4%EC%A0%84-%EC%9E%90%EB%B0%94-%EC%A4%91%EA%B8%89-1&quot;&gt;https://www.inflearn.com/course/%EA%B9%80%EC%98%81%ED%95%9C%EC%9D%98-%EC%8B%A4%EC%A0%84-%EC%9E%90%EB%B0%94-%EC%A4%91%EA%B8%89-1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[후기] if(kakao) 2024]]></title><description><![CDATA[if(kakao) 는 카카오 그룹의 기술 비전을 공개하고 기술적 성과를 소개하는 대표 개발자 컨퍼런스입니다. 매년 참여를 희망하며 신청했지만 올해 처음으로 당첨되는 행운을 얻어 마지막 날 행사에 참석할 수 있었습니다. 0. 셔틀버스 & 굿즈 오전…]]></description><link>https://pej4303.github.io/archive/review/1/</link><guid isPermaLink="false">https://pej4303.github.io/archive/review/1/</guid><pubDate>Fri, 25 Oct 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
