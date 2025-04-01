@@ -1,5 +1,5 @@
 ---
-title: "[99클럽 코테 스터디] 99클럽 코테 스터디 1일차 TIL"
+title: "[99클럽 코테 스터디] 99클럽 코테 스터디 1일차 TIL + 에라토스테네스의 체 "
 description: "99클럽 코테 스터디 1일차 TIL"
 date: "2025-03-31"
 tags:
@@ -8,15 +8,15 @@ tags:
   - 개발자취업
   - 항해99
   - TIL
-series: ""
-previewImage: '99_java.png'
+series: "99클럽 코테 스터디"
+previewImage: 'how.png'
 isPrivate: false
 ---
 
 ![99클럽 코테 스터디](/images/99_java.png)
 
 ## 1. 오늘의 학습 키워드
-+ 소수 구하기
++ 에라토스테네스의 체 
 + 문제 URL : https://www.acmicpc.net/problem/1929
 
 ## 2. 공부한 내용 본인의 언어로 정리하기
