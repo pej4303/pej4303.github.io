@@ -16,7 +16,7 @@ isPrivate: false
 ![99클럽 코테 스터디](/images/99_java.png)
 
 ## 1. 오늘의 학습 키워드
-+ 문자열열
++ 문자열
 + 문제 URL : https://www.acmicpc.net/problem/2156
 
 ## 2. 공부한 내용 본인의 언어로 정리하기
