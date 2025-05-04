@@ -12,7 +12,7 @@ isPrivate: false
 ---
 
 ## 1. 문제 요약
-+ 문제 URL : https://www.acmicpc.net/problem/11053
++ 문제 URL : [https://www.acmicpc.net/problem/11053](https://www.acmicpc.net/problem/11053)
 + 난이도 : 실버2 
 + 문제 내용 : 가장 긴 증가하는 부분 수열의 길이를 구하는 문제이다.
 

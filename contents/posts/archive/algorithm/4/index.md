@@ -12,7 +12,7 @@ isPrivate: false
 ---
 
 ## 1. 문제 요약
-+ 문제 URL : https://www.acmicpc.net/problem/9095
++ 문제 URL : [https://www.acmicpc.net/problem/9095](https://www.acmicpc.net/problem/9095)
 + 난이도 : 실버3
 + 문제 내용 :  `n`이 주어졌을 때, 정수 1, 2, 3을 더해서 `n`을 만드는 모든 방법의 수를 구하는 문제이다. 순서가 다른 경우는 다른 방법으로 취급한다.
 

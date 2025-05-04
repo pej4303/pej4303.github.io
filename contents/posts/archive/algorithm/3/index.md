@@ -12,7 +12,7 @@ isPrivate: false
 ---
 
 ## 1. 문제 요약
-+ 문제 URL : https://www.acmicpc.net/problem/2805
++ 문제 URL : [https://www.acmicpc.net/problem/2805](https://www.acmicpc.net/problem/2805)
 + 난이도 : 실버2 
 + 문제 내용 : 
 

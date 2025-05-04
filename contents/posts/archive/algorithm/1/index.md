@@ -12,7 +12,7 @@ isPrivate: false
 ---
 
 ## 1. 문제 요약
-+ 문제 URL : https://www.acmicpc.net/problem/1012
++ 문제 URL : [https://www.acmicpc.net/problem/1012](https://www.acmicpc.net/problem/1012)
 + 난이도 : 실버2 
 + 문제 내용 : 배추가 심어진 곳끼리 연결되어 있으면 하나의 "덩어리"로 보고 총 몇 개의 덩어리가 있는지 세는 문제이다.
 

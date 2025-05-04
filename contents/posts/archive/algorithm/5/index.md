@@ -12,7 +12,7 @@ isPrivate: false
 ---
 
 ## 1. 문제 요약
-+ 문제 URL : https://www.acmicpc.net/problem/1912
++ 문제 URL : [https://www.acmicpc.net/problem/1912](https://www.acmicpc.net/problem/1912)
 + 난이도 : 실버2
 + 문제 내용 : 연속된 몇 개의 수를 선택해서 구할 수 있는 합 중 가장 큰 합을 구한다. 단, 수는 한 개 이상 선택해야 한다.
 
