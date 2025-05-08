@@ -92,6 +92,7 @@ public static void main(String[] args) throws IOException {
     int sum2 = 0;
     for (char c : chars) {
         // char 타입끼리 연산을 하면 내부적으로 숫자로 처리되어 int형 타입으로 결과가 나온다.
+        // 자바에서 '1' 같은 문자는 char으로 저장되지만 내부적으로는 유니코드(또는 ASCII) 숫자값으로 저장되기 때문에 산술 연산이 가능하다.
         sum2 += c - '0';
     }
     long end2 = System.currentTimeMillis();
@@ -102,6 +103,7 @@ public static void main(String[] args) throws IOException {
     int sum3 = 0;
     for (int i = 0; i < n; i++) {
         // char 타입끼리 연산을 하면 내부적으로 숫자로 처리되어 int형 타입으로 결과가 나온다.
+        // 자바에서 '1' 같은 문자는 char으로 저장되지만 내부적으로는 유니코드(또는 ASCII) 숫자값으로 저장되기 때문에 산술 연산이 가능하다.
         sum3 += numberString.charAt(i) - '0';
     }
     long end3 = System.currentTimeMillis();
