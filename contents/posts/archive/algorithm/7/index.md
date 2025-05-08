@@ -91,6 +91,7 @@ public static void main(String[] args) throws IOException {
     char[] chars = numberString.toCharArray();
     int sum2 = 0;
     for (char c : chars) {
+        // char 타입끼리 연산을 하면 내부적으로 숫자로 처리되어 int형 타입으로 결과가 나온다.
         sum2 += c - '0';
     }
     long end2 = System.currentTimeMillis();
@@ -100,6 +101,7 @@ public static void main(String[] args) throws IOException {
     long start3 = System.currentTimeMillis();
     int sum3 = 0;
     for (int i = 0; i < n; i++) {
+        // char 타입끼리 연산을 하면 내부적으로 숫자로 처리되어 int형 타입으로 결과가 나온다.
         sum3 += numberString.charAt(i) - '0';
     }
     long end3 = System.currentTimeMillis();
