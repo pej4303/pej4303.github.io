@@ -274,12 +274,8 @@ data-styled.g52[id="utterances__CommentWrapper-sc-lgukys-0"]{content:"jCdtmM,"}/
 <li>입력</li>
 <li>방문배열 만들기</li>
 <li>bfs으로 탐색</li>
+<li>출력</li>
 </ol>
-<p>3.1. 큐에는 [현재 위치, 시간] 형태로 데이터를 저장
-3.2. 큐에서 하나씩 꺼내며 현재 위치가 동생의 위치와 같다면 종료한다.
-그렇지 않으면 현재 위치에서 이동 가능한 세 가지 경우(앞으로 한 칸, 뒤로 한 칸, 순간이동)를 탐색하고
-아직 방문하지 않은 위치라면 큐에 넣고 방문 처리한다.
-4. 출력</p>
 </blockquote>
 <ul>
 <li>소스 코드
@@ -309,26 +305,27 @@ data-styled.g52[id="utterances__CommentWrapper-sc-lgukys-0"]{content:"jCdtmM,"}/
     <span class="token punctuation">}</span>
 
     <span class="token keyword">private</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">bfs</span><span class="token punctuation">(</span><span class="token keyword">int</span> start<span class="token punctuation">,</span> <span class="token keyword">int</span> end<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        <span class="token comment">// 1. 큐 생성</span>
+        <span class="token comment">// 1. 큐 생성 : [현재 위치, 시간] 형태로 데이터를 저장</span>
         <span class="token class-name">Queue</span><span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token operator">></span> queue <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">LinkedList</span><span class="token generics"><span class="token punctuation">&lt;</span><span class="token punctuation">></span></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
         queue<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">{</span>start<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
         <span class="token comment">// 2. 방문배열 표시</span>
         visited<span class="token punctuation">[</span>start<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
 
+        <span class="token comment">// 3. 큐가 빈값이 아닐때까지</span>
         <span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token operator">!</span>queue<span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
             <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> cur <span class="token operator">=</span> queue<span class="token punctuation">.</span><span class="token function">poll</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
             <span class="token keyword">int</span> pos <span class="token operator">=</span> cur<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
             <span class="token keyword">int</span> cnt <span class="token operator">=</span> cur<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
 
-            <span class="token comment">// 동생을 찾았음</span>
+            <span class="token comment">// 4. 큐에서 하나씩 꺼내며 현재 위치가 동생의 위치와 같다면 종료한다.</span>
             <span class="token keyword">if</span> <span class="token punctuation">(</span>pos <span class="token operator">==</span> end<span class="token punctuation">)</span> <span class="token punctuation">{</span>
                 result <span class="token operator">=</span> cnt<span class="token punctuation">;</span>
                 <span class="token keyword">return</span><span class="token punctuation">;</span>
             <span class="token punctuation">}</span>
 
-            <span class="token comment">// 지금 위치에서 갈 수 있는 3가지 위치를 탐색하면서 아직 안 가본 곳이면 큐에 넣는다.</span>
-            <span class="token comment">// 시간도 +1 해준다.</span>
+            <span class="token comment">// 5. 현재 위치에서 이동 가능한 세 가지 경우(앞으로 한 칸, 뒤로 한 칸, 순간이동)를 탐색하고</span>
+            <span class="token comment">//    아직 방문하지 않은 위치라면 큐에 넣고 방문 처리한다.</span>
             <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> moveArr <span class="token operator">=</span> <span class="token punctuation">{</span>pos <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">,</span> pos <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">,</span> pos <span class="token operator">*</span> <span class="token number">2</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
             <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> move <span class="token operator">:</span> moveArr<span class="token punctuation">)</span> <span class="token punctuation">{</span>
                 <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token number">0</span> <span class="token operator">&lt;=</span> move <span class="token operator">&amp;&amp;</span> move <span class="token operator">&lt;=</span> <span class="token number">100000</span><span class="token punctuation">)</span> <span class="token operator">&amp;&amp;</span> <span class="token operator">!</span>visited<span class="token punctuation">[</span>move<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
