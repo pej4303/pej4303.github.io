@@ -22,10 +22,6 @@ isPrivate: false
 > 1. 입력
 > 2. 방문배열 만들기
 > 3. bfs으로 탐색
->   3.1. 큐에는 [현재 위치, 시간] 형태로 데이터를 저장
->   3.2. 큐에서 하나씩 꺼내며 현재 위치가 동생의 위치와 같다면 종료한다.
->        그렇지 않으면 현재 위치에서 이동 가능한 세 가지 경우(앞으로 한 칸, 뒤로 한 칸, 순간이동)를 탐색하고
->        아직 방문하지 않은 위치라면 큐에 넣고 방문 처리한다.
 > 4. 출력
 
 + 소스 코드
@@ -56,26 +52,27 @@ isPrivate: false
         }
 
         private static void bfs(int start, int end) {
-            // 1. 큐 생성
+            // 1. 큐 생성 : [현재 위치, 시간] 형태로 데이터를 저장
             Queue<int[]> queue = new LinkedList<>();
             queue.add(new int[]{start, 0});
 
             // 2. 방문배열 표시
             visited[start] = true;
 
+            // 3. 큐가 빈값이 아닐때까지
             while (!queue.isEmpty()) {
                 int[] cur = queue.poll();
                 int pos = cur[0];
                 int cnt = cur[1];
 
-                // 동생을 찾았음
+                // 4. 큐에서 하나씩 꺼내며 현재 위치가 동생의 위치와 같다면 종료한다.
                 if (pos == end) {
                     result = cnt;
                     return;
                 }
 
-                // 지금 위치에서 갈 수 있는 3가지 위치를 탐색하면서 아직 안 가본 곳이면 큐에 넣는다.
-                // 시간도 +1 해준다.
+                // 5. 현재 위치에서 이동 가능한 세 가지 경우(앞으로 한 칸, 뒤로 한 칸, 순간이동)를 탐색하고
+                //    아직 방문하지 않은 위치라면 큐에 넣고 방문 처리한다.
                 int[] moveArr = {pos - 1, pos + 1, pos * 2};
                 for (int move : moveArr) {
                     if ((0 <= move && move <= 100000) && !visited[move]) {
