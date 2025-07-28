@@ -46,6 +46,15 @@ if (e.ctrlKey && e.key === 'Enter') {
 
 // 변경된 소스
 ...
+// 현재 활성화된 화면의 iframe 내부 문서 반환
+function getActiveIframeDocument() {
+  // 현재 활성화된 탭을 선택(is-active 로 식별)
+  const $activeTab = $('.ib-tab-contents__item.is-active);
+  const ifram = $activeTab.find('iframe')[0];
+  // iframe이 존재하면 반환
+  // 존재하지 않으면 null을 반환
+  return iframe? (iframe.contentDocument || iframe.contentWindow.document) : null;
+}
 
 const iframeDoc = getActiveIframeDocument();
 // iframe이 있으면 내부에서 없으면 메인 문서에서
