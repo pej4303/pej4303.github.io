@@ -51,9 +51,8 @@ function getActiveIframeDocument() {
   // 현재 활성화된 탭을 선택(is-active 로 식별)
   const $activeTab = $('.ib-tab-contents__item.is-active);
   const ifram = $activeTab.find('iframe')[0];
-  // iframe이 존재하면 반환
-  // 존재하지 않으면 null을 반환
-  return iframe? (iframe.contentDocument || iframe.contentWindow.document) : null;
+  // iframe이 존재하면 반환, 존재하지 않으면 null을 반환
+  return iframe? iframe.contentWindow.document : null;
 }
 
 const iframeDoc = getActiveIframeDocument();
