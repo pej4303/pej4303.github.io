@@ -35,20 +35,23 @@ iframe을 이용해 화면을 구성하고 있는 상황에서 단축키를 눌�
 // 기존 소스
 ...
 if (e.ctrlKey && e.key === 'Enter') {
+  e.preventDefault();
   const $btn = $('.search:visible');
   if ($btn.length > 0) {
     $btn.first().trigger('click');
   }
+  return false;
 }
 ...
 
 // 변경된 소스
 ...
-if (e.ctrlKey && e.key === 'Enter') {
-  const iframe = document.querySelector('iframe');
-  const $searchScope = iframe ? $(iframe.contentWindow.document) : $(document);
 
-  const $btn = $searchScope.find('.search:visible');
+const iframeDoc = getActiveIframeDocument();
+// iframe이 있으면 내부에서 없으면 메인 문서에서
+const btnScope = iframeDoc || document;
+if (e.ctrlKey && e.key === 'Enter') {
+   const $btn = $(btnScope).find('.search:visible');
   if ($btn.length > 0) {
     $btn.first().trigger('click');
   }
