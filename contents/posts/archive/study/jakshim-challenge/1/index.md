@@ -1,6 +1,6 @@
 ---
-title: "[작심큰일] 작심큰일 챌린지 1일차 TIL"
-description: "[작심큰일] 작심큰일 챌린지 1일차 TIL"
+title: "[작심큰일] 작심큰일 1일차 TIL"
+description: "[작심큰일] 작심큰일 1일차 TIL"
 date: "2025-08-04"
 tags:
   - 작심큰일
