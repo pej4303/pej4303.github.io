@@ -1,6 +1,6 @@
 ---
-title: "[오류] 병렬 청크 배치 PK 무결성 오류"
-description: "병렬 청크 배치 PK 무결성 오류"
+title: "[오류] 병렬 청크 배치 PK 무결성 문제"
+description: "병렬 청크 배치 PK 무결성 문제"
 date: "2026-07-05"
 tags:
   - Error
