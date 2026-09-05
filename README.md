@@ -11,3 +11,14 @@ gatsby develop
 +  기본 포트: [http://localhost:8000](http://localhost:8000)
 +  브라우저에서 실시간으로 확인 가능합니다.
 ---
+
+## 폴더 구조
+```bash
+contents/posts/
+├── lecture/          # 강의 정리
+├── book/             # 기술서적 정리
+├── tech/             # 기술 개념/학습
+├── algorithm/        # 알고리즘
+├── troubleshooting/  # 문제 해결 기록
+└── review/           # 회고/후기    
+```
